@@ -39,4 +39,19 @@ export class AuthorListComponent implements OnInit {
     this.messageService.add(`Author list component: Selected author id=${author.id}`);
   }
 
+  add(name : string) : void {
+    name = name.trim();
+    if (!name) { return; }
+
+    this.authorService.addAuthor({lastName: name} as Author)
+    .subscribe(author => {
+      this.authors.push(author)
+    })
+  }
+
+  delete(author : Author) : void {
+    this.authors = this.authors.filter(a => a !== author);
+    this.authorService.deleteAuthor(author.id).subscribe();
+  }
+
 }

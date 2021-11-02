@@ -30,4 +30,15 @@ export class AuthorDetailComponent implements OnInit {
     )
 
   }
+
+  goBack(): void {
+    this.location.back();
+  }
+
+  save() : void {
+    if (this.author) {
+      this.authorService.updateAuthor(this.author)
+      .subscribe(() => this.goBack());
+    }
+  }
 }

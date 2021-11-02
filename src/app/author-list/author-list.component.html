@@ -10,6 +10,19 @@
 
 <h2>Author List</h2>
 
+<div>
+    <label for="new-hero">Hero name: </label>
+    <input id="new-hero" #heroName />
+  
+    <!-- (click) passes input value to add() and then clears the input -->
+    <button class="add-button" (click)="add(heroName.value); heroName.value=''">
+      Add hero
+    </button>
+  </div>
+
 <mat-list *ngFor="let author of authors"   routerLink="/detail/{{author.id}}">
-    <mat-list-item> <span class="badge">{{author.id}}</span> {{author.firstName}} </mat-list-item>
+    <mat-list-item> <span class="badge">{{author.id}}</span> {{author.firstName}} 
+        <button class="delete" title="delete author"
+        (click)="delete(author)">x</button>
+    </mat-list-item>
 </mat-list>
