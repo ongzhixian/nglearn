@@ -23,4 +23,11 @@ export class AuthorService {
     this.messageService.add('AuthorService: fetched authors');
     return heroes;
   }
+
+  getAuthor(id : string) : Observable<Author> {
+    const author = AUTHORS.find(a => a.id === id)!;
+    this.messageService.add(`Author service : fetch id ${id}`);
+    return of(author);
+
+  }
 }

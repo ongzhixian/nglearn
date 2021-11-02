@@ -10,9 +10,6 @@
 
 <h2>Author List</h2>
 
-<mat-list *ngFor="let author of authors" (click)="onSelect(author)">
+<mat-list *ngFor="let author of authors"   routerLink="/detail/{{author.id}}">
     <mat-list-item> <span class="badge">{{author.id}}</span> {{author.firstName}} </mat-list-item>
-
 </mat-list>
-
-<app-author-detail [author]="selectedAuthor"></app-author-detail>
