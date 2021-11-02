@@ -1,0 +1,18 @@
+<!-- <h2>{{author.lastName | uppercase}} Details</h2>
+<div><span>id: </span>{{author.id}}</div>
+<div><span>name: </span>{{author.firstName}}</div> -->
+
+<!-- 
+<div>
+    <label for="name">Hero name: </label>
+    <input id="name" [(ngModel)]="author.firstName" placeholder="name">
+</div> -->
+
+<h2>Author List</h2>
+
+<mat-list *ngFor="let author of authors" (click)="onSelect(author)">
+    <mat-list-item> <span class="badge">{{author.id}}</span> {{author.firstName}} </mat-list-item>
+
+</mat-list>
+
+<app-author-detail [author]="selectedAuthor"></app-author-detail>
