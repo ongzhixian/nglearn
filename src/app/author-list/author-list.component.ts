@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Author } from '../models/author';
 
-import { AUTHORS } from '../data/mock-authors';
+import { AuthorService } from '../author.service';
+import { MessageService } from '../message.service';
 
 @Component({
   selector: 'app-author-list',
@@ -16,17 +17,26 @@ export class AuthorListComponent implements OnInit {
   //   firstName: "Abraham"
   // };
 
-  authors = AUTHORS;
+  authors : Author[] = [];
 
   selectedAuthor? : Author;
 
-  constructor() { }
+  constructor(private authorService : AuthorService, private messageService : MessageService) { }
 
   ngOnInit(): void {
+    this.getAuthors();
+  }
+
+  getAuthors() : void {
+    // this.authors = this.authorService.getAuthors();
+    this.authorService.getAuthors().subscribe(
+      authors => this.authors = authors
+    )
   }
 
   onSelect(author : Author) : void {
     this.selectedAuthor = author;
+    this.messageService.add(`Author list component: Selected author id=${author.id}`);
   }
 
 }
