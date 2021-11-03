@@ -23,7 +23,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { DashboardComponent } from './dashboard/dashboard.component';
 
 import { HttpLogInterceptor } from './intercepters/http-log.interceptor';
+import { StoreModule } from '@ngrx/store';
 
+// import { counterReducer } from './counter.reducer';
+
+import { counterReducer } from './state/counter.reducer';
+import { CounterComponent } from './counter/counter.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +37,8 @@ import { HttpLogInterceptor } from './intercepters/http-log.interceptor';
     AuthorDetailComponent,
     MessagesComponent,
     DashboardComponent,
-    AuthorSearchComponent
+    AuthorSearchComponent,
+    CounterComponent
   ],
   imports: [
     BrowserModule,
@@ -43,7 +49,8 @@ import { HttpLogInterceptor } from './intercepters/http-log.interceptor';
     AppRoutingModule,
     HttpClientModule,
     HttpClientInMemoryWebApiModule.forRoot(
-      InMemoryDataService, { dataEncapsulation: false })
+      InMemoryDataService, { dataEncapsulation: false }),
+    StoreModule.forRoot({ count: counterReducer }, {})
   ],
   providers: [
     { provide: HTTP_INTERCEPTORS, useClass: HttpLogInterceptor, multi: true },
