@@ -26,3 +26,7 @@ PS> ng generate module modules/material
     CREATE src/app/modules/material/material.module.ts (194 bytes)
 
     ng generate module modules/material --flat --module=app
+
+## Ngrx
+
+ng add @ngrx/store@latest
