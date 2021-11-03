@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import { Inject, Injectable, Injector } from '@angular/core';
 import { Observable, of } from 'rxjs';
 
 import { HttpClient, HttpHeaders} from '@angular/common/http';
@@ -10,11 +10,29 @@ import { AUTHORS } from './data/mock-authors';
 import { MessageService } from './message.service';
 import { Message } from '@angular/compiler/src/i18n/i18n_ast';
 
+import { LogService } from './services/log.service';
+
+
+
+// export const BROWSER_STORAGE = new InjectionToken<LogService>('source', {
+//   providedIn: 'root',
+//   factory: () => localStorage
+// });
+// export const SOURCE = new InjectionToken<string>('Authors');
+
+// const injector = Injector.create({
+//   providers: [
+//     {provide: 'source', useValue: AuthorService }
+//     // {provide: LogService, deps: []}
+//     // , 
+//     // {provide: Car, deps: [Engine]}
+//   ]});
 
 @Injectable({
   providedIn: 'root'
 })
-export class AuthorService {
+export class 
+AuthorService {
 
   private authorApiUrl = 'api/authors';  // URL to web api
 
@@ -24,7 +42,10 @@ export class AuthorService {
 
   constructor(
     private messageService : MessageService,
-    private httpClient : HttpClient) { }
+    private logger : LogService,
+    private httpClient : HttpClient) { 
+      // this.logger.name = this.constructor.name;
+    }
 
   // getAuthors() : Author[] {
   //   return AUTHORS;
@@ -34,11 +55,22 @@ export class AuthorService {
     // const heroes = of(AUTHORS);
     // this.messageService.add('AuthorService: fetched authors');
     // return heroes;
+    
     return this.httpClient.get<Author[]>(this.authorApiUrl)
     .pipe(
-      tap(_ => this.log('Fetch authors')),
+      tap(_ => {
+        this.log('Fetch authorss');
+        this.logger.info('Fetch authorsx info -- ');
+        // this.logger.trace('Fetch authorsx trace');
+        // this.logger.debug('Fetch authorsx debug');
+        // this.logger.warn('Fetch authorsx warn');
+        // this.logger.error('Fetch authorsx error');
+      }),
       catchError(this.handleError<Author[]>('getAuthors', []))
     )
+
+    
+    
 
   }
 
