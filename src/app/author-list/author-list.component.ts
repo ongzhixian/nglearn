@@ -4,6 +4,8 @@ import { Author } from '../models/author';
 import { AuthorService } from '../author.service';
 import { MessageService } from '../message.service';
 
+import { LogService } from '../services/log.service';
+
 @Component({
   selector: 'app-author-list',
   templateUrl: './author-list.component.html',
@@ -21,7 +23,12 @@ export class AuthorListComponent implements OnInit {
 
   selectedAuthor? : Author;
 
-  constructor(private authorService : AuthorService, private messageService : MessageService) { }
+  constructor(
+    private authorService : AuthorService, 
+    private messageService : MessageService, 
+    private log : LogService) { 
+      // log.name = this.constructor.name;
+    }
 
   ngOnInit(): void {
     this.getAuthors();
@@ -31,13 +38,14 @@ export class AuthorListComponent implements OnInit {
     // this.authors = this.authorService.getAuthors();
     this.authorService.getAuthors().subscribe(
       authors => this.authors = authors
-    )
+    );
   }
 
-  onSelect(author : Author) : void {
-    this.selectedAuthor = author;
-    this.messageService.add(`Author list component: Selected author id=${author.id}`);
-  }
+  // onSelect(author : Author) : void {
+  //   this.selectedAuthor = author;
+  //   this.messageService.add(`Author list component: Selected author id=${author.id}`);
+  //   this.log.info(`select ${author.id}`)
+  // }
 
   add(name : string) : void {
     name = name.trim();

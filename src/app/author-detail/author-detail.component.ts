@@ -4,6 +4,8 @@ import { Component, OnInit, Input } from '@angular/core';
 import { Author } from '../models/author';
 import { AuthorService } from '../author.service';
 
+import { LogService } from '../services/log.service';
+
 @Component({
   selector: 'app-author-detail',
   templateUrl: './author-detail.component.html',
@@ -16,8 +18,11 @@ export class AuthorDetailComponent implements OnInit {
   constructor(
     private route : ActivatedRoute,
     private authorService : AuthorService,
-    private location : Location
-  ) { }
+    private location : Location,
+    private log : LogService
+  ) { 
+    // this.log.name = this.constructor.name;
+  }
 
   ngOnInit(): void {
     this.getAuthor();
@@ -27,7 +32,8 @@ export class AuthorDetailComponent implements OnInit {
     const id = this.route.snapshot.paramMap.get('id')!;
     this.authorService.getAuthor(id).subscribe(
       author => this.author = author
-    )
+    );
+    this.log.info("subscrivbe one");
 
   }
 
