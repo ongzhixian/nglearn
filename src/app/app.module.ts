@@ -29,6 +29,10 @@ import { StoreModule } from '@ngrx/store';
 
 import { counterReducer } from './state/counter.reducer';
 import { CounterComponent } from './counter/counter.component';
+import { booksReducer } from './state/book.reducer';
+import { collectionReducer } from './state/collection.reducer';
+import { GoogleBookListComponent } from './google-book-list/google-book-list.component';
+import { GoogleBookCollectionComponent } from './google-book-collection/google-book-collection.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +42,9 @@ import { CounterComponent } from './counter/counter.component';
     MessagesComponent,
     DashboardComponent,
     AuthorSearchComponent,
-    CounterComponent
+    CounterComponent,
+    GoogleBookListComponent,
+    GoogleBookCollectionComponent
   ],
   imports: [
     BrowserModule,
@@ -50,7 +56,11 @@ import { CounterComponent } from './counter/counter.component';
     HttpClientModule,
     HttpClientInMemoryWebApiModule.forRoot(
       InMemoryDataService, { dataEncapsulation: false }),
-    StoreModule.forRoot({ count: counterReducer }, {})
+    StoreModule.forRoot({ 
+      count: counterReducer,
+      books: booksReducer, 
+      collection: collectionReducer
+    }, {})
   ],
   providers: [
     { provide: HTTP_INTERCEPTORS, useClass: HttpLogInterceptor, multi: true },
