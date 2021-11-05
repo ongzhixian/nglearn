@@ -27,18 +27,34 @@ Translation (what the above is really saying):
 We have jasmine-core@3.6.0.
 But karma-jasmine-html-reporter@1.7.0 requires jasmine-core@">=3.8"
 
-Resolution:
+Resolution 1:
 
-```ng new nglearn --skip-install```
+    ```ng new nglearn --skip-install```
 
-Open package.json and bump jasmine-core to `~3.8.0`
-Then install.
+    Open package.json and bump jasmine-core to `~3.8.0`
+    Then install.
 
-```npm install```
+    ```npm install```
 
-While this works, it have a list of audit issues:   
+    While this works, it have a list of audit issues:   
 
-```npm audit```
+    ```npm audit```
+
+Resolution 2:
+
+    Another way to go about fixing this issue is to change pin 
+    the version of 'karma-jasmine-html-reporter' in 'package.json' file.
+    That is to say change it from:
+
+    "karma-jasmine-html-reporter": "^1.5.0",
+
+    to:
+
+    "karma-jasmine-html-reporter": "~1.5.0",
+
+    This works too. 
+    But the npm audit issues remain.
+    Which make resolution 1 the better option (you use the newer stuff).
 
 
 ## ng commands
@@ -80,6 +96,15 @@ Defaults to port 4200 without `--port 5500` option.
 
 
 
+```ng add @angular/material```
+
+Add support for Angular Materia.
+
+
+```ng add @ngrx/store@latest```
+
+Add ngrx store.
+If not using the latest version of Angular, do not invoke ```ng add @ngrx/store@latest```
 
 
 AuthorListComponent
