@@ -105,10 +105,15 @@ Defaults to port 4200 without `--port 5500` option.
 
 ```ng add @angular/material```
 
-Add support for Angular Materia.
+Add support for Angular Material.
 
 
 ```ng add @ngrx/store@latest```
+
+
+
+ng add @angular/flex-layout@latest
+
 
 Add ngrx store.
 If not using the latest version of Angular, do not invoke ```ng add @ngrx/store@latest```

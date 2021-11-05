@@ -1,15 +1,23 @@
 # Lessons learnt!
 
-## tldr;
+Never use '@latest'; '@latest' considered dangerous.
+
+## tldr; 
 
 npm install -g @angular/cli@12
 
 git config --global user.email "zhixian@hotmail.com"
 git config --global user.name "Zhixian Ong"
 
-ng new <workspace-name> --createApplication=false
+ng new nglearn --createApplication=false
+cd nglearn
 
+ng generate application ngTutorialApp
+ng generate application ngrxTutorialApp
 
+ng add @angular/material
+ng add @angular/flex-layout
+ng add @ngrx/store
 
 
 ## Installation
@@ -84,4 +92,12 @@ Example:
 ## Build application for production
 
 ng build --prod --project="exampleApp"
+
+## Add 2nd and 3rd party libraries
+
+ng add @angular/material
+
+ng add @angular/flex-layout
+
+ng add @ngrx/store
  
