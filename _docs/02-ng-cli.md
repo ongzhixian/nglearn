@@ -1,8 +1,15 @@
 # ng CLI
 
+ng new nglearn --createApplication=false
+
+git config --global user.email "zhixian@hotmail.com"
+git config --global user.name "Zhixian Ong"
+
 ## Installing Angular 10
 
 npm install -g @angular/cli@10
+
+npm install -g @angular/cli@12
 
 ## New project
 
@@ -137,3 +144,7 @@ PS> ng generate module modules/material
 ## Ngrx
 
 ng add @ngrx/store@latest
+
+
+npm uninstall -g @angular/cli
+npm cache clean --force
