@@ -101,3 +101,6 @@ ng add @angular/flex-layout
 
 ng add @ngrx/store
  
+## Generate Material module
+
+ng generate module modules/material --module=app
