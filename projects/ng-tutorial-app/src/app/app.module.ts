@@ -6,6 +6,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { StoreModule } from '@ngrx/store';
 import { MaterialModule } from './modules/material/material.module';
 import { AppRoutingModule } from './modules/app-routing/app-routing.module';
+import { FlexLayoutModule } from '@angular/flex-layout';
+
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { DummyPage1Component } from './components/dummy-page1/dummy-page1.component';
 import { DummyPage2Component } from './components/dummy-page2/dummy-page2.component';
@@ -24,7 +26,8 @@ import { DummyPage3Component } from './components/dummy-page3/dummy-page3.compon
     BrowserAnimationsModule,
     StoreModule.forRoot({}, {}),
     MaterialModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]
