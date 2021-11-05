@@ -9,9 +9,18 @@
                 <mat-icon class="icon">home</mat-icon>
                 <span class="label">Home</span>
             </a>
-            <a mat-list-item>
+            <a mat-list-item routerLink="/dashboard">
                 <mat-icon class="icon">dashboard</mat-icon>
                 <span class="label">Dashboard</span>
+            </a>
+            <a mat-list-item routerLink="/page1">
+                <span class="label">Page 1</span>
+            </a>
+            <a mat-list-item routerLink="/page2">
+                <span class="label">Page 2</span>
+            </a>
+            <a mat-list-item routerLink="/page3">
+                <span class="label">Page 3</span>
             </a>
             <a mat-list-item type="button">
                 <mat-icon class="icon">input</mat-icon>
@@ -33,5 +42,9 @@
                 <mat-icon>share</mat-icon>
             </button>
         </mat-toolbar>
+
+        <main>
+            <router-outlet></router-outlet>
+        </main>
     </mat-sidenav-content>
 </mat-sidenav-container>

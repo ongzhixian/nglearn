@@ -104,3 +104,14 @@ ng add @ngrx/store
 ## Generate Material module
 
 ng generate module modules/material --module=app
+
+## Generate Routing module
+
+ng generate module modules/app-routing --module=app
+
+## Generate Components
+
+ng generate component components/dashboard
+ng generate component components/dummyPage1
+ng generate component components/dummyPage2
+ng generate component components/dummyPage3
