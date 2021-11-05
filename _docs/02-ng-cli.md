@@ -1,5 +1,11 @@
 # ng CLI
 
+## Install Angular 10
+
+npm install -g @angular/cli@10
+
+
+
 AuthorListComponent
 ng generate component author-list
 
@@ -30,3 +36,20 @@ PS> ng generate module modules/material
 ## Ngrx
 
 ng add @ngrx/store@latest
+
+npm install @ngrx/{store,store-devtools,entity,effects}
+
+
+## Remove Nodejs completely
+```
+npm cache clean --force 
+npm cache verify
+
+```
+
+C:\Program Files (x86)\Nodejs
+C:\Program Files\Nodejs
+C:\Users\{User}\AppData\Roaming\npm or open run and type appdata and click ok and open roaming there you will find npm.
+C:\Users\{User}\AppData\Roaming\npm-cache or open run and type appdata and click ok and open roaming there you will find npm-cache.
+C:\Users\{User}\.npmrc
+C:\Users\{User}\AppData\Local\Temp\npm-*  

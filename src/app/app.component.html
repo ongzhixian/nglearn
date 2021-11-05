@@ -75,11 +75,15 @@
             </nav>
 
             <h2>Books</h2>
-<app-google-book-list class="book-list" [books]="books$ | async" (add)="onAdd($event)"></app-google-book-list>
 
-<h2>My Collection</h2>
-<app-google-book-collection class="book-collection" [books]="bookCollection$ | async" (remove)="onRemove($event)">
-</app-google-book-collection>
+            <!-- <div *ngIf="books$ | async as books"></div> -->
+                <app-google-book-list class="book-list" [books]="books" (add)="onAdd($event)"></app-google-book-list>
+            
+            
+            <h2>My Collection</h2>
+            <div *ngIf="books$ | async as books">
+                <app-google-book-collection class="book-collection" [books]="bookCollection$ | async" (remove)="onRemove($event)"></app-google-book-collection>
+            </div>
 
             <app-counter></app-counter>
 
