@@ -11,6 +11,7 @@ import { GoogleBooksService } from './services/google-books.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  
   title = 'Learning Angular Blog';
 
   books$ = this.store.select(selectBooks);
