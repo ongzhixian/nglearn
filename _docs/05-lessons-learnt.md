@@ -1,5 +1,17 @@
 # Lessons learnt!
 
+## tldr;
+
+npm install -g @angular/cli@12
+
+git config --global user.email "zhixian@hotmail.com"
+git config --global user.name "Zhixian Ong"
+
+ng new <workspace-name> --createApplication=false
+
+
+
+
 ## Installation
 
 ## List all available versions of package in npm
@@ -28,7 +40,7 @@ Examples:
 
 Syntax:
 
-    ng new <workspace-name> --createApplication=false    
+    ng new <workspace-name> --createApplication=false
 
 Example:
 
@@ -62,6 +74,12 @@ Example:
 1.  ng serve <application-name>
 2.  ng serve --project=<application-name>
 3.  Set 'defaultProject' in `angular.json`, run `ng serve`
+
+Add '--port nnnnn' to serve application on specific port:
+
+Example:
+
+    ng serve --port 5500
 
 ## Build application for production
 
