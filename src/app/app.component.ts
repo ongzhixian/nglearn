@@ -7,7 +7,8 @@ import {
   addBook,
   removeBook,
 } from './state/books.actions';
-import { GoogleBooksService } from './book-list/books.service';
+// import { GoogleBooksService } from './book-list/books.service';
+import { GoogleBooksService } from './services/books.service';
 
 @Component({
   selector: 'app-root',
