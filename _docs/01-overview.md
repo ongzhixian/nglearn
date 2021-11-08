@@ -1,5 +1,12 @@
 # Overview
 
+ng serve ngrxTutorialApp
+http://localhost:61155/
+
+ng serve firstApp
+http://localhost:61364/
+
+
 ## Objectives
 
 Learn Angular

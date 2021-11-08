@@ -110,8 +110,6 @@ Add support for Angular Material.
 
 ```ng add @ngrx/store@latest```
 
-
-
 ng add @angular/flex-layout@latest
 
 
