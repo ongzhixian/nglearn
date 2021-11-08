@@ -4,6 +4,7 @@ import { FormGroup, FormControl, AbstractControl, Validators } from '@angular/fo
 
 import { LogService } from '../../services/log.service';
 import { Router } from '@angular/router';
+import { AuthenticationService } from '../../services/authentication.service';
 
 @Component({
   selector: 'app-login',
@@ -21,6 +22,7 @@ export class LoginComponent implements OnInit {
 
   constructor(
     private router: Router,
+    private authenticationService: AuthenticationService,
     private logService: LogService) { }
 
   ngOnInit(): void {
@@ -37,6 +39,19 @@ export class LoginComponent implements OnInit {
 
     if (this.loginForm.valid) {
       this.logService.add("Form is valid; check credentials next;");
+
+      this.authenticationService.validateCredentials(this.loginForm).subscribe(
+        (isValidCredentials) => {
+          if (isValidCredentials) {
+            this.logService.add("Valid credentials");
+            this.router.navigate(['/dashboard']);
+          } else {
+            this.logService.add("Invalid credentials");
+            this.loginError = "Invalid credentials.";
+            return;
+          }
+        }
+      );
 
       // this.apiService.login(this.loginForm.value)
       //   .subscribe((data) => {

@@ -4,8 +4,10 @@
             <mat-card-title>Log In</mat-card-title>
         </mat-card-header>
 
+        <p class="error" *ngIf="loginError" fxLayout="row" fxLayoutAlign="center center">{{loginError}}</p>
+
         <!-- 2 methods to present error summary
-        <p *ngIf="loginError">{{loginError}}</p>
+        
 
         -- or --
         

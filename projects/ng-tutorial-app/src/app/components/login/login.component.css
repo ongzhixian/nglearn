@@ -26,3 +26,7 @@ button.login {
     width: 160px;
     /* margin: 1rem 0; */
 }
+
+.error {
+    color: tomato;
+}
