@@ -4,6 +4,7 @@ import { DashboardComponent } from '../../components/dashboard/dashboard.compone
 import { DummyPage1Component } from '../../components/dummy-page1/dummy-page1.component';
 import { DummyPage2Component } from '../../components/dummy-page2/dummy-page2.component';
 import { DummyPage3Component } from '../../components/dummy-page3/dummy-page3.component';
+import { LoginComponent } from '../../components/login/login.component';
 
 const routes : Routes = [
   
@@ -11,7 +12,8 @@ const routes : Routes = [
   { path: 'dashboard', component: DashboardComponent },
   { path: 'page1', component: DummyPage1Component },
   { path: 'page2', component: DummyPage2Component },
-  { path: 'page3', component: DummyPage3Component }
+  { path: 'page3', component: DummyPage3Component },
+  { path: 'login', component: LoginComponent }
   // { path: 'detail/:id', component: HeroDetailComponent },
   // { path: 'heroes', component: HeroesComponent }
 ];
