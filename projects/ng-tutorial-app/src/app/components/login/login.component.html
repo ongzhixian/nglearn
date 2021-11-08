@@ -4,23 +4,41 @@
             <mat-card-title>Log In</mat-card-title>
         </mat-card-header>
 
-        <form class="full-width">
+        <!-- 2 methods to present error summary
+        <p *ngIf="loginError">{{loginError}}</p>
+
+        -- or --
+        
+        <div *ngIf="this.loginForm.controls.username.errors?.required">
+            Name is required.
+        </div>
+        -->
+
+        <form class="full-width" (ngSubmit)="onSubmit()" [formGroup]="loginForm" autocomplete="off">
             <mat-card-content>
 
                 <mat-form-field class="full-width">
-                    <input matInput placeholder="Username">
+                    <input matInput placeholder="Username" required formControlName="username" />
+                    <mat-error *ngIf="loginForm.controls.username.invalid">{{ getErrorMessage(this.loginForm.controls.username) }}</mat-error>
                 </mat-form-field>
 
                 <mat-form-field class="full-width">
-                    <input matInput placeholder="Password">
+                    <input matInput placeholder="Password" type="password" required formControlName="password" />
+                    <mat-error *ngIf="loginForm.controls.password.invalid">{{ getErrorMessage(loginForm.controls.password) }}</mat-error>
                 </mat-form-field>
             </mat-card-content>
 
             <mat-card-actions fxLayout="row" fxLayoutAlign="center center">
-                <button type="submit" class="login" mat-raised-button color="primary" (click)="login()">Log in</button>
+                <button type="submit" class="login" mat-raised-button color="primary" >Log in</button>
              </mat-card-actions>
 
         </form>
     </mat-card>
+
+    <!--    
+    {{
+        loginForm.controls.username.invalid
+    }}
+    -->
 
 </div>
