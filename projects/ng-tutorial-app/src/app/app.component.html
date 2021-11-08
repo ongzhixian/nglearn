@@ -6,10 +6,7 @@
         </div>
         <mat-nav-list>
             <hr />  
-            <a mat-list-item>
-                <mat-icon class="icon">input</mat-icon>
-                <span class="label">Login</span>
-            </a>
+            
             <a mat-list-item>
                 <mat-icon class="icon">home</mat-icon>
                 <span class="label">Home</span>
@@ -28,6 +25,10 @@
                 <span class="label">Page 3</span>
             </a>
             <hr />
+            <a mat-list-item>
+                <mat-icon class="icon">input</mat-icon>
+                <span class="label">Login</span>
+            </a>
             <a mat-list-item type="button">
                 <mat-icon class="icon">input</mat-icon>
                 <span class="label">LogOut</span>
@@ -47,12 +48,7 @@
 
             <div fxFlex fxLayout fxLayoutAlign="flex-end" fxHide.xs>
                 <ul class="navigation-items">
-                    <li>
-                        <a>
-                            <mat-icon class="icon">input</mat-icon>
-                            <span>Login</span>
-                        </a>
-                    </li>
+                    
                     <li>
                         <a>
                             <mat-icon class="icon">home</mat-icon>
@@ -68,6 +64,12 @@
                     <li>
                         <a>
                             <mat-icon class="icon">input</mat-icon>
+                            <span>Login</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <mat-icon class="icon">input</mat-icon>
                             <span>LogOut</span>
                         </a>
                     </li>
@@ -77,8 +79,10 @@
         </mat-toolbar>
 
         <main>
-            <p><button mat-button (click)="sidenav.toggle()">sidenav.toggle()</button></p>
+            <!-- <p><button mat-button (click)="sidenav.toggle()">sidenav.toggle()</button></p> -->
             <router-outlet></router-outlet>
         </main>
+        <hr/>
+        <app-display-log></app-display-log>
     </mat-sidenav-content>
 </mat-sidenav-container>
