@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Hero } from '../../models/hero';
 import { LogService } from '../../services/log.service';
+import { HeroService } from '../../services/hero.service';
 
 @Component({
   selector: 'app-dummy-page1',
@@ -8,10 +10,20 @@ import { LogService } from '../../services/log.service';
 })
 export class DummyPage1Component implements OnInit {
 
-  constructor(private logService: LogService) { }
+  heroes: Hero[] = [];
+  
+  constructor(
+    private logService: LogService,
+    private heroService: HeroService) { }
 
   ngOnInit(): void {
     this.logService.add("In DummyPage1Component OnInit");
+    this.getHeroes();
+  }
+
+  getHeroes(): void {
+    this.heroService.getHeroes()
+    .subscribe(heroes => this.heroes = heroes);
   }
 
 }
