@@ -1,0 +1,28 @@
+mat-card {
+    width: 100%;
+    max-width: 300px;
+}
+
+mat-card-header {
+	text-align: center;
+	width: 100%;
+	display: block;
+	font-weight: 700;
+}
+
+mat-card-content {
+    padding: 1.3rem 1.3rem 0;
+}
+
+.full-width {
+    width: 100%;
+}
+
+form {
+    margin-top:1rem;
+}
+
+button.login {
+    width: 160px;
+    /* margin: 1rem 0; */
+}

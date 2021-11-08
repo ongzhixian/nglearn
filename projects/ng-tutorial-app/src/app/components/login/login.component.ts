@@ -14,4 +14,8 @@ export class LoginComponent implements OnInit {
     this.logService.add("In Login OnInit");
   }
 
+  login() : void {
+    this.logService.add("TODO: login actions.");
+  }
+
 }
