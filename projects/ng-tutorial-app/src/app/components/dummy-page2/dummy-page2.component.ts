@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { LogService } from '../../services/log.service';
 
 @Component({
   selector: 'app-dummy-page2',
@@ -7,9 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DummyPage2Component implements OnInit {
 
-  constructor() { }
+  constructor(private logService : LogService) { }
 
   ngOnInit(): void {
+    this.logService.add("In DummyPage2Component OnInit");
   }
 
 }
