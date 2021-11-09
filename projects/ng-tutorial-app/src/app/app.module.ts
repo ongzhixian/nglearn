@@ -4,7 +4,6 @@ import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { StoreModule } from '@ngrx/store';
 import { MaterialModule } from './modules/material/material.module';
 import { AppRoutingModule } from './modules/app-routing/app-routing.module';
 import { FlexLayoutModule } from '@angular/flex-layout';
@@ -17,10 +16,25 @@ import { LoginComponent } from './components/login/login.component';
 import { LogoutComponent } from './components/logout/logout.component';
 import { DisplayLogComponent } from './components/display-log/display-log.component';
 
-import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
+// ZX:  The HttpClientInMemoryWebApiModule is a landmine.
+//      When you are testing with a real API, you might get a HTTP 404 error with following error in the body:
+//      {error: "Collection 'v1' not found"}
+//      This is HttpClientInMemoryWebApiModule will re-route your actual requests and cause the 404 not found.
+//      So always remove/comment HttpClientInMemoryWebApiModule after your mockup. 
+//      See: https://stackoverflow.com/questions/55769409/angular-http-vs-httpclient
+// import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { MockHeroesApiService } from './services/mock-heroes-api.service';
 
 import { HttpRequestInterceptor } from './interceptors/http-request.interceptor';
+
+import { StoreModule } from '@ngrx/store';
+// import { googleBooksReducer } from './state/google-books.reducer';
+import { booksReducer } from './state/google-books.reducer';
+import { collectionReducer } from './state/collection.reducer';
+// import { BookListComponent } from './book-list/book-list.component';
+// import { BookCollectionComponent } from './book-collection/book-collection.component';
+import { GoogleBookListComponent } from './components/google-book-list/google-book-list.component';
+import { GoogleBookCollectionComponent } from './components/google-book-collection/google-book-collection.component';
 
 @NgModule({
   declarations: [
@@ -31,12 +45,19 @@ import { HttpRequestInterceptor } from './interceptors/http-request.interceptor'
     DummyPage3Component,
     LoginComponent,
     DisplayLogComponent,
-    LogoutComponent
+    LogoutComponent,
+    // BookListComponent,
+    // BookCollectionComponent,
+    GoogleBookListComponent,
+    GoogleBookCollectionComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    StoreModule.forRoot({}, {}),
+    StoreModule.forRoot({ 
+      books: booksReducer, 
+      collection: collectionReducer
+    }),
     MaterialModule,
     HttpClientModule,
     FormsModule,
@@ -46,12 +67,13 @@ import { HttpRequestInterceptor } from './interceptors/http-request.interceptor'
     // The HttpClientInMemoryWebApiModule module intercepts HTTP requests
     // and returns simulated server responses.
     // Remove it when a real server is ready to receive requests.
-    HttpClientInMemoryWebApiModule.forRoot(
-      MockHeroesApiService, { dataEncapsulation: false }
-    )
+    // See also landmine remarks above.
+    // HttpClientInMemoryWebApiModule.forRoot(
+    //   MockHeroesApiService, { dataEncapsulation: false }
+    // )
   ],
   providers: [
-    { provide: HTTP_INTERCEPTORS, useClass: HttpRequestInterceptor, multi: true },
+    // { provide: HTTP_INTERCEPTORS, useClass: HttpRequestInterceptor, multi: true },
     { provide: 'LOCALE', useFactory: () => window.navigator.language}
     // { provide: 'SOURCE_TYPE', useFactory: ()=> "AA"}
   ],
