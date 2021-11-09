@@ -36,6 +36,11 @@ import { collectionReducer } from './state/collection.reducer';
 import { GoogleBookListComponent } from './components/google-book-list/google-book-list.component';
 import { GoogleBookCollectionComponent } from './components/google-book-collection/google-book-collection.component';
 
+
+// import { counterReducer } from './counter.reducer';
+import { counterReducer } from './state/clicky.reducer';
+import { ClickyComponent } from './components/clicky/clicky.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -49,14 +54,16 @@ import { GoogleBookCollectionComponent } from './components/google-book-collecti
     // BookListComponent,
     // BookCollectionComponent,
     GoogleBookListComponent,
-    GoogleBookCollectionComponent
+    GoogleBookCollectionComponent,
+    ClickyComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     StoreModule.forRoot({ 
       books: booksReducer, 
-      collection: collectionReducer
+      collection: collectionReducer,
+      count: counterReducer
     }),
     MaterialModule,
     HttpClientModule,
