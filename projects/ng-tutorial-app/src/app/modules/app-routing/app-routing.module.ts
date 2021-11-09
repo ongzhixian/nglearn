@@ -16,6 +16,7 @@ const routes : Routes = [
   { path: 'login', component: LoginComponent }
   // { path: 'detail/:id', component: HeroDetailComponent },
   // { path: 'heroes', component: HeroesComponent }
+  // { path: '**', redirectTo: '/' }
 ];
 
 @NgModule({
