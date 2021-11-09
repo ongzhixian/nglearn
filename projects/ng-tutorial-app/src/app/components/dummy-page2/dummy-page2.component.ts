@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { LogService } from '../../services/log.service';
 import { Store } from '@ngrx/store';
 
-import { AppState } from '../../state/app.state';
+// import { AppState } from '../../state/app.state';
 import { selectBookCollection, selectBooks } from '../../state/google-books.selector';
 import { retrievedBookList, addBook, removeBook } from '../../state/google-books.actions';
 import { GoogleBooksService } from '../../services/google-books.service';
@@ -20,7 +20,8 @@ export class DummyPage2Component implements OnInit {
 
   constructor(private logService : LogService,
     private booksService: GoogleBooksService,
-    private store: Store<AppState>) { }
+    private store: Store
+    ) { }
 
   ngOnInit(): void {
     this.logService.add("In DummyPage2Component OnInit");
