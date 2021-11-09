@@ -5,7 +5,7 @@ import { Observable, of } from 'rxjs';
 import { catchError, tap, map } from 'rxjs/operators';
 import { GoogleBook } from '../models/google-book';
 import { LogService } from './log.service';
-import { mock } from '../models/mockBooks';
+import { mockBookJson } from '../models/mockBooks';
 
 @Injectable({ providedIn: 'root' })
 export class GoogleBooksService {
@@ -21,11 +21,11 @@ export class GoogleBooksService {
         catchError(this.handleError<GoogleBook[]>('Get books', []))
       );
 
-    // return of(mock).pipe(map((books) => books.items || []));
+    // return of(mockBookJson).pipe(map((books) => books.items || []));
   }
 
   // getBooks(): Observable<Array<GoogleBook>> {
-  //   return of(mock).pipe(map((books) => books.items || []));
+  //   return of(mockBookJson).pipe(map((books) => books.items || []));
   // }
 
   private handleError<T>(operation = 'operation', result?: T) {
