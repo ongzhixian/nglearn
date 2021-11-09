@@ -1,8 +1,6 @@
-// import { Book } from '../book-list/books.model';
-
-import { Book } from "../components/book-list/book.model";
+import { GoogleBook } from "../models/google-book";
 
 export interface AppState {
-  books: ReadonlyArray<Book>;
+  books: ReadonlyArray<GoogleBook>;
   collection: ReadonlyArray<string>;
 }
