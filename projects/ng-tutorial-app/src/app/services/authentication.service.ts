@@ -35,7 +35,8 @@ export class AuthenticationService {
   validateCredentials(formGroup : FormGroup) : Observable<Boolean> {
     const loginForm = formGroup.controls;
     this.isAuthenticated = (loginForm.username.value === "admin") && (loginForm.password.value === "admin");
-    localStorage.setItem('isAuthenticated', this.isAuthenticated.toString());
+    // localStorage.setItem('isAuthenticated', this.isAuthenticated.toString());
+    sessionStorage.setItem('isAuthenticated', this.isAuthenticated.toString());
     return of( this.isAuthenticated ).pipe(
       delay(1000),
       tap(val => { 
@@ -46,6 +47,9 @@ export class AuthenticationService {
 
   logout(): void {
     this.isAuthenticated = false;
-    localStorage.removeItem('isAuthenticated');
+    // localStorage.removeItem('isAuthenticated');
+    sessionStorage.removeItem('isAuthenticated');
+    sessionStorage.clear();
+
   }
 }
