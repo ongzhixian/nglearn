@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormControl, AbstractControl, Validators } from '@angular/forms'
 
 import { LogService } from '../../services/log.service';
-import { Router } from '@angular/router';
+import { Router, ActivatedRoute } from '@angular/router';
 import { AuthenticationService } from '../../services/authentication.service';
 
 @Component({
@@ -14,6 +14,7 @@ import { AuthenticationService } from '../../services/authentication.service';
 export class LoginComponent implements OnInit {
 
   public loginError: string = "";
+  returnUrl : string;
 
   loginForm = new FormGroup({
     username: new FormControl('', [Validators.required, Validators.minLength(3)]),
@@ -22,8 +23,12 @@ export class LoginComponent implements OnInit {
 
   constructor(
     private router: Router,
+    private route: ActivatedRoute,
     private authenticationService: AuthenticationService,
-    private logService: LogService) { }
+    private logService: LogService) { 
+      // get return url from route parameters or default to '/'
+      this.returnUrl = this.route.snapshot.queryParams['returnUrl'] || '/';
+    }
 
   ngOnInit(): void {
     this.logService.add("In Login OnInit");
@@ -42,13 +47,13 @@ export class LoginComponent implements OnInit {
 
       this.authenticationService.validateCredentials(this.loginForm).subscribe(
         (isValidCredentials) => {
+
           if (isValidCredentials) {
             this.logService.add("Valid credentials");
-            this.router.navigate(['/dashboard']);
+            this.router.navigate([this.returnUrl]);
           } else {
             this.logService.add("Invalid credentials");
-            this.loginError = "Invalid credentials.";
-            return;
+            this.loginError = "Invalid credentials.";  
           }
         }
       );
@@ -65,11 +70,9 @@ export class LoginComponent implements OnInit {
       //   },
       //     error => this.loginError = error
       //   )
+    } else {
+      this.loginError = "Invalid form";
     }
-    this.loginError = "Invalid form";
-
-
-    // this.router.navigate(["/dashboard"]);
   }
 
   getErrorMessage(formControl : AbstractControl) {
