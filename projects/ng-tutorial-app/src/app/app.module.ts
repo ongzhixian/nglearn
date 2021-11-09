@@ -14,6 +14,7 @@ import { DummyPage1Component } from './components/dummy-page1/dummy-page1.compon
 import { DummyPage2Component } from './components/dummy-page2/dummy-page2.component';
 import { DummyPage3Component } from './components/dummy-page3/dummy-page3.component';
 import { LoginComponent } from './components/login/login.component';
+import { LogoutComponent } from './components/logout/logout.component';
 import { DisplayLogComponent } from './components/display-log/display-log.component';
 
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
@@ -29,7 +30,8 @@ import { HttpRequestInterceptor } from './interceptors/http-request.interceptor'
     DummyPage2Component,
     DummyPage3Component,
     LoginComponent,
-    DisplayLogComponent
+    DisplayLogComponent,
+    LogoutComponent
   ],
   imports: [
     BrowserModule,
