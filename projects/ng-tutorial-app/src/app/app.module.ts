@@ -28,16 +28,11 @@ import { MockHeroesApiService } from './services/mock-heroes-api.service';
 import { HttpRequestInterceptor } from './interceptors/http-request.interceptor';
 
 import { StoreModule } from '@ngrx/store';
-// import { googleBooksReducer } from './state/google-books.reducer';
 import { booksReducer } from './state/google-books.reducer';
 import { collectionReducer } from './state/collection.reducer';
-// import { BookListComponent } from './book-list/book-list.component';
-// import { BookCollectionComponent } from './book-collection/book-collection.component';
 import { GoogleBookListComponent } from './components/google-book-list/google-book-list.component';
 import { GoogleBookCollectionComponent } from './components/google-book-collection/google-book-collection.component';
 
-
-// import { counterReducer } from './counter.reducer';
 import { counterReducer } from './state/clicky.reducer';
 import { ClickyComponent } from './components/clicky/clicky.component';
 
@@ -80,7 +75,7 @@ import { ClickyComponent } from './components/clicky/clicky.component';
     // )
   ],
   providers: [
-    // { provide: HTTP_INTERCEPTORS, useClass: HttpRequestInterceptor, multi: true },
+    { provide: HTTP_INTERCEPTORS, useClass: HttpRequestInterceptor, multi: true },
     { provide: 'LOCALE', useFactory: () => window.navigator.language}
     // { provide: 'SOURCE_TYPE', useFactory: ()=> "AA"}
   ],
