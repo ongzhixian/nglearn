@@ -14,7 +14,7 @@ export const appUserReducer = createReducer(
     on(login, (state, { username, password }) => {
         return {
             ...state,
-            isAuthenticated: false
+            isAuthenticated: true
         };
     })
 );

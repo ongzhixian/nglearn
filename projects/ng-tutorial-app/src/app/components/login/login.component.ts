@@ -6,6 +6,12 @@ import { LogService } from '../../services/log.service';
 import { Router, ActivatedRoute } from '@angular/router';
 import { AuthenticationService } from '../../services/authentication.service';
 
+import { Store } from '@ngrx/store';
+import { AppState } from '../../state/app.state';
+import { selectIsAuthenticated } from '../../state/authentication.selector';
+import { login } from '../../state/authentication.actions';
+import { Observable } from 'rxjs';
+
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
@@ -14,6 +20,7 @@ import { AuthenticationService } from '../../services/authentication.service';
 export class LoginComponent implements OnInit {
 
   public loginError: string = "";
+
   returnUrl : string;
 
   loginForm = new FormGroup({
@@ -21,21 +28,60 @@ export class LoginComponent implements OnInit {
     password: new FormControl('', [Validators.required, Validators.minLength(3)])
   });
 
+  isAuthenticated$ : Observable<boolean>;
+
   constructor(
     private router: Router,
     private route: ActivatedRoute,
     private authenticationService: AuthenticationService,
-    private logService: LogService) { 
+    private logService: LogService,
+    private store: Store<AppState>) { 
+
       // get return url from route parameters or default to '/'
       this.returnUrl = this.route.snapshot.queryParams['returnUrl'] || '/';
+
+      this.isAuthenticated$ = this.store.select(selectIsAuthenticated);
+
     }
 
   ngOnInit(): void {
     this.logService.add("In Login OnInit");
+    // this.isAuthenticated$.subscribe((state :boolean) => {
+    //   debugger;
+    //   if (state) {
+    //     this.logService.add("Valid credentials");
+    //     this.router.navigate([this.returnUrl]);
+    //   } else {
+    //     this.logService.add("Invalid credentials");
+    //     this.loginError = "Invalid credentials.";  
+    //   }
+    // });
   }
 
   login(): void {
     this.logService.add("TODO: login actions.");
+  }
+
+  onSubmitx(): void {
+
+    // Using ngrx
+    
+    this.logService.add(`onSubmit() ==> Username: [${this.loginForm.value.username}], Password: [${this.loginForm.value.password}]`);
+
+    if (this.loginForm.valid) {
+      this.logService.add("Form is valid; check credentials next;");
+
+      const username :string = this.loginForm.value.username;
+      const password :string = this.loginForm.value.password;
+
+      this.store.dispatch(
+        login({username, password}));
+
+    } else {
+
+      this.loginError = "Invalid form";
+    }
+
   }
 
   onSubmit(): void {
