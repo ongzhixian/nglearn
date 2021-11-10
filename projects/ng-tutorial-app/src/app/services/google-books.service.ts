@@ -12,9 +12,9 @@ export class GoogleBooksService {
   constructor(private http: HttpClient,
     private log : LogService) {}
 
-  getBooks(): Observable<Array<GoogleBook>> {
+  getBooks(author: string = 'frank herbert'): Observable<Array<GoogleBook>> {
     return this.http
-      .get<{ items: GoogleBook[] }>('https://books.googleapis.com/books/v1/volumes?q=frank%20herbert')
+      .get<{ items: GoogleBook[] }>(`https://books.googleapis.com/books/v1/volumes?q=${encodeURIComponent(author)}`)
       .pipe(
         tap(_ => this.log.add(`${_.items.length} items retrieved.`)),
         map((books) => books.items || []),
