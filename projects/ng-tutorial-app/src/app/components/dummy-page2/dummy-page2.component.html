@@ -11,3 +11,5 @@
 <app-google-book-collection class="book-collection" [books]="bookCollection$ | async" (remove)="onRemove($event)"></app-google-book-collection>
 
 <!-- <app-clicky></app-clicky> -->
+
+<button (click)="reload()">Re-fetch from API</button>
