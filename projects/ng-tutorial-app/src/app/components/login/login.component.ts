@@ -8,9 +8,11 @@ import { AuthenticationService } from '../../services/authentication.service';
 
 import { Store } from '@ngrx/store';
 import { AppState } from '../../state/app.state';
-import { selectIsAuthenticated } from '../../state/authentication.selector';
+import { appUserIsAuthenticated } from '../../state/authentication.selector';
 import { login } from '../../state/authentication.actions';
 import { Observable } from 'rxjs';
+
+import { errorMessage } from '../../state/errorMessage.selectors';
 
 @Component({
   selector: 'app-login',
@@ -29,6 +31,7 @@ export class LoginComponent implements OnInit {
   });
 
   isAuthenticated$ : Observable<boolean>;
+  errorMessage$ : Observable<string>;
 
   constructor(
     private router: Router,
@@ -40,29 +43,38 @@ export class LoginComponent implements OnInit {
       // get return url from route parameters or default to '/'
       this.returnUrl = this.route.snapshot.queryParams['returnUrl'] || '/';
 
-      this.isAuthenticated$ = this.store.select(selectIsAuthenticated);
+      this.isAuthenticated$ = this.store.select(appUserIsAuthenticated);
+
+      this.errorMessage$ = this.store.select(errorMessage);
+
+      // this.getState = this.store.select(selectAuthenticationState);
+
 
     }
 
   ngOnInit(): void {
     this.logService.add("In Login OnInit");
-    // this.isAuthenticated$.subscribe((state :boolean) => {
-    //   debugger;
-    //   if (state) {
-    //     this.logService.add("Valid credentials");
-    //     this.router.navigate([this.returnUrl]);
-    //   } else {
-    //     this.logService.add("Invalid credentials");
-    //     this.loginError = "Invalid credentials.";  
-    //   }
-    // });
+    this.errorMessage$.subscribe((state: string) => {
+      this.loginError = state;
+    });
+
+    this.isAuthenticated$.subscribe((state :boolean) => {
+      this.logService.add("subscribed isAuthenticated")
+      // if (state) {
+      //   this.logService.add("Valid credentials");
+      //   this.router.navigate([this.returnUrl]);
+      // } else {
+      //   this.logService.add("Invalid credentials");
+      //   this.loginError = "Invalid credentials.";  
+      // }
+    });
   }
 
   login(): void {
     this.logService.add("TODO: login actions.");
   }
 
-  onSubmitx(): void {
+  onSubmit(): void {
 
     // Using ngrx
     
@@ -84,25 +96,28 @@ export class LoginComponent implements OnInit {
 
   }
 
-  onSubmit(): void {
+  onSubmitX(): void {
 
     this.logService.add(`onSubmit() ==> Username: [${this.loginForm.value.username}], Password: [${this.loginForm.value.password}]`);
 
     if (this.loginForm.valid) {
-      this.logService.add("Form is valid; check credentials next;");
+      this.logService.add("Form is validd; check credentials next;");
 
-      this.authenticationService.validateCredentials(this.loginForm).subscribe(
-        (isValidCredentials) => {
+      // const username: string = this.loginForm.value.username;
+      // const password: string = this.loginForm.value.password;
 
-          if (isValidCredentials) {
-            this.logService.add("Valid credentials");
-            this.router.navigate([this.returnUrl]);
-          } else {
-            this.logService.add("Invalid credentials");
-            this.loginError = "Invalid credentials.";  
-          }
-        }
-      );
+      // this.authenticationService.validateCredentials(this.loginForm).subscribe(
+      //   (isValidCredentials) => {
+
+      //     if (isValidCredentials) {
+      //       this.logService.add("Validd credentials");
+      //       this.router.navigate([this.returnUrl]);
+      //     } else {
+      //       this.logService.add("Invalidd credentials");
+      //       this.loginError = "Invalid credentials.";  
+      //     }
+      //   }
+      // );
 
       // this.apiService.login(this.loginForm.value)
       //   .subscribe((data) => {
