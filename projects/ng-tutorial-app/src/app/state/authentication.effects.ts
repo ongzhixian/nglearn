@@ -25,7 +25,10 @@ export class AuthenticationEffects {
         private route: ActivatedRoute,
         private log: LogService
     ) { 
+
         this.returnUrl = this.route.snapshot.queryParams['returnUrl'] || '/';
+        debugger;
+        this.log.add(`[AuthenticationEffects] says returnUrl= ${this.returnUrl}`)
     }
 
     validateCredentials$ = createEffect(() => this.actions$.pipe(
@@ -64,7 +67,10 @@ export class AuthenticationEffects {
 
     successLogin$ = createEffect(() => this.actions$.pipe(
         ofType(loginSuccess),
-        tap(_ => this.router.navigate([this.returnUrl]))
+        tap(_ => {
+            this.log.add(`in success login: ${this.returnUrl} `);
+            this.router.navigate([this.returnUrl]);
+        })
     ), 
     { 
         dispatch: false // This is important!

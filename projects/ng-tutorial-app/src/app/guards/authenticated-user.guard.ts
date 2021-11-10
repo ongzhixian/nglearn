@@ -28,7 +28,17 @@ export class AuthenticatedUserGuard implements CanActivate {
         return true;
 
       this.router.navigate(['/login'], { queryParams: { returnUrl: state.url } });
+      
       return false;
+
+      // return this.store.pipe(
+      //     select(isLoggedIn),
+      //     tap(isLogged => {
+      //         if (!isLogged) {
+      //             this.route.navigateByUrl('/login')
+      //         }
+      //     })
+      // );
 
     //   if(isAuthenticatedStr != null && isAuthenticatedStr === "true"){
 
