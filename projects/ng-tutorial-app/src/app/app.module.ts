@@ -35,6 +35,9 @@ import { GoogleBookCollectionComponent } from './components/google-book-collecti
 
 import { counterReducer } from './state/clicky.reducer';
 import { ClickyComponent } from './components/clicky/clicky.component';
+import { EffectsModule } from '@ngrx/effects';
+
+import { appUserReducer } from './state/authentication.reducer';
 
 @NgModule({
   declarations: [
@@ -58,7 +61,8 @@ import { ClickyComponent } from './components/clicky/clicky.component';
     StoreModule.forRoot({ 
       books: booksReducer, 
       collection: collectionReducer,
-      count: counterReducer
+      count: counterReducer,
+      loggedInUser: appUserReducer
     }),
     MaterialModule,
     HttpClientModule,
@@ -66,6 +70,7 @@ import { ClickyComponent } from './components/clicky/clicky.component';
     ReactiveFormsModule,
     AppRoutingModule,
     FlexLayoutModule,
+    EffectsModule.forRoot([]),
     // The HttpClientInMemoryWebApiModule module intercepts HTTP requests
     // and returns simulated server responses.
     // Remove it when a real server is ready to receive requests.
