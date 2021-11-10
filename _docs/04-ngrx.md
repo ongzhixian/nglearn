@@ -68,3 +68,47 @@ Store - observe Actions
 Actions - generator of events dispatched from components and services 
 Reducers - take current state and latest action to compute new state 
 Selector - select, compute, compose state
+
+A revisionist understanding
+
+Actions
+    Describes an action that has been carried out (event).
+    Events are described using the convention '[EventSource] Event'. 
+
+Reducers 
+    Defines state of the application.
+    Subscribers of Actions.
+    They 'listens' for actions and generate new state based on actions.
+
+Selectors
+    Retrieves a portion (slice) of the state.
+
+Effects
+    Subcribers of Actions to carry out the the actual underlying actions needed (make HTTP calls).
+    Typically raise another action for reducers.
+    
+
+# Passing parameters to Effects!
+
+Assuming action:
+
+export const successfulLoginAction = createAction('[User] Login Succeeded', props<{ token: string }>());
+
+```New stype
+return this.actions.pipe(
+      ofType(successfulLoginAction),
+      tap((action) => {
+          localStorage.setItem('jwt', action.token);
+      ...
+```
+
+```Old style
+return this.actions$.pipe(
+      ofType<LoginSuccess>(AuthActions.SUCCESSFUL_LOGIN),
+      tap((action) => {
+        localStorage.setItem('jwt', action.payload.token);
+      ...
+  );
+```
+
+See: https://stackoverflow.com/questions/68406651/converting-effect-to-createeffect-ngrx
