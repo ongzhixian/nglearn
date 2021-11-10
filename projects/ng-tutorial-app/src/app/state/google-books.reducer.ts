@@ -6,5 +6,8 @@ export const initialState: ReadonlyArray<GoogleBook> = [];
 
 export const booksReducer = createReducer(
   initialState,
-  on(retrievedBookList, (state, { books }) => books)
+  on(retrievedBookList, (state, { books }) => {
+    debugger;
+    return books;
+  })
 );
