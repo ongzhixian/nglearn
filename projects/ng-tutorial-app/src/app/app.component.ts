@@ -8,5 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   
   title = 'ngTutorialApp';
+  
   shouldRun = /(^|.)(stackblitz|webcontainer).(io|com)$/.test(window.location.host);
+
 }
