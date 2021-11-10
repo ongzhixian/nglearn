@@ -146,8 +146,9 @@ PS> ng generate module modules/material
 
 ## Ngrx
 
-ng add @ngrx/store@latest
+ng add @ngrx/store
 ng add @ngrx/effects
+ng add @ngrx/store-devtool
 
 ## Uninstall angular CLI
 
