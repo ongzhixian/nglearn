@@ -8,6 +8,8 @@ export interface AppState {
   
   loggedInUser: AppUser; 
   
+  errorMessage: string;
+
   collection: ReadonlyArray<string>;
   
   // App-wide data
