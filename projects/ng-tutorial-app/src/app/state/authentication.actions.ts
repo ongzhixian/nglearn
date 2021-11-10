@@ -17,6 +17,21 @@ export const login = createAction(
     }>()
 );
 
+export const successfulLoginAction = createAction(
+    '[User] Login Succeeded', 
+    props<{ token: string }>()
+);
+
+export const loginSuccess = createAction(
+    AuthenticationActionTypes.LOGIN_SUCCESS
+);
+
+export const loginFailure = createAction(
+    AuthenticationActionTypes.LOGIN_FAILURE,
+    props<{ message: string }>()
+);
+
+
 export const logout = createAction(
     AuthenticationActionTypes.LOGOUT
 );

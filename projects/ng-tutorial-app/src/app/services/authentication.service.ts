@@ -32,9 +32,27 @@ export class AuthenticationService {
     
   // }
 
-  validateCredentials(formGroup : FormGroup) : Observable<Boolean> {
-    const loginForm = formGroup.controls;
-    this.isAuthenticated = (loginForm.username.value === "admin") && (loginForm.password.value === "admin");
+  // Previous implementation where we call service directly from Component
+  // Aside: Yeah, its probably not ideal to pass FormGroup as a parameter; 
+  // (But doing it anyways as a proof-of-concept).
+  //
+  // validateCredentials(formGroup : FormGroup) : Observable<Boolean> {
+  //   const loginForm = formGroup.controls;
+  //   this.isAuthenticated = (loginForm.username.value === "admin") && (loginForm.password.value === "admin");
+  //   // localStorage.setItem('isAuthenticated', this.isAuthenticated.toString());
+  //   sessionStorage.setItem('isAuthenticated', this.isAuthenticated.toString());
+  //   return of( this.isAuthenticated ).pipe(
+  //     delay(1000),
+  //     tap(val => { 
+  //       this.log.add(`User authentication ${val ? "successful" : "failed"}`); 
+  //     })
+  //   );
+  // }
+
+  // Restructure this 
+  validateCredentials(username: string, password: string) : Observable<Boolean> {
+    
+    this.isAuthenticated = (username === "admin") && (password === "admin");
     // localStorage.setItem('isAuthenticated', this.isAuthenticated.toString());
     sessionStorage.setItem('isAuthenticated', this.isAuthenticated.toString());
     return of( this.isAuthenticated ).pipe(
