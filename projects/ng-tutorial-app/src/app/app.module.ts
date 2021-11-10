@@ -38,8 +38,10 @@ import { ClickyComponent } from './components/clicky/clicky.component';
 import { EffectsModule } from '@ngrx/effects';
 
 import { GoogleBookApiEffects } from './state/google-books.effects';
+import { AuthenticationEffects } from './state/authentication.effects';
 
 import { appUserReducer } from './state/authentication.reducer';
+import { errorMessageReducer } from './state/errorMessage.reducer';
 
 @NgModule({
   declarations: [
@@ -64,7 +66,8 @@ import { appUserReducer } from './state/authentication.reducer';
       books: booksReducer, 
       collection: collectionReducer,
       count: counterReducer,
-      loggedInUser: appUserReducer
+      loggedInUser: appUserReducer,
+      errorMessage: errorMessageReducer
     }),
     MaterialModule,
     HttpClientModule,
@@ -72,7 +75,9 @@ import { appUserReducer } from './state/authentication.reducer';
     ReactiveFormsModule,
     AppRoutingModule,
     FlexLayoutModule,
-    EffectsModule.forRoot([GoogleBookApiEffects]),
+    EffectsModule.forRoot([
+      GoogleBookApiEffects, 
+      AuthenticationEffects]),
     // The HttpClientInMemoryWebApiModule module intercepts HTTP requests
     // and returns simulated server responses.
     // Remove it when a real server is ready to receive requests.
