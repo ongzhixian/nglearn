@@ -1,5 +1,12 @@
 # Ngrx
 
+Handy mnemonic to remember about Ngrx is arse, where
+A - Actions 
+R - Reducers
+S - Selectors
+E - Effects
+
+
 NgRx packages are divided into a few main categories
 
 State
