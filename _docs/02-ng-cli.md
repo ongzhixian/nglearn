@@ -101,20 +101,41 @@ Package                      Version
 
 Defaults to port 4200 without `--port 5500` option.
 
+```ng serve --configuration production --port 5500```
+
+Defaults to debug build `--configuration production` option.
+
+```ng build```
+
+Generate production build 
+(Yes, in ng12 CLI, builder defaults to configuration "production")
+
+```ng build --watch```
+
+`--watch` flag runs build when files change.
 
 
-```ng add @angular/material```
+## ng adds
 
-Add support for Angular Material.
+Note:   
+    '@latest' considered harmful! 
+    If not using the latest version of Angular, do not invoke ```ng add @ngrx/store@latest```
+    Even if you are using the latest version of Angular, using latest version of any 
+    component may also break application 
+    (component is not updated to latest version of Angular which break component.)
+
+### UI-related ng adds
+
+ng add @angular/material
+ng add @angular/flex-layout
+
+## Ngrx-related ng-adds
+
+ng add @ngrx/store
+ng add @ngrx/effects
+ng add @ngrx/store-devtool
 
 
-```ng add @ngrx/store@latest```
-
-ng add @angular/flex-layout@latest
-
-
-Add ngrx store.
-If not using the latest version of Angular, do not invoke ```ng add @ngrx/store@latest```
 
 
 AuthorListComponent
@@ -144,11 +165,6 @@ PS> ng generate module modules/material
 
     ng generate module modules/material --flat --module=app
 
-## Ngrx
-
-ng add @ngrx/store
-ng add @ngrx/effects
-ng add @ngrx/store-devtool
 
 ## Uninstall angular CLI
 
