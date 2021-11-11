@@ -23,6 +23,7 @@
             "polyfills": "projects/ng-tutorial-app/src/polyfills.ts",
             "tsConfig": "projects/ng-tutorial-app/tsconfig.app.json",
             "assets": [
+              "projects/ng-tutorial-app/src/web.config",
               "projects/ng-tutorial-app/src/favicon.ico",
               "projects/ng-tutorial-app/src/assets"
             ],
