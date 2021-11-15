@@ -26,7 +26,7 @@ export class GoogleBookApiEffects {
                 // success
                 //map(googleBooks => ({ type: '[Book List/API] Retrieve Books Success', payload: googleBooks })),
                 map(googleBooks => {
-                    debugger;
+                    // debugger;
                     // return retrievedBookList({books: googleBooks});
                     return ({ type: '[Book List/API] Retrieve Books Success', books: googleBooks })
                 }),
