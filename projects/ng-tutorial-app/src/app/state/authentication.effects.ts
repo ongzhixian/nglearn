@@ -27,7 +27,7 @@ export class AuthenticationEffects {
     ) { 
 
         this.returnUrl = this.route.snapshot.queryParams['returnUrl'] || '/';
-        debugger;
+        // debugger;
         this.log.add(`[AuthenticationEffects] says returnUrl= ${this.returnUrl}`)
     }
 
