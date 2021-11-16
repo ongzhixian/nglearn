@@ -128,6 +128,9 @@ Run specific test file
 ```ng test --main .\projects\ng-tutorial-app\src\app\components\clicky\clicky.component.spec.ts --no-watch --browsers ChromeHeadless```
 `--no-watch`                -- No watch (without this, pause after tests of each project is executed)
 `--browsers ChromeHeadless` -- Use headless mode
+`--code-coverage`           -- Get code coverage
+
+ng test --watch false --browsers ChromeHeadless --codeCoverage
 
 ## ng adds
 
