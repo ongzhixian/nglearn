@@ -101,6 +101,12 @@ Package                      Version
 
 Defaults to port 4200 without `--port 5500` option.
 
+```ng serve --host 0.0.0.0```
+
+Defaults to host 'localhost' (127.0.0.1) without `--host 0.0.0.0` option.
+Using a different host than the one passed to the "--host" flag might result in websocket connection issues. 
+You might need to use "--disable-host-check" if that's the case.
+
 ```ng serve --configuration production --port 5500```
 
 Defaults to debug build `--configuration production` option.
