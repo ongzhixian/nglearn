@@ -121,8 +121,10 @@ Generate production build
 `--watch` flag runs build when files change.
 
 
+Run test in all projects using headless mode (no popup of browser Windows), without pausing for each project's test (no-watch)
 ```ng test --browsers ChromeHeadless --no-watch```
 
+Run specific test file
 ```ng test --main .\projects\ng-tutorial-app\src\app\components\clicky\clicky.component.spec.ts --no-watch --browsers ChromeHeadless```
 `--no-watch`                -- No watch (without this, pause after tests of each project is executed)
 `--browsers ChromeHeadless` -- Use headless mode
