@@ -1,12 +1,16 @@
 import { TestBed } from '@angular/core/testing';
-
+import { AppRoutingModule } from '../modules/app-routing/app-routing.module';
 import { AuthenticatedUserGuard } from './authenticated-user.guard';
 
 describe('AuthenticatedUserGuard', () => {
   let guard: AuthenticatedUserGuard;
 
   beforeEach(() => {
-    TestBed.configureTestingModule({});
+    TestBed.configureTestingModule({
+      imports: [
+        AppRoutingModule
+      ],
+    });
     guard = TestBed.inject(AuthenticatedUserGuard);
   });
 

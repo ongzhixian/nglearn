@@ -1,5 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
+import { HttpClientModule } from '@angular/common/http';
+import { StoreModule } from '@ngrx/store';
 import { DummyPage2Component } from './dummy-page2.component';
 
 describe('DummyPage2Component', () => {
@@ -8,7 +9,12 @@ describe('DummyPage2Component', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ DummyPage2Component ]
+      declarations: [ DummyPage2Component ],
+      imports: [ HttpClientModule,
+        StoreModule.forRoot({ 
+
+        }) 
+       ]
     })
     .compileComponents();
   });

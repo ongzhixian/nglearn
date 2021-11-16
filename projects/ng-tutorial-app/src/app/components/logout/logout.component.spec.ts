@@ -1,5 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
+import { AppRoutingModule } from '../../modules/app-routing/app-routing.module';
 import { LogoutComponent } from './logout.component';
 
 describe('LogoutComponent', () => {
@@ -8,7 +8,8 @@ describe('LogoutComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ LogoutComponent ]
+      declarations: [ LogoutComponent ],
+      imports: [ AppRoutingModule ]
     })
     .compileComponents();
   });
