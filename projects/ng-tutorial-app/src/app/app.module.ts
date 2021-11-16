@@ -44,6 +44,7 @@ import { appUserReducer } from './state/authentication.reducer';
 import { errorMessageReducer } from './state/errorMessage.reducer';
 import { DummyPage4Component } from './components/dummy-page4/dummy-page4.component';
 import { DummyPage5Component } from './components/dummy-page5/dummy-page5.component';
+import { DummyPage6Component } from './components/dummy-page6/dummy-page6.component';
 
 @NgModule({
   declarations: [
@@ -61,7 +62,8 @@ import { DummyPage5Component } from './components/dummy-page5/dummy-page5.compon
     GoogleBookCollectionComponent,
     ClickyComponent,
     DummyPage4Component,
-    DummyPage5Component
+    DummyPage5Component,
+    DummyPage6Component
   ],
   imports: [
     BrowserModule,
