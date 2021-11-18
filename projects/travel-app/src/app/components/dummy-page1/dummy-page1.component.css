@@ -17,3 +17,8 @@ div.container > div.placeholder {
     width: 50px;
     background-color: blue;
 } */
+
+.example-card {
+    min-width: 600px;
+    max-width: 600px;
+}

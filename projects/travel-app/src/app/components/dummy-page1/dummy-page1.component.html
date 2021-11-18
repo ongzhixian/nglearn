@@ -15,15 +15,47 @@
                  matInput
                  [formControl]="countryInputBox"
                  [matAutocomplete]="auto">
-          <mat-autocomplete #auto="matAutocomplete">
+          <mat-autocomplete #auto="matAutocomplete" [displayWith]="getOptionText" (optionSelected)="countrySelected">
             <mat-option *ngFor="let travelLane of filteredOptions | async" [value]="travelLane">{{travelLane.country_name}}</mat-option>
           </mat-autocomplete>
         </mat-form-field>
     </form>
+
+
+
+
 
     <!-- <div fxLayout="row" fxLayoutGap="10px" fxLayoutAlign="center" class="container">
         <p>dummy-page1 works!</p>
         <div fxLayoutAlign="center center" class="placeholdera">1</div>
     </div> -->
 
+</div>
+
+<div fxLayout="row" fxLayoutGap="10px" fxLayoutAlign="center" *ngIf="selectedTravelLane">
+  <mat-card class="example-card">
+    <mat-card-title>{{selectedTravelLane.country_name}}</mat-card-title>
+    <mat-card-subtitle>{{selectedTravelLane.country_iso}}</mat-card-subtitle>
+    <mat-card-content>
+      <p>It would be nice if there's some kind of travel recommendations / tips here.</p>
+      <table>
+        <tbody>
+          <tr><th>Lane</th><td>{{selectedTravelLane.filters.lane}}</td></tr>
+          <tr><th>Fully fully_vaccinated</th><td>{{selectedTravelLane.filters.fully_vaccinated}}</td></tr>
+          <tr><th>Above 12</th><td>{{selectedTravelLane.filters.age_above_12}}</td></tr>
+          <tr><th>Residential Status</th><td>{{selectedTravelLane.filters.required_residential_status}}</td></tr>
+          <tr><th>No PCR</th><td>{{selectedTravelLane.filters.no_pcr}}</td></tr>
+          <tr><th>No ART</th><td>{{selectedTravelLane.filters.no_art}}</td></tr>
+          <tr><th>No Stay-Home-Notice (SHN)</th><td>{{selectedTravelLane.filters.no_shn}}</td></tr>
+          <tr><th>SDF</th><td>{{selectedTravelLane.filters.no_sdf}}</td></tr>
+          <tr><th>See</th><td>{{selectedTravelLane.filters.link}}</td></tr>
+          <tr><th>More details</th><td>{{selectedTravelLane.filters.more_details}}</td></tr>
+        </tbody>
+      </table>
+    </mat-card-content>
+    <!-- <mat-card-actions>
+      <button mat-button>LIKE</button>
+      <button mat-button>SHARE</button>
+    </mat-card-actions> -->
+  </mat-card>
 </div>
