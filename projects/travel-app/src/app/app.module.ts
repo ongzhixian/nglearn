@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MaterialModule } from './modules/material/material.module';
 import { AppRoutingModule } from './modules/app-routing/app-routing.module';
@@ -16,9 +18,12 @@ import { DummyPage1Component } from './components/dummy-page1/dummy-page1.compon
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     MaterialModule,
     FlexLayoutModule,
-    AppRoutingModule
+    FormsModule,
+    ReactiveFormsModule,
+    AppRoutingModule    
   ],
   providers: [],
   bootstrap: [AppComponent]
