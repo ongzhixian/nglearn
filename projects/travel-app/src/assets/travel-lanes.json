@@ -1,0 +1,4646 @@
+[
+    {
+        "id": 0,
+        "country_iso": "AF",
+        "country_name": "Afghanistan",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 1,
+        "country_iso": "AX",
+        "country_name": "Aland Islands",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 2,
+        "country_iso": "AL",
+        "country_name": "Albania",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 3,
+        "country_iso": "DZ",
+        "country_name": "Algeria",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 4,
+        "country_iso": "AS",
+        "country_name": "American Samoa",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 5,
+        "country_iso": "AD",
+        "country_name": "Andorra",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 6,
+        "country_iso": "AO",
+        "country_name": "Angola",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 7,
+        "country_iso": "AI",
+        "country_name": "Anguilla",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 8,
+        "country_iso": "AQ",
+        "country_name": "Antarctica",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 9,
+        "country_iso": "AG",
+        "country_name": "Antigua and Barbuda",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 10,
+        "country_iso": "AR",
+        "country_name": "Argentina",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 11,
+        "country_iso": "AM",
+        "country_name": "Armenia",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 12,
+        "country_iso": "AW",
+        "country_name": "Aruba",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 13,
+        "country_iso": "AU",
+        "country_name": "Australia",
+        "lane_name": "STL-Cat2",
+        "filters": {
+            "lane": "STL-Cat2",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": true,
+            "no_shn": false,
+            "no_sdf": true,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-2",
+            "more_details": " "
+        }
+    },
+    {
+        "id": 14,
+        "country_iso": "AT",
+        "country_name": "Austria",
+        "lane_name": "STL-Cat2",
+        "filters": {
+            "lane": "STL-Cat2",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": true,
+            "no_shn": false,
+            "no_sdf": true,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-2",
+            "more_details": " "
+        }
+    },
+    {
+        "id": 15,
+        "country_iso": "AZ",
+        "country_name": "Azerbaijan",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 16,
+        "country_iso": "BS",
+        "country_name": "Bahamas",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 17,
+        "country_iso": "BH",
+        "country_name": "Bahrain",
+        "lane_name": "STL-Cat2",
+        "filters": {
+            "lane": "STL-Cat2",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": true,
+            "no_shn": false,
+            "no_sdf": true,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-2",
+            "more_details": " "
+        }
+    },
+    {
+        "id": 19,
+        "country_iso": "BB",
+        "country_name": "Barbados",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 20,
+        "country_iso": "BY",
+        "country_name": "Belarus",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 21,
+        "country_iso": "BE",
+        "country_name": "Belgium",
+        "lane_name": "STL-Cat2",
+        "filters": {
+            "lane": "STL-Cat2",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": true,
+            "no_shn": false,
+            "no_sdf": true,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-2",
+            "more_details": " "
+        }
+    },
+    {
+        "id": 22,
+        "country_iso": "BZ",
+        "country_name": "Belize",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 23,
+        "country_iso": "BJ",
+        "country_name": "Benin",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 24,
+        "country_iso": "BM",
+        "country_name": "Bermuda",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 25,
+        "country_iso": "BT",
+        "country_name": "Bhutan",
+        "lane_name": "STL-Cat2",
+        "filters": {
+            "lane": "STL-Cat2",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": true,
+            "no_shn": false,
+            "no_sdf": true,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-2",
+            "more_details": " "
+        }
+    },
+    {
+        "id": 26,
+        "country_iso": "BO",
+        "country_name": "Bolivia",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 27,
+        "country_iso": "BA",
+        "country_name": "Bosnia and Herzegovina",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 28,
+        "country_iso": "BW",
+        "country_name": "Botswana",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 29,
+        "country_iso": "BV",
+        "country_name": "Bouvet Island",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 30,
+        "country_iso": "BR",
+        "country_name": "Brazil",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 31,
+        "country_iso": "VG",
+        "country_name": "British Virgin Islands",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 32,
+        "country_iso": "IO",
+        "country_name": "British Indian Ocean Territory",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 33,
+        "country_iso": "BN",
+        "country_name": "Brunei Darussalam",
+        "lane_name": "VTL",
+        "filters": {
+            "lane": "VTL",
+            "fully_vaccinated": true,
+            "age_above_12": true,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": true,
+            "no_shn": true,
+            "no_sdf": true,
+            "link": "https://safetravel.ica.gov.sg/vtl/requirements-and-process",
+            "more_details": " "
+        }
+    },
+    {
+        "id": 33,
+        "country_iso": "BN",
+        "country_name": "Brunei Darussalam",
+        "lane_name": "RGL",
+        "filters": {
+            "lane": "RGL",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": true,
+            "no_shn": true,
+            "no_sdf": true,
+            "link": "https://safetravel.ica.gov.sg/rgl/overview",
+            "more_details": "China: Chongqing, Guangdong, Jiangsu, Shanghai, Tianjin, Zhejiang"
+        }
+    },
+    {
+        "id": 33,
+        "country_iso": "BN",
+        "country_name": "Brunei Darussalam",
+        "lane_name": "STL-Cat2",
+        "filters": {
+            "lane": "STL-Cat2",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": true,
+            "no_shn": false,
+            "no_sdf": true,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-2",
+            "more_details": " "
+        }
+    },
+    {
+        "id": 34,
+        "country_iso": "BG",
+        "country_name": "Bulgaria",
+        "lane_name": "STL-Cat2",
+        "filters": {
+            "lane": "STL-Cat2",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": true,
+            "no_shn": false,
+            "no_sdf": true,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-2",
+            "more_details": " "
+        }
+    },
+    {
+        "id": 35,
+        "country_iso": "BF",
+        "country_name": "Burkina Faso",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 36,
+        "country_iso": "BI",
+        "country_name": "Burundi",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 37,
+        "country_iso": "KH",
+        "country_name": "Cambodia",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 38,
+        "country_iso": "CM",
+        "country_name": "Cameroon",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 39,
+        "country_iso": "CA",
+        "country_name": "Canada",
+        "lane_name": "VTL",
+        "filters": {
+            "lane": "VTL",
+            "fully_vaccinated": true,
+            "age_above_12": true,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": true,
+            "no_shn": true,
+            "no_sdf": true,
+            "link": "https://safetravel.ica.gov.sg/vtl/requirements-and-process",
+            "more_details": " "
+        }
+    },
+    {
+        "id": 39,
+        "country_iso": "CA",
+        "country_name": "Canada",
+        "lane_name": "STL-Cat2",
+        "filters": {
+            "lane": "STL-Cat2",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": true,
+            "no_shn": false,
+            "no_sdf": true,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-2",
+            "more_details": " "
+        }
+    },
+    {
+        "id": 40,
+        "country_iso": "CV",
+        "country_name": "Cape Verde",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 41,
+        "country_iso": "KY",
+        "country_name": "Cayman Islands",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 42,
+        "country_iso": "CF",
+        "country_name": "Central African Republic",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 43,
+        "country_iso": "TD",
+        "country_name": "Chad",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 44,
+        "country_iso": "CL",
+        "country_name": "Chile",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 45,
+        "country_iso": "CN",
+        "country_name": "China",
+        "lane_name": "ATP",
+        "filters": {
+            "lane": "ATP",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "Short-term visitor",
+            "no_pcr": false,
+            "no_art": true,
+            "no_shn": true,
+            "no_sdf": true,
+            "link": "https://safetravel.ica.gov.sg/atp/overview",
+            "more_details": " "
+        }
+    },
+    {
+        "id": 45,
+        "country_iso": "CN",
+        "country_name": "China",
+        "lane_name": "RGL",
+        "filters": {
+            "lane": "RGL",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": true,
+            "no_shn": true,
+            "no_sdf": true,
+            "link": "https://safetravel.ica.gov.sg/rgl/overview",
+            "more_details": "China: Chongqing, Guangdong, Jiangsu, Shanghai, Tianjin, Zhejiang"
+        }
+    },
+    {
+        "id": 45,
+        "country_iso": "CN",
+        "country_name": "China",
+        "lane_name": "STL-Cat1",
+        "filters": {
+            "lane": "STL-Cat1",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": true,
+            "no_shn": true,
+            "no_sdf": true,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-1",
+            "more_details": " "
+        }
+    },
+    {
+        "id": 46,
+        "country_iso": "HK",
+        "country_name": "Hong Kong, SAR China",
+        "lane_name": "ATP",
+        "filters": {
+            "lane": "ATP",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "Short-term visitor",
+            "no_pcr": false,
+            "no_art": true,
+            "no_shn": true,
+            "no_sdf": true,
+            "link": "https://safetravel.ica.gov.sg/atp/overview",
+            "more_details": " "
+        }
+    },
+    {
+        "id": 46,
+        "country_iso": "HK",
+        "country_name": "Hong Kong, SAR China",
+        "lane_name": "STL-Cat1",
+        "filters": {
+            "lane": "STL-Cat1",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": true,
+            "no_shn": true,
+            "no_sdf": true,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-1",
+            "more_details": " "
+        }
+    },
+    {
+        "id": 47,
+        "country_iso": "MO",
+        "country_name": "Macao, SAR China",
+        "lane_name": "ATP",
+        "filters": {
+            "lane": "ATP",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "Short-term visitor",
+            "no_pcr": false,
+            "no_art": true,
+            "no_shn": true,
+            "no_sdf": true,
+            "link": "https://safetravel.ica.gov.sg/atp/overview",
+            "more_details": " "
+        }
+    },
+    {
+        "id": 47,
+        "country_iso": "MO",
+        "country_name": "Macao, SAR China",
+        "lane_name": "STL-Cat1",
+        "filters": {
+            "lane": "STL-Cat1",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": true,
+            "no_shn": true,
+            "no_sdf": true,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-1",
+            "more_details": " "
+        }
+    },
+    {
+        "id": 48,
+        "country_iso": "CX",
+        "country_name": "Christmas Island",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 49,
+        "country_iso": "CC",
+        "country_name": "Cocos (Keeling) Islands",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 50,
+        "country_iso": "CO",
+        "country_name": "Colombia",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 51,
+        "country_iso": "KM",
+        "country_name": "Comoros",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 52,
+        "country_iso": "CG",
+        "country_name": "Congo (Brazzaville)",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 53,
+        "country_iso": "CD",
+        "country_name": "Congo, (Kinshasa)",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 54,
+        "country_iso": "CK",
+        "country_name": "Cook Islands",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 55,
+        "country_iso": "CR",
+        "country_name": "Costa Rica",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 56,
+        "country_iso": "CI",
+        "country_name": "Côte d'Ivoire",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 57,
+        "country_iso": "HR",
+        "country_name": "Croatia",
+        "lane_name": "STL-Cat2",
+        "filters": {
+            "lane": "STL-Cat2",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": true,
+            "no_shn": false,
+            "no_sdf": true,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-2",
+            "more_details": " "
+        }
+    },
+    {
+        "id": 58,
+        "country_iso": "CU",
+        "country_name": "Cuba",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 59,
+        "country_iso": "CY",
+        "country_name": "Cyprus",
+        "lane_name": "STL-Cat2",
+        "filters": {
+            "lane": "STL-Cat2",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": true,
+            "no_shn": false,
+            "no_sdf": true,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-2",
+            "more_details": " "
+        }
+    },
+    {
+        "id": 60,
+        "country_iso": "CZ",
+        "country_name": "Czech Republic",
+        "lane_name": "STL-Cat2",
+        "filters": {
+            "lane": "STL-Cat2",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": true,
+            "no_shn": false,
+            "no_sdf": true,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-2",
+            "more_details": " "
+        }
+    },
+    {
+        "id": 61,
+        "country_iso": "DK",
+        "country_name": "Denmark",
+        "lane_name": "VTL",
+        "filters": {
+            "lane": "VTL",
+            "fully_vaccinated": true,
+            "age_above_12": true,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": true,
+            "no_shn": true,
+            "no_sdf": true,
+            "link": "https://safetravel.ica.gov.sg/vtl/requirements-and-process",
+            "more_details": " "
+        }
+    },
+    {
+        "id": 61,
+        "country_iso": "DK",
+        "country_name": "Denmark",
+        "lane_name": "STL-Cat2",
+        "filters": {
+            "lane": "STL-Cat2",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": true,
+            "no_shn": false,
+            "no_sdf": true,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-2",
+            "more_details": " "
+        }
+    },
+    {
+        "id": 62,
+        "country_iso": "DJ",
+        "country_name": "Djibouti",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 63,
+        "country_iso": "DM",
+        "country_name": "Dominica",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 64,
+        "country_iso": "DO",
+        "country_name": "Dominican Republic",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 65,
+        "country_iso": "EC",
+        "country_name": "Ecuador",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 66,
+        "country_iso": "EG",
+        "country_name": "Egypt",
+        "lane_name": "STL-Cat2",
+        "filters": {
+            "lane": "STL-Cat2",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": true,
+            "no_shn": false,
+            "no_sdf": true,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-2",
+            "more_details": " "
+        }
+    },
+    {
+        "id": 67,
+        "country_iso": "SV",
+        "country_name": "El Salvador",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 68,
+        "country_iso": "GQ",
+        "country_name": "Equatorial Guinea",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 69,
+        "country_iso": "ER",
+        "country_name": "Eritrea",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 70,
+        "country_iso": "EE",
+        "country_name": "Estonia",
+        "lane_name": "STL-Cat3",
+        "filters": {
+            "lane": "STL-Cat3",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-3",
+            "more_details": "Fully Vaccinated -> Apply to SHN at home"
+        }
+    },
+    {
+        "id": 71,
+        "country_iso": "ET",
+        "country_name": "Ethiopia",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 72,
+        "country_iso": "FK",
+        "country_name": "Falkland Islands (Malvinas)",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 73,
+        "country_iso": "FO",
+        "country_name": "Faroe Islands",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 74,
+        "country_iso": "FJ",
+        "country_name": "Fiji",
+        "lane_name": "STL-Cat2",
+        "filters": {
+            "lane": "STL-Cat2",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": true,
+            "no_shn": false,
+            "no_sdf": true,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-2",
+            "more_details": " "
+        }
+    },
+    {
+        "id": 75,
+        "country_iso": "FI",
+        "country_name": "Finland",
+        "lane_name": "STL-Cat2",
+        "filters": {
+            "lane": "STL-Cat2",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": true,
+            "no_shn": false,
+            "no_sdf": true,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-2",
+            "more_details": " "
+        }
+    },
+    {
+        "id": 76,
+        "country_iso": "FR",
+        "country_name": "France",
+        "lane_name": "VTL",
+        "filters": {
+            "lane": "VTL",
+            "fully_vaccinated": true,
+            "age_above_12": true,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": true,
+            "no_shn": true,
+            "no_sdf": true,
+            "link": "https://safetravel.ica.gov.sg/vtl/requirements-and-process",
+            "more_details": " "
+        }
+    },
+    {
+        "id": 76,
+        "country_iso": "FR",
+        "country_name": "France",
+        "lane_name": "STL-Cat2",
+        "filters": {
+            "lane": "STL-Cat2",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": true,
+            "no_shn": false,
+            "no_sdf": true,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-2",
+            "more_details": " "
+        }
+    },
+    {
+        "id": 77,
+        "country_iso": "GF",
+        "country_name": "French Guiana",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 78,
+        "country_iso": "PF",
+        "country_name": "French Polynesia",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 79,
+        "country_iso": "TF",
+        "country_name": "French Southern Territories",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 80,
+        "country_iso": "GA",
+        "country_name": "Gabon",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 81,
+        "country_iso": "GM",
+        "country_name": "Gambia",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 82,
+        "country_iso": "GE",
+        "country_name": "Georgia",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 83,
+        "country_iso": "DE",
+        "country_name": "Germany",
+        "lane_name": "VTL",
+        "filters": {
+            "lane": "VTL",
+            "fully_vaccinated": true,
+            "age_above_12": true,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": true,
+            "no_shn": true,
+            "no_sdf": true,
+            "link": "https://safetravel.ica.gov.sg/vtl/requirements-and-process",
+            "more_details": " "
+        }
+    },
+    {
+        "id": 83,
+        "country_iso": "DE",
+        "country_name": "Germany",
+        "lane_name": "STL-Cat2",
+        "filters": {
+            "lane": "STL-Cat2",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": true,
+            "no_shn": false,
+            "no_sdf": true,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-2",
+            "more_details": " "
+        }
+    },
+    {
+        "id": 84,
+        "country_iso": "GH",
+        "country_name": "Ghana",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 85,
+        "country_iso": "GI",
+        "country_name": "Gibraltar",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 86,
+        "country_iso": "GR",
+        "country_name": "Greece",
+        "lane_name": "STL-Cat2",
+        "filters": {
+            "lane": "STL-Cat2",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": true,
+            "no_shn": false,
+            "no_sdf": true,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-2",
+            "more_details": " "
+        }
+    },
+    {
+        "id": 87,
+        "country_iso": "GL",
+        "country_name": "Greenland",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 88,
+        "country_iso": "GD",
+        "country_name": "Grenada",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 89,
+        "country_iso": "GP",
+        "country_name": "Guadeloupe",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 90,
+        "country_iso": "GU",
+        "country_name": "Guam",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 91,
+        "country_iso": "GT",
+        "country_name": "Guatemala",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 92,
+        "country_iso": "GG",
+        "country_name": "Guernsey",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 93,
+        "country_iso": "GN",
+        "country_name": "Guinea",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 94,
+        "country_iso": "GW",
+        "country_name": "Guinea-Bissau",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 95,
+        "country_iso": "GY",
+        "country_name": "Guyana",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 96,
+        "country_iso": "HT",
+        "country_name": "Haiti",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 97,
+        "country_iso": "HM",
+        "country_name": "Heard and Mcdonald Islands",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 98,
+        "country_iso": "VA",
+        "country_name": "Holy See (Vatican City State)",
+        "lane_name": "STL-Cat2",
+        "filters": {
+            "lane": "STL-Cat2",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": true,
+            "no_shn": false,
+            "no_sdf": true,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-2",
+            "more_details": " "
+        }
+    },
+    {
+        "id": 99,
+        "country_iso": "HN",
+        "country_name": "Honduras",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 100,
+        "country_iso": "HU",
+        "country_name": "Hungary",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 101,
+        "country_iso": "IS",
+        "country_name": "Iceland",
+        "lane_name": "STL-Cat2",
+        "filters": {
+            "lane": "STL-Cat2",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": true,
+            "no_shn": false,
+            "no_sdf": true,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-2",
+            "more_details": " "
+        }
+    },
+    {
+        "id": 103,
+        "country_iso": "ID",
+        "country_name": "Indonesia",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 104,
+        "country_iso": "IR",
+        "country_name": "Iran, Islamic Republic of",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 105,
+        "country_iso": "IQ",
+        "country_name": "Iraq",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 106,
+        "country_iso": "IE",
+        "country_name": "Ireland",
+        "lane_name": "STL-Cat2",
+        "filters": {
+            "lane": "STL-Cat2",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": true,
+            "no_shn": false,
+            "no_sdf": true,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-2",
+            "more_details": " "
+        }
+    },
+    {
+        "id": 107,
+        "country_iso": "IM",
+        "country_name": "Isle of Man",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 108,
+        "country_iso": "IL",
+        "country_name": "Israel",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 109,
+        "country_iso": "IT",
+        "country_name": "Italy",
+        "lane_name": "VTL",
+        "filters": {
+            "lane": "VTL",
+            "fully_vaccinated": true,
+            "age_above_12": true,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": true,
+            "no_shn": true,
+            "no_sdf": true,
+            "link": "https://safetravel.ica.gov.sg/vtl/requirements-and-process",
+            "more_details": " "
+        }
+    },
+    {
+        "id": 109,
+        "country_iso": "IT",
+        "country_name": "Italy",
+        "lane_name": "STL-Cat2",
+        "filters": {
+            "lane": "STL-Cat2",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": true,
+            "no_shn": false,
+            "no_sdf": true,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-2",
+            "more_details": " "
+        }
+    },
+    {
+        "id": 110,
+        "country_iso": "JM",
+        "country_name": "Jamaica",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 111,
+        "country_iso": "JP",
+        "country_name": "Japan",
+        "lane_name": "STL-Cat2",
+        "filters": {
+            "lane": "STL-Cat2",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": true,
+            "no_shn": false,
+            "no_sdf": true,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-2",
+            "more_details": " "
+        }
+    },
+    {
+        "id": 112,
+        "country_iso": "JE",
+        "country_name": "Jersey",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 113,
+        "country_iso": "JO",
+        "country_name": "Jordan",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 114,
+        "country_iso": "KZ",
+        "country_name": "Kazakhstan",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 115,
+        "country_iso": "KE",
+        "country_name": "Kenya",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 116,
+        "country_iso": "KI",
+        "country_name": "Kiribati",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 117,
+        "country_iso": "KP",
+        "country_name": "Korea (North)",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 118,
+        "country_iso": "KR",
+        "country_name": "Korea (South)",
+        "lane_name": "VTL",
+        "filters": {
+            "lane": "VTL",
+            "fully_vaccinated": true,
+            "age_above_12": true,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": true,
+            "no_shn": true,
+            "no_sdf": true,
+            "link": "https://safetravel.ica.gov.sg/vtl/requirements-and-process",
+            "more_details": " "
+        }
+    },
+    {
+        "id": 118,
+        "country_iso": "KR",
+        "country_name": "Korea (South)",
+        "lane_name": "STL-Cat2",
+        "filters": {
+            "lane": "STL-Cat2",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": true,
+            "no_shn": false,
+            "no_sdf": true,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-2",
+            "more_details": " "
+        }
+    },
+    {
+        "id": 119,
+        "country_iso": "KW",
+        "country_name": "Kuwait",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 120,
+        "country_iso": "KG",
+        "country_name": "Kyrgyzstan",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 121,
+        "country_iso": "LA",
+        "country_name": "Lao PDR",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 122,
+        "country_iso": "LV",
+        "country_name": "Latvia",
+        "lane_name": "STL-Cat3",
+        "filters": {
+            "lane": "STL-Cat3",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-3",
+            "more_details": "Fully Vaccinated -> Apply to SHN at home"
+        }
+    },
+    {
+        "id": 123,
+        "country_iso": "LB",
+        "country_name": "Lebanon",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 124,
+        "country_iso": "LS",
+        "country_name": "Lesotho",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 125,
+        "country_iso": "LR",
+        "country_name": "Liberia",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 126,
+        "country_iso": "LY",
+        "country_name": "Libya",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 127,
+        "country_iso": "LI",
+        "country_name": "Liechtenstein",
+        "lane_name": "STL-Cat2",
+        "filters": {
+            "lane": "STL-Cat2",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": true,
+            "no_shn": false,
+            "no_sdf": true,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-2",
+            "more_details": " "
+        }
+    },
+    {
+        "id": 128,
+        "country_iso": "LT",
+        "country_name": "Lithuania",
+        "lane_name": "STL-Cat3",
+        "filters": {
+            "lane": "STL-Cat3",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-3",
+            "more_details": "Fully Vaccinated -> Apply to SHN at home"
+        }
+    },
+    {
+        "id": 129,
+        "country_iso": "LU",
+        "country_name": "Luxembourg",
+        "lane_name": "STL-Cat2",
+        "filters": {
+            "lane": "STL-Cat2",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": true,
+            "no_shn": false,
+            "no_sdf": true,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-2",
+            "more_details": " "
+        }
+    },
+    {
+        "id": 130,
+        "country_iso": "MK",
+        "country_name": "Macedonia, Republic of",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 131,
+        "country_iso": "MG",
+        "country_name": "Madagascar",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 132,
+        "country_iso": "MW",
+        "country_name": "Malawi",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 133,
+        "country_iso": "MY",
+        "country_name": "Malaysia",
+        "lane_name": "PCA",
+        "filters": {
+            "lane": "PCA",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "Malaysian Citizen, PR",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": true,
+            "link": "https://safetravel.ica.gov.sg/pca/overview",
+            "more_details": " "
+        }
+    },
+    {
+        "id": 134,
+        "country_iso": "MV",
+        "country_name": "Maldives",
+        "lane_name": "STL-Cat3",
+        "filters": {
+            "lane": "STL-Cat3",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-3",
+            "more_details": "Fully Vaccinated -> Apply to SHN at home"
+        }
+    },
+    {
+        "id": 135,
+        "country_iso": "ML",
+        "country_name": "Mali",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 136,
+        "country_iso": "MT",
+        "country_name": "Malta",
+        "lane_name": "STL-Cat2",
+        "filters": {
+            "lane": "STL-Cat2",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": true,
+            "no_shn": false,
+            "no_sdf": true,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-2",
+            "more_details": " "
+        }
+    },
+    {
+        "id": 137,
+        "country_iso": "MH",
+        "country_name": "Marshall Islands",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 138,
+        "country_iso": "MQ",
+        "country_name": "Martinique",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 139,
+        "country_iso": "MR",
+        "country_name": "Mauritania",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 140,
+        "country_iso": "MU",
+        "country_name": "Mauritius",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 141,
+        "country_iso": "YT",
+        "country_name": "Mayotte",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 142,
+        "country_iso": "MX",
+        "country_name": "Mexico",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 143,
+        "country_iso": "FM",
+        "country_name": "Micronesia, Federated States of",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 144,
+        "country_iso": "MD",
+        "country_name": "Moldova",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 145,
+        "country_iso": "MC",
+        "country_name": "Monaco",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 146,
+        "country_iso": "MN",
+        "country_name": "Mongolia",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 147,
+        "country_iso": "ME",
+        "country_name": "Montenegro",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 148,
+        "country_iso": "MS",
+        "country_name": "Montserrat",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 149,
+        "country_iso": "MA",
+        "country_name": "Morocco",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 150,
+        "country_iso": "MZ",
+        "country_name": "Mozambique",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 152,
+        "country_iso": "NA",
+        "country_name": "Namibia",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 153,
+        "country_iso": "NR",
+        "country_name": "Nauru",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 155,
+        "country_iso": "NL",
+        "country_name": "Netherlands",
+        "lane_name": "VTL",
+        "filters": {
+            "lane": "VTL",
+            "fully_vaccinated": true,
+            "age_above_12": true,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": true,
+            "no_shn": true,
+            "no_sdf": true,
+            "link": "https://safetravel.ica.gov.sg/vtl/requirements-and-process",
+            "more_details": " "
+        }
+    },
+    {
+        "id": 155,
+        "country_iso": "NL",
+        "country_name": "Netherlands",
+        "lane_name": "STL-Cat2",
+        "filters": {
+            "lane": "STL-Cat2",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": true,
+            "no_shn": false,
+            "no_sdf": true,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-2",
+            "more_details": " "
+        }
+    },
+    {
+        "id": 156,
+        "country_iso": "AN",
+        "country_name": "Netherlands Antilles",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 157,
+        "country_iso": "NC",
+        "country_name": "New Caledonia",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 158,
+        "country_iso": "NZ",
+        "country_name": "New Zealand",
+        "lane_name": "STL-Cat2",
+        "filters": {
+            "lane": "STL-Cat2",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": true,
+            "no_shn": false,
+            "no_sdf": true,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-2",
+            "more_details": " "
+        }
+    },
+    {
+        "id": 159,
+        "country_iso": "NI",
+        "country_name": "Nicaragua",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 160,
+        "country_iso": "NE",
+        "country_name": "Niger",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 161,
+        "country_iso": "NG",
+        "country_name": "Nigeria",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 162,
+        "country_iso": "NU",
+        "country_name": "Niue",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 163,
+        "country_iso": "NF",
+        "country_name": "Norfolk Island",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 164,
+        "country_iso": "MP",
+        "country_name": "Northern Mariana Islands",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 165,
+        "country_iso": "NO",
+        "country_name": "Norway",
+        "lane_name": "STL-Cat2",
+        "filters": {
+            "lane": "STL-Cat2",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": true,
+            "no_shn": false,
+            "no_sdf": true,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-2",
+            "more_details": " "
+        }
+    },
+    {
+        "id": 166,
+        "country_iso": "OM",
+        "country_name": "Oman",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 168,
+        "country_iso": "PW",
+        "country_name": "Palau",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 169,
+        "country_iso": "PS",
+        "country_name": "Palestinian Territory",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 170,
+        "country_iso": "PA",
+        "country_name": "Panama",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 171,
+        "country_iso": "PG",
+        "country_name": "Papua New Guinea",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 172,
+        "country_iso": "PY",
+        "country_name": "Paraguay",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 173,
+        "country_iso": "PE",
+        "country_name": "Peru",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 174,
+        "country_iso": "PH",
+        "country_name": "Philippines",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 175,
+        "country_iso": "PN",
+        "country_name": "Pitcairn",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 176,
+        "country_iso": "PL",
+        "country_name": "Poland",
+        "lane_name": "STL-Cat2",
+        "filters": {
+            "lane": "STL-Cat2",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": true,
+            "no_shn": false,
+            "no_sdf": true,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-2",
+            "more_details": " "
+        }
+    },
+    {
+        "id": 177,
+        "country_iso": "PT",
+        "country_name": "Portugal",
+        "lane_name": "STL-Cat2",
+        "filters": {
+            "lane": "STL-Cat2",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": true,
+            "no_shn": false,
+            "no_sdf": true,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-2",
+            "more_details": " "
+        }
+    },
+    {
+        "id": 178,
+        "country_iso": "PR",
+        "country_name": "Puerto Rico",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 179,
+        "country_iso": "QA",
+        "country_name": "Qatar",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 180,
+        "country_iso": "RE",
+        "country_name": "Réunion",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 181,
+        "country_iso": "RO",
+        "country_name": "Romania",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 182,
+        "country_iso": "RU",
+        "country_name": "Russian Federation",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 183,
+        "country_iso": "RW",
+        "country_name": "Rwanda",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 184,
+        "country_iso": "BL",
+        "country_name": "Saint-Barthélemy",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 185,
+        "country_iso": "SH",
+        "country_name": "Saint Helena",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 186,
+        "country_iso": "KN",
+        "country_name": "Saint Kitts and Nevis",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 187,
+        "country_iso": "LC",
+        "country_name": "Saint Lucia",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 188,
+        "country_iso": "MF",
+        "country_name": "Saint-Martin (French part)",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 189,
+        "country_iso": "PM",
+        "country_name": "Saint Pierre and Miquelon",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 190,
+        "country_iso": "VC",
+        "country_name": "Saint Vincent and Grenadines",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 191,
+        "country_iso": "WS",
+        "country_name": "Samoa",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 192,
+        "country_iso": "SM",
+        "country_name": "San Marino",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 193,
+        "country_iso": "ST",
+        "country_name": "Sao Tome and Principe",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 194,
+        "country_iso": "SA",
+        "country_name": "Saudi Arabia",
+        "lane_name": "STL-Cat2",
+        "filters": {
+            "lane": "STL-Cat2",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": true,
+            "no_shn": false,
+            "no_sdf": true,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-2",
+            "more_details": " "
+        }
+    },
+    {
+        "id": 195,
+        "country_iso": "SN",
+        "country_name": "Senegal",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 196,
+        "country_iso": "RS",
+        "country_name": "Serbia",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 197,
+        "country_iso": "SC",
+        "country_name": "Seychelles",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 198,
+        "country_iso": "SL",
+        "country_name": "Sierra Leone",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 199,
+        "country_iso": "SG",
+        "country_name": "Singapore",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 200,
+        "country_iso": "SK",
+        "country_name": "Slovakia",
+        "lane_name": "STL-Cat2",
+        "filters": {
+            "lane": "STL-Cat2",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": true,
+            "no_shn": false,
+            "no_sdf": true,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-2",
+            "more_details": " "
+        }
+    },
+    {
+        "id": 201,
+        "country_iso": "SI",
+        "country_name": "Slovenia",
+        "lane_name": "STL-Cat3",
+        "filters": {
+            "lane": "STL-Cat3",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-3",
+            "more_details": "Fully Vaccinated -> Apply to SHN at home"
+        }
+    },
+    {
+        "id": 202,
+        "country_iso": "SB",
+        "country_name": "Solomon Islands",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 203,
+        "country_iso": "SO",
+        "country_name": "Somalia",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 204,
+        "country_iso": "ZA",
+        "country_name": "South Africa",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 205,
+        "country_iso": "GS",
+        "country_name": "South Georgia and the South Sandwich Islands",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 206,
+        "country_iso": "SS",
+        "country_name": "South Sudan",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 207,
+        "country_iso": "ES",
+        "country_name": "Spain",
+        "lane_name": "VTL",
+        "filters": {
+            "lane": "VTL",
+            "fully_vaccinated": true,
+            "age_above_12": true,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": true,
+            "no_shn": true,
+            "no_sdf": true,
+            "link": "https://safetravel.ica.gov.sg/vtl/requirements-and-process",
+            "more_details": " "
+        }
+    },
+    {
+        "id": 207,
+        "country_iso": "ES",
+        "country_name": "Spain",
+        "lane_name": "STL-Cat2",
+        "filters": {
+            "lane": "STL-Cat2",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": true,
+            "no_shn": false,
+            "no_sdf": true,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-2",
+            "more_details": " "
+        }
+    },
+    {
+        "id": 209,
+        "country_iso": "SD",
+        "country_name": "Sudan",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 210,
+        "country_iso": "SR",
+        "country_name": "Suriname",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 211,
+        "country_iso": "SJ",
+        "country_name": "Svalbard and Jan Mayen Islands",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 212,
+        "country_iso": "SZ",
+        "country_name": "Swaziland",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 213,
+        "country_iso": "SE",
+        "country_name": "Sweden",
+        "lane_name": "STL-Cat2",
+        "filters": {
+            "lane": "STL-Cat2",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": true,
+            "no_shn": false,
+            "no_sdf": true,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-2",
+            "more_details": " "
+        }
+    },
+    {
+        "id": 214,
+        "country_iso": "CH",
+        "country_name": "Switzerland",
+        "lane_name": "STL-Cat2",
+        "filters": {
+            "lane": "STL-Cat2",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": true,
+            "no_shn": false,
+            "no_sdf": true,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-2",
+            "more_details": " "
+        }
+    },
+    {
+        "id": 215,
+        "country_iso": "SY",
+        "country_name": "Syrian Arab Republic (Syria)",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 216,
+        "country_iso": "TW",
+        "country_name": "Taiwan, Republic of China",
+        "lane_name": "ATP",
+        "filters": {
+            "lane": "ATP",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "Short-term visitor",
+            "no_pcr": false,
+            "no_art": true,
+            "no_shn": true,
+            "no_sdf": true,
+            "link": "https://safetravel.ica.gov.sg/atp/overview",
+            "more_details": " "
+        }
+    },
+    {
+        "id": 216,
+        "country_iso": "TW",
+        "country_name": "Taiwan, Republic of China",
+        "lane_name": "STL-Cat1",
+        "filters": {
+            "lane": "STL-Cat1",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": true,
+            "no_shn": true,
+            "no_sdf": true,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-1",
+            "more_details": " "
+        }
+    },
+    {
+        "id": 217,
+        "country_iso": "TJ",
+        "country_name": "Tajikistan",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 218,
+        "country_iso": "TZ",
+        "country_name": "Tanzania, United Republic of",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 219,
+        "country_iso": "TH",
+        "country_name": "Thailand",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 220,
+        "country_iso": "TL",
+        "country_name": "Timor-Leste",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 221,
+        "country_iso": "TG",
+        "country_name": "Togo",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 222,
+        "country_iso": "TK",
+        "country_name": "Tokelau",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 223,
+        "country_iso": "TO",
+        "country_name": "Tonga",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 224,
+        "country_iso": "TT",
+        "country_name": "Trinidad and Tobago",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 225,
+        "country_iso": "TN",
+        "country_name": "Tunisia",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 226,
+        "country_iso": "TR",
+        "country_name": "Turkey",
+        "lane_name": "STL-Cat2",
+        "filters": {
+            "lane": "STL-Cat2",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": true,
+            "no_shn": false,
+            "no_sdf": true,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-2",
+            "more_details": " "
+        }
+    },
+    {
+        "id": 227,
+        "country_iso": "TM",
+        "country_name": "Turkmenistan",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 228,
+        "country_iso": "TC",
+        "country_name": "Turks and Caicos Islands",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 229,
+        "country_iso": "TV",
+        "country_name": "Tuvalu",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 230,
+        "country_iso": "UG",
+        "country_name": "Uganda",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 231,
+        "country_iso": "UA",
+        "country_name": "Ukraine",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 232,
+        "country_iso": "AE",
+        "country_name": "United Arab Emirates",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 233,
+        "country_iso": "GB",
+        "country_name": "United Kingdom",
+        "lane_name": "VTL",
+        "filters": {
+            "lane": "VTL",
+            "fully_vaccinated": true,
+            "age_above_12": true,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": true,
+            "no_shn": true,
+            "no_sdf": true,
+            "link": "https://safetravel.ica.gov.sg/vtl/requirements-and-process",
+            "more_details": " "
+        }
+    },
+    {
+        "id": 233,
+        "country_iso": "GB",
+        "country_name": "United Kingdom",
+        "lane_name": "STL-Cat2",
+        "filters": {
+            "lane": "STL-Cat2",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": true,
+            "no_shn": false,
+            "no_sdf": true,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-2",
+            "more_details": " "
+        }
+    },
+    {
+        "id": 234,
+        "country_iso": "US",
+        "country_name": "United States of America",
+        "lane_name": "VTL",
+        "filters": {
+            "lane": "VTL",
+            "fully_vaccinated": true,
+            "age_above_12": true,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": true,
+            "no_shn": true,
+            "no_sdf": true,
+            "link": "https://safetravel.ica.gov.sg/vtl/requirements-and-process",
+            "more_details": " "
+        }
+    },
+    {
+        "id": 234,
+        "country_iso": "US",
+        "country_name": "United States of America",
+        "lane_name": "STL-Cat2",
+        "filters": {
+            "lane": "STL-Cat2",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": true,
+            "no_shn": false,
+            "no_sdf": true,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-2",
+            "more_details": " "
+        }
+    },
+    {
+        "id": 235,
+        "country_iso": "UM",
+        "country_name": "US Minor Outlying Islands",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 236,
+        "country_iso": "UY",
+        "country_name": "Uruguay",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 237,
+        "country_iso": "UZ",
+        "country_name": "Uzbekistan",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 238,
+        "country_iso": "VU",
+        "country_name": "Vanuatu",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 239,
+        "country_iso": "VE",
+        "country_name": "Venezuela (Bolivarian Republic)",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 240,
+        "country_iso": "VN",
+        "country_name": "Viet Nam",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 241,
+        "country_iso": "VI",
+        "country_name": "Virgin Islands, US",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 242,
+        "country_iso": "WF",
+        "country_name": "Wallis and Futuna Islands",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 243,
+        "country_iso": "EH",
+        "country_name": "Western Sahara",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 244,
+        "country_iso": "YE",
+        "country_name": "Yemen",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 245,
+        "country_iso": "ZM",
+        "country_name": "Zambia",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    },
+    {
+        "id": 246,
+        "country_iso": "ZW",
+        "country_name": "Zimbabwe",
+        "lane_name": "STL-Cat4",
+        "filters": {
+            "lane": "STL-Cat4",
+            "fully_vaccinated": false,
+            "age_above_12": false,
+            "required_residential_status": "",
+            "no_pcr": false,
+            "no_art": false,
+            "no_shn": false,
+            "no_sdf": false,
+            "link": "https://safetravel.ica.gov.sg/travel-checklist/category-4",
+            "more_details": ""
+        }
+    }
+]
