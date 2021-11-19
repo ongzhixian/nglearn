@@ -15,7 +15,7 @@
                  matInput
                  [formControl]="countryInputBox"
                  [matAutocomplete]="auto">
-          <mat-autocomplete #auto="matAutocomplete" [displayWith]="getOptionText" (optionSelected)="countrySelected">
+          <mat-autocomplete #auto="matAutocomplete" [displayWith]="getOptionText">
             <mat-option *ngFor="let travelLane of filteredOptions | async" [value]="travelLane">{{travelLane.country_name}}</mat-option>
           </mat-autocomplete>
         </mat-form-field>

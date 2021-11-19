@@ -58,10 +58,9 @@ export class DummyPage1Component implements OnInit {
     return travelLane?.country_name;
   }
 
-  countrySelected(option: any) {
-    debugger;
-    // console.log(`onOptionSelected event [${event}]`);
-  }
+  // countrySelected(option: any) {
+  //   // console.log(`onOptionSelected event [${event}]`);
+  // }
 
   private _filter(value: string): TravelLane[] {
     // console.log(`_filter value [${value}]`);
