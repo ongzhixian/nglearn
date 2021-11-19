@@ -23,6 +23,11 @@ export class DummyPage1Component implements OnInit {
   }
 
   ngOnInit(): void {
+
+    // This was placed in constructor originally.
+    // The argument is that the UI component (countryInputBox) could potentially
+    // be unavailable at time of construction (really?!!).
+    // So, it maybe safer to set the event-handler as part of Angular component life-cycle.
     this.filteredOptions = this.countryInputBox.valueChanges.pipe(
       startWith(''),
       map(value => {
@@ -46,11 +51,14 @@ export class DummyPage1Component implements OnInit {
 
   }
 
-  // Example of Type Guards 
+  // Example of Type Guards
   // See: https://tutorialsforangular.com/2021/08/04/type-checking-in-typescript/
   // See: https://basarat.gitbook.io/typescript/type-system/typeguard
   isTravelLane(src: any): src is TravelLane {
     // Define the check conditions to determine that src is TravelLane
+    // ZX: So yeah, its a bit of duck-typing check... (if it quacks and waddles like a duck, its a duck)
+    // In this case, we are saying that 'src' can be deemed as a TravelLane
+    // if it has the following properties (or in this case, just 'country_name' property):
     return src.country_name !== undefined;
   }
 
