@@ -1,5 +1,7 @@
 import { TestBed } from '@angular/core/testing';
 import { AppComponent } from './app.component';
+import { AppRoutingModule } from './modules/app-routing/app-routing.module';
+import { MaterialModule } from './modules/material/material.module';
 
 describe('AppComponent', () => {
   beforeEach(async () => {
@@ -7,6 +9,10 @@ describe('AppComponent', () => {
       declarations: [
         AppComponent
       ],
+      imports: [
+        AppRoutingModule,
+        MaterialModule
+      ]
     }).compileComponents();
   });
 
