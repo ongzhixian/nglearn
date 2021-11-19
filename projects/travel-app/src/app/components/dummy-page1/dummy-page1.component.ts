@@ -14,12 +14,15 @@ import TravelLaneJson from '../../../assets/travel-lanes.json';
 export class DummyPage1Component implements OnInit {
 
   countryInputBox = new FormControl();
-  filteredOptions: Observable<TravelLane[]>;
+  filteredOptions: Observable<TravelLane[]> = of([]);
   travelLanes: TravelLane[] = TravelLaneJson;
   selectedTravelLane: TravelLane | null;
 
   constructor() {
+    this.selectedTravelLane = null;
+  }
 
+  ngOnInit(): void {
     this.filteredOptions = this.countryInputBox.valueChanges.pipe(
       startWith(''),
       map(value => {
@@ -41,10 +44,7 @@ export class DummyPage1Component implements OnInit {
       }),
     );
 
-    this.selectedTravelLane = null;
   }
-
-  ngOnInit(): void { }
 
   // Example of Type Guards 
   // See: https://tutorialsforangular.com/2021/08/04/type-checking-in-typescript/
