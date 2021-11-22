@@ -9,12 +9,14 @@ import { AppRoutingModule } from './modules/app-routing/app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { DummyPage1Component } from './components/dummy-page1/dummy-page1.component';
+import { ResourceNotFoundComponent } from './components/resource-not-found/resource-not-found.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    DummyPage1Component
+    DummyPage1Component,
+    ResourceNotFoundComponent
   ],
   imports: [
     BrowserModule,
