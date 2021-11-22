@@ -398,6 +398,37 @@
           }
         }
       }
+    },
+    "first-lib": {
+      "projectType": "library",
+      "root": "projects/first-lib",
+      "sourceRoot": "projects/first-lib/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/first-lib/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/first-lib/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/first-lib/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/first-lib/src/test.ts",
+            "tsConfig": "projects/first-lib/tsconfig.spec.json",
+            "karmaConfig": "projects/first-lib/karma.conf.js"
+          }
+        }
+      }
     }
   },
   "defaultProject": "ngTutorialApp"
