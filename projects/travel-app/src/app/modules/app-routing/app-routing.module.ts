@@ -3,12 +3,13 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from '../../components/home/home.component';
 import { DummyPage1Component } from '../../components/dummy-page1/dummy-page1.component';
 import { ResourceNotFoundComponent } from '../../components/resource-not-found/resource-not-found.component';
-
+import { FirstLibComponent } from 'projects/first-lib/src/public-api';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
   { path: 'page1', component: DummyPage1Component },
+  { path: 'first-lib', component: FirstLibComponent },
 
   // Resource not found routing using redirection
   // This means whenever resource is not found, users will be re-directed to: http://localhost:4200/resource-not-found
