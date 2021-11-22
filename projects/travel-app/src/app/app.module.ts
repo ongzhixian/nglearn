@@ -10,6 +10,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { DummyPage1Component } from './components/dummy-page1/dummy-page1.component';
 import { ResourceNotFoundComponent } from './components/resource-not-found/resource-not-found.component';
+import { FirstLibModule } from 'first-lib';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { ResourceNotFoundComponent } from './components/resource-not-found/resou
     FlexLayoutModule,
     FormsModule,
     ReactiveFormsModule,
-    AppRoutingModule    
+    AppRoutingModule,
+    FirstLibModule
   ],
   providers: [],
   bootstrap: [AppComponent]
