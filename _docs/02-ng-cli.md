@@ -209,7 +209,23 @@ ng build my-lib --watch
 
 To use it in your application:
 
-import { myExport } from 'my-lib';
+import { myExport } from 'first-lib';
+
+Note:
+
+The `'first-lib'` is reference using the `paths` in `tsconfig.json` file.
+For example: 
+
+```json:tsconfig.json (at root level)
+    "paths": {
+      "first-lib": [
+        "dist/first-lib/first-lib",
+        "dist/first-lib"
+      ]
+    },
+```
+
+The stuff that you want to make available needs to be exposed in the `public-api.ts` file.
 
 
 ## Uninstall angular CLI
