@@ -3,8 +3,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from '../../components/home/home.component';
 import { DummyPage1Component } from '../../components/dummy-page1/dummy-page1.component';
 import { ResourceNotFoundComponent } from '../../components/resource-not-found/resource-not-found.component';
-import { FirstLibComponent } from 'projects/first-lib/src/public-api';
-import { DummyPage4Component } from 'projects/first-lib/src/lib/components/dummy-page4/dummy-page4.component';
+import { FirstLibComponent } from 'first-lib';
+import { DummyPage4Component } from 'first-lib';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
