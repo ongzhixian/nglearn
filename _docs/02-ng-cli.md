@@ -183,6 +183,35 @@ PS> ng generate module modules/material
     ng generate module modules/material --flat --module=app
 
 
+## Create new library
+
+Syntax:
+
+    ng generate library <library-name>
+
+Example:
+
+    ng generate library first-lib
+    ng generate library lib-two
+
+## Using library
+
+You don't have to publish your library to the npm package manager to use it the same workspace, 
+but you do have to build it first.
+
+To use your own library in an application:
+
+Build the library. You cannot use a library before it is built.
+
+ng build my-lib
+
+ng build my-lib --watch
+
+To use it in your application:
+
+import { myExport } from 'my-lib';
+
+
 ## Uninstall angular CLI
 
 npm uninstall -g @angular/cli

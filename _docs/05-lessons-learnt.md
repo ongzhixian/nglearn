@@ -115,3 +115,15 @@ ng generate component components/dashboard
 ng generate component components/dummyPage1
 ng generate component components/dummyPage2
 ng generate component components/dummyPage3
+
+## Create new library
+
+Syntax:
+
+    ng generate library <library-name>
+
+Example:
+
+    ng generate library first-lib
+    ng generate library lib-two
+
