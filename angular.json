@@ -320,6 +320,7 @@
             "polyfills": "projects/travel-app/src/polyfills.ts",
             "tsConfig": "projects/travel-app/tsconfig.app.json",
             "assets": [
+              "projects/travel-app/src/web.config",
               "projects/travel-app/src/favicon.ico",
               "projects/travel-app/src/assets"
             ],
