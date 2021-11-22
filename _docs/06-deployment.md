@@ -9,6 +9,8 @@ If deploying to server root, use:
 If deploying to a sub-directory under server root, use:
 
 `ng build --base-href /ngLearn/`
+`ng build travel-app --base-href /travel-app/`
+`ng build travel-app --base-href /travel-app/ --configuration production`
 
 The `--base-href` option changes the `<base href="/">` element in the generated `index.html` file.
 The default (without `--base-href`  option, generates `<base href="/">`
@@ -18,6 +20,10 @@ With `--base-href /ngLearn/`        option, generates `<base href="/ngLearn/">`
 So, yeah, the value provide seems to be directly replaced.
 
 ### Add support for deep-linking
+
+IMPORTANT! 
+Without the rewrite rules, when you enter an arbitrary URL like "http://localhost/travel-app/page4", it will return HTTP 404!
+This may mislead you into thinking that the component (page) is not working or not imported (from a library) into the project.
 
 Deep-linking allows user to navigate directly to a page by typing the route into the address bar instead of using the Angular routing.
 For traditional (file-based) web-servers, this is a problem because it typically finds the resource (file) indicated by URL to return to requestor.
