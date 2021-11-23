@@ -5,6 +5,8 @@ import { map, startWith } from 'rxjs/operators';
 
 import { TravelLane } from '../../models/TravelLane';
 import TravelLaneJson from '../../../assets/travel-lanes.json';
+import { AppSettingsService } from '../../services/app-settings.service';
+import { AppSettings } from '../../models/AppSettings';
 
 @Component({
   selector: 'app-dummy-page1',
@@ -18,11 +20,20 @@ export class DummyPage1Component implements OnInit {
   travelLanes: TravelLane[] = TravelLaneJson;
   selectedTravelLane: TravelLane | null;
 
+  // Example of exposing appSettings (for display) to the UI
+  appSettings: AppSettings = AppSettingsService.settings;
+  
+  // Example of retrieving a value directly
+  settingName: string = AppSettingsService.settings.Name;
+
   constructor() {
     this.selectedTravelLane = null;
   }
 
   ngOnInit(): void {
+
+    
+    console.log("SAppSettingsService: %s", AppSettingsService.settings.Name);
 
     // This was placed in constructor originally.
     // The argument is that the UI component (countryInputBox) could potentially
