@@ -67,3 +67,7 @@ Note:
     ]
     ```
 
+### AppPool
+
+It is advisable to use a separate AppPool for the Angular application.
+AppPool should use "No managed code".
