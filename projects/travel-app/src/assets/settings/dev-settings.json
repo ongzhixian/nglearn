@@ -1,4 +1,7 @@
 {
     "Name": "development-settings",
-    "DeploymentType": "dev"
+    "DeploymentType": "dev",
+    "api": {
+        
+    }
 }
