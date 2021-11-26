@@ -31,8 +31,6 @@ export class DummyPage1Component implements OnInit {
   }
 
   ngOnInit(): void {
-
-    
     console.log("SAppSettingsService: %s", AppSettingsService.settings.Name);
 
     // This was placed in constructor originally.
