@@ -18,6 +18,11 @@ import { StoreModule } from '@ngrx/store';
 import { EffectsModule } from '@ngrx/effects';
 import { countryListReducer } from './state/country-list.reducer';
 import { CountryApiEffects } from './state/country-list.effects';
+import { travelInfoReducer } from './state/travel-info.reducers';
+import { TravelInfoApiEffects } from './state/travel-info.effects';
+
+import { CountryListComponent } from './components/country-list/country-list.component';
+import { TravelInfoComponent } from './components/travel-info/travel-info.component';
 
 // 
 export function initializeApp(appSettingsService: AppSettingsService) {
@@ -29,7 +34,9 @@ export function initializeApp(appSettingsService: AppSettingsService) {
     AppComponent,
     HomeComponent,
     DummyPage1Component,
-    ResourceNotFoundComponent
+    ResourceNotFoundComponent,
+    CountryListComponent,
+    TravelInfoComponent
   ],
   imports: [
     BrowserModule,
@@ -42,10 +49,12 @@ export function initializeApp(appSettingsService: AppSettingsService) {
     AppRoutingModule,
     FirstLibModule,
     StoreModule.forRoot({ 
-      countries: countryListReducer
+      countries: countryListReducer,
+      selectedTravelInfo: travelInfoReducer
     }),
     EffectsModule.forRoot([
-      CountryApiEffects
+      CountryApiEffects,
+      TravelInfoApiEffects
     ])
   ],
   providers: [

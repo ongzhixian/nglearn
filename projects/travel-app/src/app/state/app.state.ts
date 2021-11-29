@@ -1,7 +1,5 @@
-// import { GoogleBook } from "../models/google-book";
-// import { AppUser } from "../models/app-user";
-
 import { Country } from "../models/Country";
+import { TravelInfo } from "../models/TravelInfo";
 
 export interface AppState {
 
@@ -18,5 +16,7 @@ export interface AppState {
     //   books: ReadonlyArray<GoogleBook>;
 
     countries: Country[];
+
+    selectedTravelInfo: TravelInfo;
 
 }
