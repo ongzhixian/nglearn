@@ -13,10 +13,10 @@ export class CountryService {
 
     getCountries(startsWith: string): Observable<Array<Country>> {
         return this.http
-            .get<{ items: Country[] }>(`http://localhost:8081/country?startswith=${encodeURIComponent(startsWith)}`)
+            .get<Country[]>(`http://localhost:8081/country?startswith=${encodeURIComponent(startsWith)}`)
             .pipe(
-                tap(_ => console.log(`${_.items.length} items retrieved.`)),
-                map((books) => books.items || []),
+                tap(countries => console.log(`${countries.length} items retrieved.`)),
+                map((countries) => countries || []),
                 catchError(this.handleError<Country[]>('Get countries', []))
             );
 
