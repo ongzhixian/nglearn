@@ -6,18 +6,20 @@ import { Country } from '../models/Country';
 
 export const enum EventType {
     FIND_COUNTRIES = '[Country List] Find Countries',
-    DATA_RECEIVED = '[Country List] Data Received'
+    DATA_RECEIVED = '[Country List] Data Received',
+    DATA_RETRIEVAL_ERROR = '[Country List] Data Retrieval Error'
 }
 
 export const findCountries = createAction(
     EventType.FIND_COUNTRIES,
-    props<{ countries: Array<Country> }>()
+    props<{ startsWith: string }>()
 );
 
 export const dataReceived = createAction(
     EventType.DATA_RECEIVED,
     props<{ countries: Array<Country> }>()
 );
+
 
 // export const getAllCountries = createAction('[Country List] Get all countries');
 // export const reset = createAction('[Counter Component] Reset');

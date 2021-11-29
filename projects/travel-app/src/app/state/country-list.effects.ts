@@ -18,15 +18,27 @@ export class CountryApiEffects {
         private countryService: CountryService
     ) { }
 
-    loadGoogleBooks$ = createEffect(() => this.actions$.pipe(
-        ofType(EventType.FIND_COUNTRIES),
-        switchMap(() => this.countryService.getCountries('d').pipe(
-            map(countryList => {
-                return ({ type: EventType.DATA_RECEIVED, countries: countryList })
-            }),
-            catchError(() => of({ type: '[Google Books API] Get Books Error' }))
+    loadCountryList$ = createEffect(() => this.actions$.pipe(
+        ofType(findCountries),
+        switchMap(action => this.countryService.getCountries('')
+            .pipe(
+                // tap(countries => console.log('Countries ONLOAD: ', countries)),
+                map(countries => ({ type: EventType.DATA_RECEIVED, countries: countries })),
+                catchError(error => of({ type: EventType.DATA_RETRIEVAL_ERROR }))
+            )
         )
-    ))
+    ));
+}
+
+    // loadGoogleBooks$ = createEffect(() => this.actions$.pipe(
+    //     ofType(EventType.FIND_COUNTRIES),
+    //     switchMap((action) => this.countryService.getCountries('si').pipe(
+    //         map(countryList => {
+    //             return ({ type: EventType.DATA_RECEIVED, countries: countryList })
+    //         }),
+    //         catchError(() => of({ type: EventType.DATA_RETRIEVAL_ERROR }))
+    //     )
+    // ))
 
     // loadGoogleBooks$ = createEffect(() => this.actions$.pipe(
     //     ofType(),
@@ -61,5 +73,3 @@ export class CountryApiEffects {
     //             catchError(() => of({ type: '[Google Books API] Get Books Error' }))
     //         ))
     // ));
-
-}

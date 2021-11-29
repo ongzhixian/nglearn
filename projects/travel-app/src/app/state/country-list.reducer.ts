@@ -1,14 +1,12 @@
 import { createReducer, on } from '@ngrx/store';
 import { Country } from '../models/Country';
-import { findCountries } from './country-list.actions';
-
-// import { increment, decrement, reset } from './clicky.actions';
+import { dataReceived } from './country-list.actions';
 
 export const initialState: ReadonlyArray<Country> = [];
 
 export const countryListReducer = createReducer(
     initialState,
-    on(findCountries, (state, { countries }) => countries)
+    on(dataReceived, (state, { countries }) => countries)
 );
 
 // const _counterReducer = createReducer(
