@@ -17,7 +17,7 @@ export class TravelInfoService {
         return this.http
             .get<TravelInfo>(`http://localhost:8081/travel-info/${encodeURIComponent(id)}`)
             .pipe(
-                tap(travelInfo => console.log(`Retrieved ${travelInfo}`)),
+                tap(travelInfo => console.log(`[TravelInfoService] Retrieved ${travelInfo.code}, ${travelInfo.riskLevel}`)),
                 map((travelInfo) => travelInfo || {}),
                 catchError(this.handleError<TravelInfo>('Get countries', {} as TravelInfo))
             );

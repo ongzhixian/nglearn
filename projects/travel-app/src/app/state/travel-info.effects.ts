@@ -24,7 +24,7 @@ export class TravelInfoApiEffects {
         ofType(getCountryTravelInfo),
         switchMap(action => this.travelInfoService.getTravelInfo(action.code)
             .pipe(
-                tap(travelInfo => console.log('TravelInfo retrieved', travelInfo)),
+                tap(travelInfo => console.log('[TravelInfoApiEffects] TravelInfo retrieved', travelInfo)),
                 map(travelInfo => ({ type: EventType.DATA_RECEIVED, travelInfo: travelInfo })),
                 catchError(error => of({ type: EventType.DATA_RETRIEVAL_ERROR }))
             )
