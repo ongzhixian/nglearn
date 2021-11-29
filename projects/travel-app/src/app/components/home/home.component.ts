@@ -28,6 +28,7 @@ export class HomeComponent implements OnInit {
     filteredOptions: Observable<Country[]> = of([]);
     selectedCountry: Country | null;
 
+    // initialState: TravelInfo | null = {} as TravelInfo | null;
     countries: Country[] = [];
     // countries$: Observable<Country[]> = this.store.select(selectCountries);
     travelInfo$ : Observable<TravelInfo> = this.store.select(selectTravelInfo);
@@ -79,6 +80,15 @@ export class HomeComponent implements OnInit {
     isCountry(src: any): src is Country { // Type Guard
         return src.name !== undefined;
     }
+
+    // isEmpty<T>(obj: T) {
+    //     return obj === {} as T;
+    // }
+
+    // getTypeOf(val: any) {
+    //     console.log(val);
+    //     return val instanceof Object;
+    // }
 
     getOptionText(country: Country) {
         return country?.name;
