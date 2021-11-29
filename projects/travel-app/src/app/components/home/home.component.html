@@ -21,6 +21,7 @@
         </mat-form-field>
     </form>
 
+    <app-travel-info2 fxLayoutAlign="center" [travelInfo]="travelInfo$ | async" *ngIf="(travelInfo$ | async)?.code != null"></app-travel-info2>
 
     <!-- <div fxLayout="row" fxLayoutGap="10px" fxLayoutAlign="center" class="container">
         <p>dummy-page1 works!</p>
@@ -35,3 +36,6 @@
 <p>
     The goal of this page is to identify the countries that a person can travel for a given set of criteria.
 </p> -->
+<ng-template #loading>
+    Loading stuff...
+  </ng-template>
