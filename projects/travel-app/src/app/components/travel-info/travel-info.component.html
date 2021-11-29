@@ -1,0 +1,14 @@
+<div class="travel-info main">
+    <p>Placeholder for display travel-info</p>
+
+    <!-- {{selectedTravelInfo$}} -->
+    <!-- {{travelInfo}} -->
+
+    <div *ngIf="travelInfo != null && travelInfo.code != null">
+        <p>Content to render when condition is true.</p>
+        <p>CODE: {{travelInfo.code}}</p>
+        <p>RISK LEVEL: {{travelInfo.riskLevel}}</p>
+    </div>
+
+
+</div>
