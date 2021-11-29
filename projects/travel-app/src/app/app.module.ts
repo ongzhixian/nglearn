@@ -14,6 +14,11 @@ import { DummyPage1Component } from './components/dummy-page1/dummy-page1.compon
 import { ResourceNotFoundComponent } from './components/resource-not-found/resource-not-found.component';
 import { FirstLibModule } from 'first-lib';
 
+import { StoreModule } from '@ngrx/store';
+import { EffectsModule } from '@ngrx/effects';
+import { countryListReducer } from './state/country-list.reducer';
+import { CountryApiEffects } from './state/country-list.effects';
+
 // 
 export function initializeApp(appSettingsService: AppSettingsService) {
   return () => appSettingsService.load();
@@ -35,7 +40,13 @@ export function initializeApp(appSettingsService: AppSettingsService) {
     FormsModule,
     ReactiveFormsModule,
     AppRoutingModule,
-    FirstLibModule
+    FirstLibModule,
+    StoreModule.forRoot({ 
+      countries: countryListReducer
+    }),
+    EffectsModule.forRoot([
+      CountryApiEffects
+    ])
   ],
   providers: [
     AppSettingsService,
