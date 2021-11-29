@@ -15,7 +15,7 @@ export class CountryService {
         return this.http
             .get<Country[]>(`http://localhost:8081/country?startswith=${encodeURIComponent(startsWith)}`)
             .pipe(
-                tap(countries => console.log(`${countries.length} items retrieved.`)),
+                tap(countries => console.log(`[CountryService] ${countries.length} items retrieved.`)),
                 map((countries) => countries || []),
                 catchError(this.handleError<Country[]>('Get countries', []))
             );
