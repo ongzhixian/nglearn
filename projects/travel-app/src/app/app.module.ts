@@ -23,6 +23,7 @@ import { TravelInfoApiEffects } from './state/travel-info.effects';
 
 import { CountryListComponent } from './components/country-list/country-list.component';
 import { TravelInfoComponent } from './components/travel-info/travel-info.component';
+import { TravelInfo2Component } from './components/travel-info2/travel-info2.component';
 
 // 
 export function initializeApp(appSettingsService: AppSettingsService) {
@@ -36,7 +37,8 @@ export function initializeApp(appSettingsService: AppSettingsService) {
     DummyPage1Component,
     ResourceNotFoundComponent,
     CountryListComponent,
-    TravelInfoComponent
+    TravelInfoComponent,
+    TravelInfo2Component
   ],
   imports: [
     BrowserModule,
