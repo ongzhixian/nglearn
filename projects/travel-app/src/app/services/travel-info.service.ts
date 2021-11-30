@@ -15,7 +15,7 @@ export class TravelInfoService {
 
     getTravelInfo(id: string): Observable<TravelInfo> {
         return this.http
-            .get<TravelInfo>(`http://localhost:8081/travel-info/${encodeURIComponent(id)}`)
+            .get<TravelInfo>(`http://localhost:7200/travel-info/${encodeURIComponent(id)}`)
             .pipe(
                 tap(travelInfo => console.log(`[TravelInfoService] Retrieved ${travelInfo.code}, ${travelInfo.riskLevel}`)),
                 map((travelInfo) => travelInfo || {}),

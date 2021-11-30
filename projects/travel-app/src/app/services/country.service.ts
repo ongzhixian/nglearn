@@ -13,7 +13,7 @@ export class CountryService {
 
     getCountries(startsWith: string): Observable<Array<Country>> {
         return this.http
-            .get<Country[]>(`http://localhost:8081/country?startswith=${encodeURIComponent(startsWith)}`)
+            .get<Country[]>(`http://localhost:7200/country?startswith=${encodeURIComponent(startsWith)}`)
             .pipe(
                 tap(countries => console.log(`[CountryService] ${countries.length} items retrieved.`)),
                 map((countries) => countries || []),
