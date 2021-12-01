@@ -1,7 +1,10 @@
-.viewContent {
+:host {
+    display:block;
+}
+/* .viewContent {
     height: 100%;
     background: #555;
-}
+} */
 
 .xxx {
     margin: 1em 0 0 1em;
