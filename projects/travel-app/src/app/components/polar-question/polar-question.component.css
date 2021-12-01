@@ -1,0 +1,4 @@
+button:nth-child(n+2) {
+    /* background-color:blue; */
+    margin-left: 8px;
+}

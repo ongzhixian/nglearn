@@ -1,1 +1,9 @@
-<p>polar-question works!</p>
+<div >
+    <p [innerHTML]="question.html">
+    </p>
+</div>
+<div >
+    <button mat-flat-button color="primary" [routerLink]="question.yesRoute">Yes</button>&nbsp;
+    <button mat-stroked-button color="primary" [routerLink]="question.noRoute">No</button>
+    <button mat-stroked-button color="primary" (click)="next.emit(question.nextEvent)">Next</button>
+</div>

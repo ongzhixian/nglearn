@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
+import { PolarQuestion } from '../../models/PolarQuestion';
 
 @Component({
   selector: 'app-polar-question',
@@ -6,6 +7,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./polar-question.component.css']
 })
 export class PolarQuestionComponent implements OnInit {
+
+  @Input()
+  question!: PolarQuestion;
+
+  @Output() next = new EventEmitter<string>();
 
   constructor() { }
 
