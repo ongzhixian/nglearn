@@ -1,4 +1,5 @@
 import { Country } from "../models/Country";
+import { PolarQuestion } from "../models/PolarQuestion";
 import { TravelInfo } from "../models/TravelInfo";
 
 export interface AppState {
@@ -18,5 +19,7 @@ export interface AppState {
     countries: Country[];
 
     selectedTravelInfo: TravelInfo;
+
+    polarQuestion: PolarQuestion
 
 }
