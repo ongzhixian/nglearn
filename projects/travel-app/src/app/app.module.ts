@@ -24,6 +24,9 @@ import { TravelInfoApiEffects } from './state/travel-info.effects';
 import { CountryListComponent } from './components/country-list/country-list.component';
 import { TravelInfoComponent } from './components/travel-info/travel-info.component';
 import { TravelInfo2Component } from './components/travel-info2/travel-info2.component';
+import { IntroComponent } from './components/intro/intro.component';
+import { PolarQuestionComponent } from './components/polar-question/polar-question.component';
+import { polarQuestionReducer } from './state/travel-app.reducers';
 
 // 
 export function initializeApp(appSettingsService: AppSettingsService) {
@@ -38,7 +41,9 @@ export function initializeApp(appSettingsService: AppSettingsService) {
     ResourceNotFoundComponent,
     CountryListComponent,
     TravelInfoComponent,
-    TravelInfo2Component
+    TravelInfo2Component,
+    IntroComponent,
+    PolarQuestionComponent
   ],
   imports: [
     BrowserModule,
@@ -52,7 +57,8 @@ export function initializeApp(appSettingsService: AppSettingsService) {
     FirstLibModule,
     StoreModule.forRoot({ 
       countries: countryListReducer,
-      selectedTravelInfo: travelInfoReducer
+      selectedTravelInfo: travelInfoReducer,
+      polarQuestion: polarQuestionReducer
     }),
     EffectsModule.forRoot([
       CountryApiEffects,

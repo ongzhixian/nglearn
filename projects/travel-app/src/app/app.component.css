@@ -1,0 +1,10 @@
+main {
+    height: 100%; overflow: hidden;
+    background-color: aquamarine;
+}
+
+footer {
+    position: fixed;
+    bottom:0;
+    margin: 1em;
+}
