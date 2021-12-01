@@ -5,9 +5,11 @@ import { DummyPage1Component } from '../../components/dummy-page1/dummy-page1.co
 import { ResourceNotFoundComponent } from '../../components/resource-not-found/resource-not-found.component';
 import { FirstLibComponent } from 'first-lib';
 import { DummyPage4Component } from 'first-lib';
+import { IntroComponent } from '../../components/intro/intro.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/home', pathMatch: 'full' },
+  { path: '', redirectTo: '/intro', pathMatch: 'full' },
+  { path: 'intro', component: IntroComponent },
   { path: 'home', component: HomeComponent },
   { path: 'page1', component: DummyPage1Component },
   { path: 'first-lib', component: FirstLibComponent },
