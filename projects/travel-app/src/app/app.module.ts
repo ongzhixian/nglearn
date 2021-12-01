@@ -27,6 +27,7 @@ import { TravelInfo2Component } from './components/travel-info2/travel-info2.com
 import { IntroComponent } from './components/intro/intro.component';
 import { PolarQuestionComponent } from './components/polar-question/polar-question.component';
 import { polarQuestionReducer } from './state/travel-app.reducers';
+import { OpenCloseComponent } from './components/open-close/open-close.component';
 
 // 
 export function initializeApp(appSettingsService: AppSettingsService) {
@@ -43,7 +44,8 @@ export function initializeApp(appSettingsService: AppSettingsService) {
     TravelInfoComponent,
     TravelInfo2Component,
     IntroComponent,
-    PolarQuestionComponent
+    PolarQuestionComponent,
+    OpenCloseComponent
   ],
   imports: [
     BrowserModule,
