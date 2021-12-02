@@ -17,20 +17,20 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class IntroComponent implements OnInit {
 
-    question$ : Observable<PolarQuestion> = this.store.select(selectQuestion);
+    question$: Observable<PolarQuestion> = this.store.select(selectQuestion);
 
     constructor(
         private store: Store<AppState>,
         private route: ActivatedRoute
-    ) {}
+    ) { }
 
-    ngOnInit(): void {}
+    ngOnInit(): void { }
 
     goToPath(path: string) {
         // routerLink="/travel-alone"
         // console.log("navigateToPage: %s, %s", this.route.snapshot.url[0].path, '/travel-alone');
         // console.log(this.route.snapshot.toString());
-        this.store.dispatch(navigateToPage({ 
+        this.store.dispatch(navigateToPage({
             src: this.route.snapshot.url[0].path,
             dst: path
         }));

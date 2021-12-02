@@ -10,8 +10,8 @@
             <p>Will you be travelling alone?</p>
         </div>
         <div >
-            <button mat-flat-button color="primary" routerLink="/status-check">Yes</button>&nbsp;
-            <button mat-stroked-button color="primary" routerLink="/travel-companion">No</button>
+            <button mat-flat-button color="primary" (click)="goToPath('status-check')">Yes</button>&nbsp;
+            <button mat-stroked-button color="primary" (click)="goToPath('travel-companion')">No</button>
         </div>
     </div>
 </div>
