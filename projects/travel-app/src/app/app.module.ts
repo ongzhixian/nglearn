@@ -11,7 +11,7 @@ import { AppSettingsService } from './services/app-settings.service';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { DummyPage1Component } from './components/dummy-page1/dummy-page1.component';
-import { ResourceNotFoundComponent } from './components/resource-not-found/resource-not-found.component';
+import { ResourceNotFoundComponent } from './components/views/resource-not-found/resource-not-found.component';
 import { FirstLibModule } from 'first-lib';
 
 import { StoreModule } from '@ngrx/store';
@@ -31,7 +31,7 @@ import { polarQuestionReducer } from './state/travel-app.reducers';
 import { OpenCloseComponent } from './components/open-close/open-close.component';
 import { QuestionaireComponent } from './components/questionaire/questionaire.component';
 import { CountrySearchComponent } from './components/country-search/country-search.component';
-import { TravelAloneComponent } from './components/travel-alone/travel-alone.component';
+import { TravelAloneComponent } from './components/views/travel-alone/travel-alone.component';
 import { StatusCheckComponent } from './components/status-check/status-check.component';
 import { TravelCompanionComponent } from './components/travel-companion/travel-companion.component';
 import { HasDestinationComponent } from './components/has-destination/has-destination.component';
