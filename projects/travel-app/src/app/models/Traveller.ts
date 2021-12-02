@@ -1,5 +1,5 @@
 export interface Traveller {
-    age: number;
-    nationality: string;
-    is_vaccinated: boolean;
+    name?: string;
+    vaccinationStatus: string;
+    residencyStatus: string;
 }
