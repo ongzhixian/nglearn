@@ -1,7 +1,14 @@
 import { Component, OnInit } from '@angular/core';
-import { FormControl, Validators } from '@angular/forms';
+import { FormGroup, FormControl, Validators } from '@angular/forms';
 import { Observable } from 'rxjs';
 import { map, startWith } from 'rxjs/operators';
+
+import { Store } from '@ngrx/store';
+import { AppState } from 'projects/ng-tutorial-app/src/app/state/app.state';
+import { selectPreviousRoute } from '../../../state/travel-app.selectors';
+import { navigateToPage } from '../../../state/travel-app.actions';
+import { ActivatedRoute } from '@angular/router';
+
 
 @Component({
     selector: 'app-status-check',
@@ -10,7 +17,6 @@ import { map, startWith } from 'rxjs/operators';
 })
 export class StatusCheckComponent implements OnInit {
 
-    vaccinationStatusControl: FormControl = new FormControl('', [Validators.required]);
     vaccinationStatusOptions: string[] = [
         "Pfizer/BioNTech (BNT162b2 / Comirnaty / Tozinameran), at least 2 doses 17 days apart",
         "Moderna (mRNA-1273), at least 2 doses 24 days apart",
@@ -25,7 +31,6 @@ export class StatusCheckComponent implements OnInit {
     ];
     filteredVaccinationStatusOptions!: Observable<string[]>;
 
-    residencyStatusControl: FormControl = new FormControl('', [Validators.required]);
     residencyStatusOptions: string[] = [
         "Singapore Citizen",
         "Singapore PR (excl. PR-IPA Holders)",
@@ -41,19 +46,39 @@ export class StatusCheckComponent implements OnInit {
         "Social visitor/tourist",
         "Long-Term Visit Pass - Graduated Student"
     ];
+
+    // vaccinationStatusControl: FormControl = new FormControl('', [Validators.required]);
+    // residencyStatusControl: FormControl = new FormControl('', [Validators.required]);
+
+
+    statusesForm = new FormGroup({
+        'vaccinationStatusControl': new FormControl('', [Validators.required, Validators.minLength(1)]),
+        'residencyStatusControl': new FormControl('', [Validators.required, Validators.minLength(1)])
+        // username: new FormControl('', [Validators.required, Validators.minLength(3)]),
+        // password: new FormControl('', [Validators.required, Validators.minLength(3)])
+    });
+
     filteredResidencyStatusOptions!: Observable<string[]>;
 
-    constructor() { }
+    previousRoutePath$: Observable<string> = this.store.select(selectPreviousRoute);
+
+    constructor(
+        private store: Store<AppState>,
+        private route: ActivatedRoute
+    ) { }
 
     ngOnInit(): void {
-        this.filteredResidencyStatusOptions = this.residencyStatusControl.valueChanges.pipe(
+        this.filteredResidencyStatusOptions = this.statusesForm.controls.residencyStatusControl.valueChanges.pipe(
             startWith(''),
             map(value => this._filterResidencyStatusOptions(value)),
         );
-        this.filteredVaccinationStatusOptions = this.vaccinationStatusControl.valueChanges.pipe(
+        this.filteredVaccinationStatusOptions = this.statusesForm.controls.vaccinationStatusControl.valueChanges.pipe(
             startWith(''),
             map(value => this._filterVaccinationStatusOptions(value)),
         );
+
+        // Mark all fields as touched (so that validation errors are shown on page load)
+        this.statusesForm.markAllAsTouched();
     }
 
     private _filterResidencyStatusOptions(value: string): string[] {
@@ -64,5 +89,26 @@ export class StatusCheckComponent implements OnInit {
     private _filterVaccinationStatusOptions(value: string): string[] {
         const filterValue = value.toLowerCase();
         return this.vaccinationStatusOptions.filter(option => option.toLowerCase().includes(filterValue));
+    }
+
+    // forbiddenNameValidator(nameRe: RegExp): ValidatorFn {
+    //     return (control: AbstractControl): ValidationErrors | null => {
+    //         const forbidden = nameRe.test(control.value);
+    //         return forbidden ? { forbiddenName: { value: control.value } } : null;
+    //     };
+    // }
+    
+
+    goToPath(path: string) {
+        console.log('In status-check: %s', this.statusesForm.valid);
+
+        if (!this.statusesForm.valid)
+            return;
+
+
+        this.store.dispatch(navigateToPage({
+            src: this.route.snapshot.url[0].path,
+            dst: path
+        }));
     }
 }
