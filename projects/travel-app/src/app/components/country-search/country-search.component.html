@@ -1,0 +1,33 @@
+<div class="header">
+    <button mat-button routerLink="/questionaire">
+        <mat-icon class="icon">arrow_back</mat-icon>
+        Back
+    </button>
+</div>
+<div fxLayout="row" fxLayoutAlign="center start">
+    <div class="content">
+        <h1>Country Look Up</h1>
+
+        <p>
+            Find the travel restrictions in country
+        </p>
+
+        <form fxLayoutAlign="center" class="example-form">
+            <mat-form-field class="example-full-width" appearance="fill">
+                <mat-label>Country</mat-label>
+                <input type="text" placeholder="Pick one" aria-label="Country" matInput [formControl]="countryInputBox"
+                    [matAutocomplete]="auto">
+                <mat-autocomplete #auto="matAutocomplete" [displayWith]="getOptionText">
+                    <mat-option *ngFor="let travelLane of filteredOptions | async" [value]="travelLane">{{travelLane.name}}
+                    </mat-option>
+                </mat-autocomplete>
+            </mat-form-field>
+        </form>
+
+        <app-travel-info2 fxLayoutAlign="center" [travelInfo]="travelInfo$ | async"
+        *ngIf="(travelInfo$ | async | json) != '{}'"></app-travel-info2>
+        
+    </div>
+</div>
+
+
