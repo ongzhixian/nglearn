@@ -3,7 +3,7 @@ import { ActivatedRouteSnapshot } from '@angular/router';
 import { Observable } from 'rxjs';
 import { Store } from '@ngrx/store';
 import { AppState } from 'projects/ng-tutorial-app/src/app/state/app.state';
-import { selectPreviousRoute } from '../../state/travel-app.selectors';
+import { selectPreviousRoute } from '../../../state/travel-app.selectors';
 
 @Component({
     selector: 'app-travel-alone',
