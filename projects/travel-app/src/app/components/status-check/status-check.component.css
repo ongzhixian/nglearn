@@ -1,0 +1,10 @@
+mat-form-field {
+    width: 100%;
+}
+
+mat-option {
+    white-space: normal;
+    /* font-size: 16px; */
+    line-height: normal;
+    height: 4em;
+}

@@ -1,0 +1,40 @@
+<div class="header">
+    <button mat-button routerLink="/travel-alone">
+        <mat-icon class="icon">arrow_back</mat-icon>
+        Travel Alone
+    </button>
+</div>
+<div fxLayout="row" fxLayoutAlign="center start">
+    <div class="content">
+
+        <form fxLayout="column" fxLayoutAlign="left">
+            <p>Enter your</p>
+            <mat-form-field appearance="fill">
+                <mat-label>Singapore Residency Status</mat-label>
+                <input type="text" placeholder="Pick one" aria-label="Singapore Residency Status" 
+                    matInput 
+                    [formControl]="residencyStatusControl"
+                    [matAutocomplete]="auto">
+                <mat-autocomplete #auto="matAutocomplete">
+                    <mat-option *ngFor="let option of filteredResidencyStatusOptions | async" [value]="option">{{option}}</mat-option>
+                </mat-autocomplete>
+            </mat-form-field>
+
+            <mat-form-field appearance="fill">
+                <mat-label>Vaccination Status</mat-label>
+                <input type="text" placeholder="Pick one" aria-label="Vaccination Status" 
+                    matInput 
+                    [formControl]="vaccinationStatusControl"
+                    [matAutocomplete]="auto2">
+                <mat-autocomplete #auto2="matAutocomplete">
+                    <mat-option *ngFor="let option of filteredVaccinationStatusOptions | async" [value]="option" [innerHTML]="option"></mat-option>
+                </mat-autocomplete>
+            </mat-form-field>
+
+        </form>
+
+        <div >
+            <button mat-flat-button color="primary" routerLink="/has-destination">Next</button>&nbsp;
+        </div>
+    </div>
+</div>
