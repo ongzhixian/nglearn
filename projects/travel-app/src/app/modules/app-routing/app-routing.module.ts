@@ -6,10 +6,25 @@ import { ResourceNotFoundComponent } from '../../components/resource-not-found/r
 import { FirstLibComponent } from 'first-lib';
 import { DummyPage4Component } from 'first-lib';
 import { IntroComponent } from '../../components/intro/intro.component';
+import { QuestionaireComponent } from '../../components/questionaire/questionaire.component';
+import { CountrySearchComponent } from '../../components/country-search/country-search.component';
+import { TravelAloneComponent } from '../../components/travel-alone/travel-alone.component';
+import { StatusCheckComponent } from '../../components/status-check/status-check.component';
+import { TravelCompanionComponent } from '../../components/travel-companion/travel-companion.component';
+import { HasDestinationComponent } from '../../components/has-destination/has-destination.component';
+import { RestrictionSearchComponent } from '../../components/restriction-search/restriction-search.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/intro', pathMatch: 'full' },
   { path: 'intro', component: IntroComponent },
+  { path: 'questionaire', component: QuestionaireComponent },
+  { path: 'country-search', component: CountrySearchComponent },
+  { path: 'travel-alone', component: TravelAloneComponent },
+  { path: 'status-check', component: StatusCheckComponent },
+  { path: 'travel-companion', component: TravelCompanionComponent },
+  { path: 'has-destination', component: HasDestinationComponent },
+  { path: 'restriction-search', component: RestrictionSearchComponent },
+  
   { path: 'home', component: HomeComponent },
   { path: 'page1', component: DummyPage1Component },
   { path: 'first-lib', component: FirstLibComponent },
