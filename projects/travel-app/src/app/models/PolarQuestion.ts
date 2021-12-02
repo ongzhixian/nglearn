@@ -4,3 +4,9 @@ export interface PolarQuestion {
     noRoute: string;
     nextEvent: string;
 }
+
+// export interface AltPolarQuestion {
+//     html: string;
+//     yesAction: string;
+//     noAction: string;
+// }
