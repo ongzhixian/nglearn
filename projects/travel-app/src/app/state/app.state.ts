@@ -1,3 +1,4 @@
+import { ActivatedRouteSnapshot } from "@angular/router";
 import { Country } from "../models/Country";
 import { PolarQuestion } from "../models/PolarQuestion";
 import { TravelInfo } from "../models/TravelInfo";
@@ -26,4 +27,6 @@ export interface AppState {
     traveller: Traveller;
 
     companions: Traveller[];
+
+    previousRoute: string;
 }

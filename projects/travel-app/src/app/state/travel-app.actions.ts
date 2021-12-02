@@ -1,9 +1,13 @@
 import { createAction, props } from '@ngrx/store';
 import { PolarQuestion } from '../models/PolarQuestion';
+import { ActivatedRouteSnapshot } from '@angular/router';
+
 
 
 export const enum EventType {
-    DISPLAY_QUESTION    = '[Travel App] Display Question',
+    NAVIGATE_TO_PAGE            = '[Travel App] Navigate To Page',       
+    DISPLAY_TRAVEL_ALONE_PAGE   = '[Travel App] Display Travel Alone Page',
+    DISPLAY_QUESTION            = '[Travel App] Display Question',
     // DISPLAY_INTRO       = '[Travel App] Display Intro',
     // ASK_DESTINATION     = '[Travel App] Ask Destination',
     // ASK_RESIDENCY       = '[Travel App] Ask Residency',
@@ -12,6 +16,12 @@ export const enum EventType {
     // DATA_RECEIVED = '[Country List] Data Received',
     // DATA_RETRIEVAL_ERROR = '[Country List] Data Retrieval Error'
 }
+
+export const navigateToPage = createAction(
+    EventType.NAVIGATE_TO_PAGE,
+    props<{ src: string, dst: string }>()
+);
+
 
 export const displayQuestion = createAction(
     EventType.DISPLAY_QUESTION,
