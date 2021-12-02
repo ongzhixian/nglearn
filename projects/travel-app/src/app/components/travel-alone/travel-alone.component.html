@@ -1,5 +1,5 @@
 <div class="header">
-    <button mat-button routerLink="/intro">
+    <button mat-button [routerLink]="previousRoutePath$ | async">
         <mat-icon class="icon">arrow_back</mat-icon>
         Introduction
     </button>
