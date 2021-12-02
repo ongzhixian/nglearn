@@ -1,10 +1,14 @@
 import { Component, OnInit } from '@angular/core';
-import { PolarQuestion } from '../../models/PolarQuestion';
-import { displayQuestion } from '../../state/travel-app.actions';
+import { PolarQuestion } from '../../../models/PolarQuestion';
+import { displayQuestion } from '../../../state/travel-app.actions';
 import { Store } from '@ngrx/store';
-import { AppState } from '../../state/app.state';
+import { AppState } from '../../../state/app.state';
 import { Observable } from 'rxjs';
-import { selectQuestion } from '../../state/travel-app.selectors';
+import { selectQuestion } from '../../../state/travel-app.selectors';
+import { navigateToPage } from '../../../state/travel-app.actions';
+
+import { ActivatedRoute, Router } from '@angular/router';
+
 
 @Component({
     selector: 'app-intro',
@@ -14,12 +18,20 @@ import { selectQuestion } from '../../state/travel-app.selectors';
 export class IntroComponent implements OnInit {
 
     constructor(
-        private store: Store<AppState>
-    ) { }
+        private store: Store<AppState>,
+        private route: ActivatedRoute
+    ) { 
+
+        
+    }
 
     question$ : Observable<PolarQuestion> = this.store.select(selectQuestion);
 
     ngOnInit(): void {
+        // this.route.url.subscribe(url => {
+        //     console.log(url);
+        // }
+        console.log(this.route.snapshot.url[0].path);
     }
 
     onNext(nextQuestion: string) {
@@ -37,6 +49,16 @@ export class IntroComponent implements OnInit {
                 noRoute: '/home',
                 nextEvent: 'ask residency next'
             }
+        }));
+    }
+
+    goToPage1() {
+        // routerLink="/travel-alone"
+        console.log("navigateToPage: %s, %s", this.route.snapshot.url[0].path, '/travel-alone');
+        console.log(this.route.snapshot.toString());
+        this.store.dispatch(navigateToPage({ 
+            src: this.route.snapshot.url[0].path,
+            dst: 'travel-alone'
         }));
     }
 }
