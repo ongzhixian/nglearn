@@ -1,0 +1,11 @@
+<div class="header">
+    <button mat-button>
+        <mat-icon class="icon">arrow_back</mat-icon>
+        Back to introduction
+    </button>
+</div>
+<div fxLayout="row" fxLayoutAlign="center start">
+    <div class="content">
+        <app-polar-question [question]="(question$ | async)!" (next)="onNext($event)"></app-polar-question>
+    </div>
+</div>
