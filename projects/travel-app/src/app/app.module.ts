@@ -20,11 +20,12 @@ import { countryListReducer } from './state/country-list.reducer';
 import { CountryApiEffects } from './state/country-list.effects';
 import { travelInfoReducer } from './state/travel-info.reducers';
 import { TravelInfoApiEffects } from './state/travel-info.effects';
+import { TravelAppEffects } from './state/travel-app.effects';
 
 import { CountryListComponent } from './components/country-list/country-list.component';
 import { TravelInfoComponent } from './components/travel-info/travel-info.component';
 import { TravelInfo2Component } from './components/travel-info2/travel-info2.component';
-import { IntroComponent } from './components/intro/intro.component';
+import { IntroComponent } from './components/views/intro/intro.component';
 import { PolarQuestionComponent } from './components/polar-question/polar-question.component';
 import { polarQuestionReducer } from './state/travel-app.reducers';
 import { OpenCloseComponent } from './components/open-close/open-close.component';
@@ -35,6 +36,8 @@ import { StatusCheckComponent } from './components/status-check/status-check.com
 import { TravelCompanionComponent } from './components/travel-companion/travel-companion.component';
 import { HasDestinationComponent } from './components/has-destination/has-destination.component';
 import { RestrictionSearchComponent } from './components/restriction-search/restriction-search.component';
+
+import { previousRoutePathReducer } from './state/travel-app.reducers';
 
 // 
 export function initializeApp(appSettingsService: AppSettingsService) {
@@ -74,11 +77,13 @@ export function initializeApp(appSettingsService: AppSettingsService) {
     StoreModule.forRoot({ 
       countries: countryListReducer,
       selectedTravelInfo: travelInfoReducer,
-      polarQuestion: polarQuestionReducer
+      polarQuestion: polarQuestionReducer,
+      previousRoute: previousRoutePathReducer
     }),
     EffectsModule.forRoot([
       CountryApiEffects,
-      TravelInfoApiEffects
+      TravelInfoApiEffects,
+      TravelAppEffects
     ])
   ],
   providers: [
