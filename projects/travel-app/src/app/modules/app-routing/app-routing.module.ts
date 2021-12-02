@@ -5,7 +5,8 @@ import { DummyPage1Component } from '../../components/dummy-page1/dummy-page1.co
 import { ResourceNotFoundComponent } from '../../components/resource-not-found/resource-not-found.component';
 import { FirstLibComponent } from 'first-lib';
 import { DummyPage4Component } from 'first-lib';
-import { IntroComponent } from '../../components/intro/intro.component';
+// import { IntroComponent } from '../../components/views/intro/intro.component';
+import { IntroComponent } from '../../components/views/intro/intro.component';
 import { QuestionaireComponent } from '../../components/questionaire/questionaire.component';
 import { CountrySearchComponent } from '../../components/country-search/country-search.component';
 import { TravelAloneComponent } from '../../components/travel-alone/travel-alone.component';
