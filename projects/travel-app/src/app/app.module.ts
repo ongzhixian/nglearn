@@ -32,8 +32,8 @@ import { OpenCloseComponent } from './components/open-close/open-close.component
 import { QuestionaireComponent } from './components/questionaire/questionaire.component';
 import { CountrySearchComponent } from './components/country-search/country-search.component';
 import { TravelAloneComponent } from './components/views/travel-alone/travel-alone.component';
-import { StatusCheckComponent } from './components/status-check/status-check.component';
-import { TravelCompanionComponent } from './components/travel-companion/travel-companion.component';
+import { StatusCheckComponent } from './components/views/status-check/status-check.component';
+import { TravelCompanionComponent } from './components/views/travel-companion/travel-companion.component';
 import { HasDestinationComponent } from './components/has-destination/has-destination.component';
 import { RestrictionSearchComponent } from './components/restriction-search/restriction-search.component';
 

@@ -13,6 +13,8 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class TravelCompanionComponent implements OnInit {
 
+    panelOpenState = false;
+
     previousRoutePath$: Observable<string> = this.store.select(selectPreviousRoute);
     
     constructor(
@@ -20,6 +22,20 @@ export class TravelCompanionComponent implements OnInit {
         private route: ActivatedRoute
     ) { }
 
+    step = 0;
+
+    setStep(index: number) {
+      this.step = index;
+    }
+  
+    nextStep() {
+      this.step++;
+    }
+  
+    prevStep() {
+      this.step--;
+    }
+    
     ngOnInit(): void {
     }
 
