@@ -17,3 +17,8 @@ body {
 .interactive {
     cursor: pointer;
 }
+
+.content {
+    width: 960px;
+    margin: 1em;
+}
