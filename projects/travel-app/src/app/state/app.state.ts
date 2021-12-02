@@ -1,6 +1,7 @@
 import { Country } from "../models/Country";
 import { PolarQuestion } from "../models/PolarQuestion";
 import { TravelInfo } from "../models/TravelInfo";
+import { Traveller } from "../models/Traveller";
 
 export interface AppState {
 
@@ -22,4 +23,7 @@ export interface AppState {
 
     polarQuestion: PolarQuestion
 
+    traveller: Traveller;
+
+    companions: Traveller[];
 }
