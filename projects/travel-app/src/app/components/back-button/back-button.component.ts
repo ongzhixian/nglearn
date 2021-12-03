@@ -6,6 +6,7 @@ import { AppState } from 'projects/ng-tutorial-app/src/app/state/app.state';
 // import { navigateToPage } from '../../../state/travel-app.actions';
 import { ActivatedRoute } from '@angular/router';
 import { navigateToPrevious } from '../../state/travel-app.actions';
+import { Location } from '@angular/common';
 
 @Component({
     selector: 'app-back-button',
@@ -20,14 +21,16 @@ export class BackButtonComponent implements OnInit {
 
     constructor(
         private store: Store<AppState>,
-        private route: ActivatedRoute
+        private route: ActivatedRoute,
+        private location: Location
     ) { }
 
     ngOnInit(): void {
     }
 
     goToPreviousView() {
-        this.store.dispatch(navigateToPrevious());
+        // this.store.dispatch(navigateToPrevious());
+        this.location.back();
     }
 
 }
