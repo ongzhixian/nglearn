@@ -5,47 +5,82 @@
     </button>
 </div>
 <div fxLayout="row" fxLayoutAlign="center start">
-    <div class="content">
-        <div>
-            <p>TODO travelling companions?</p>
+    <div fxLayout="column" class="content">
 
-            <mat-accordion>
+        <div fxFlex="" class="content-header">
+            <h1>Travel Companions</h1>
+            <p>
+                You have not added any travel companions yet.
+            </p>
+            <app-companion-data-entry (add)="onAdd($event)"></app-companion-data-entry>
+        </div>
 
-                <mat-expansion-panel hideToggle>
+        <div fxFlex="nogrow" class="card-holder">
+
+            <mat-accordion class="accordion-card">
+                <!-- <mat-option *ngFor="let option of filteredResidencyStatusOptions | async" [value]="option">{{option}}</mat-option> -->
+                <mat-expansion-panel hideToggle *ngFor="let companion of companions;  let i = index">
                     <mat-expansion-panel-header>
                         <mat-panel-title>
-                            Travellers
+                            {{companion.name}}
                         </mat-panel-title>
                         <mat-panel-description>
-                            Count: 0
+                            {{companion.vaccinationStatus}}, {{companion.residencyStatus}}
                         </mat-panel-description>
                     </mat-expansion-panel-header>
+
+                    <div *ngIf="editIndex != i; then displayTemplate else editTemplate"></div>
+                    
+                    <ng-template #displayTemplate>
+                        <div>
+                            Singapore PR<br />
+                            Vaccinated with Sinopharm, at least 2 doses 17 days apart
+                        </div>
+    
+                        <mat-action-row>
+                            <button mat-button color="primary" (click)="remove(i)">Remove</button>
+                            <button mat-button color="primary" (click)="edit(i)">Edit</button>
+                        </mat-action-row>
+                    </ng-template>
+                    
+                    <ng-template #editTemplate>
+
+                        <app-companion-data-edit (add)="onAdd($event)" [traveller]="editTraveller"></app-companion-data-edit>
+    
+                        <!-- <mat-action-row *ngIf="editIndex == i">
+                            <button mat-button color="primary" (click)="cancel(i)">Cancel</button>
+                            <button mat-button color="primary" (click)="save(i)">Save</button>
+                        </mat-action-row> -->
+    
+                    </ng-template>
+
+
                 </mat-expansion-panel>
 
-                <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
-                    <mat-expansion-panel-header>
-                        <mat-panel-title>
-                            Self aware panel
-                        </mat-panel-title>
-                        <mat-panel-description>
-                            Currently I am {{panelOpenState ? 'open' : 'closed'}}
-                        </mat-panel-description>
-                    </mat-expansion-panel-header>
-                    <p>I'm visible because I am open</p>
-
-                    <mat-action-row>
-                        <button mat-button color="warn" (click)="prevStep()">Previous</button>
-                        <button mat-button color="primary" (click)="nextStep()">End</button>
-                      </mat-action-row>
-                </mat-expansion-panel>
             </mat-accordion>
 
+<!--             
+            <mat-card>Simple card 0</mat-card>
+
+            <mat-card>Simple card 1</mat-card>
+
+            <mat-card>Simple card 2</mat-card> -->
+
+            <!-- <mat-card>Simple card 3</mat-card>
+
+            <mat-card>Simple card 4</mat-card>
+
+            <mat-card>Simple card 5</mat-card>
+
+            <mat-card>Simple card 6</mat-card>
+
+            <mat-card>Simple card 7</mat-card> -->
+            
 
         </div>
-        &nbsp;
-        <div>
-            <button mat-flat-button color="primary" (click)="goToPath('status-check')">Yes</button>&nbsp;
-            <button mat-stroked-button color="primary" (click)="goToPath('travel-companion')">No</button>
+
+        <div fxFlex="60px" class="content-footer">
+            <button mat-flat-button color="primary" (click)="goToPath('has-destination')">Next</button>
         </div>
     </div>
 </div>

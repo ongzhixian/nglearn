@@ -6,6 +6,8 @@ import { selectPreviousRoute } from '../../../state/travel-app.selectors';
 import { navigateToPage } from '../../../state/travel-app.actions';
 import { ActivatedRoute } from '@angular/router';
 
+import { Traveller } from '../../../models/Traveller';
+
 @Component({
     selector: 'app-travel-companion',
     templateUrl: './travel-companion.component.html',
@@ -13,10 +15,31 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class TravelCompanionComponent implements OnInit {
 
+    editIndex: number = -1;
+    editTraveller: Traveller | undefined;
+
     panelOpenState = false;
 
     previousRoutePath$: Observable<string> = this.store.select(selectPreviousRoute);
-    
+
+    companions: Traveller[] = [
+        {
+            name: 'John',
+            vaccinationStatus: 'Vaccinated',
+            residencyStatus: 'Resident'
+        },
+        {
+            name: 'Jane',
+            vaccinationStatus: 'Vaccinated',
+            residencyStatus: 'Resident'
+        },
+        {
+            name: 'Jessie',
+            vaccinationStatus: 'Vaccinated, Pfizer',
+            residencyStatus: 'Resident'
+        },
+    ];
+
     constructor(
         private store: Store<AppState>,
         private route: ActivatedRoute
@@ -25,17 +48,17 @@ export class TravelCompanionComponent implements OnInit {
     step = 0;
 
     setStep(index: number) {
-      this.step = index;
+        this.step = index;
     }
-  
+
     nextStep() {
-      this.step++;
+        this.step++;
     }
-  
+
     prevStep() {
-      this.step--;
+        this.step--;
     }
-    
+
     ngOnInit(): void {
     }
 
@@ -44,5 +67,34 @@ export class TravelCompanionComponent implements OnInit {
             src: this.route.snapshot.url[0].path,
             dst: path
         }));
+    }
+
+    onAdd(companionInfo: Traveller) {
+        console.info("Parent received onAdd");
+        // this.store.dispatch(addBook({ bookId }));
+        this.companions.push(companionInfo);
+    }
+
+    remove(index: number) {
+        console.info("Index is %d", index);
+        this.companions.splice(index, 1);
+    }
+
+    edit(index: number) {
+        console.info("Edit (index): %d", index);
+        this.editIndex = index;
+        this.editTraveller = this.companions[index]; 
+        // this.companions.splice(index, 1);
+    }
+
+    cancel(index: number) {
+        this.editIndex = -1;
+    }
+
+    save(index: number) {
+        console.info("Save (index): %d", index);
+        this.editIndex = index;
+        
+        // this.companions.splice(index, 1);
     }
 }
