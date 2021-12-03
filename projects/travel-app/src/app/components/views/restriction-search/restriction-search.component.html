@@ -1,0 +1,49 @@
+<div class="header">
+    <app-back-button></app-back-button>
+</div>
+<div fxLayout="row" fxLayoutAlign="center start">
+    <div class="content">
+
+        <form fxLayout="column" fxLayoutAlign="left">
+            <p>
+                Acceptable travel restrictions
+            </p>
+            <!-- <mat-form-field appearance="fill">
+                <mat-label>Singapore Residency Status</mat-label>
+                <input type="text" placeholder="Pick one" aria-label="Singapore Residency Status" 
+                    matInput formControlName="residencyStatusControl"
+                    [matAutocomplete]="auto">
+                <mat-autocomplete #auto="matAutocomplete">
+                    <mat-option *ngFor="let option of filteredResidencyStatusOptions | async" [value]="option">{{option}}</mat-option>
+                </mat-autocomplete>
+            </mat-form-field>
+
+            <mat-form-field appearance="fill">
+                <mat-label>Vaccination Status</mat-label>
+                <input type="text" placeholder="Pick one" aria-label="Vaccination Status" 
+                    matInput 
+                    formControlName="vaccinationStatusControl"
+                    [matAutocomplete]="auto2">
+                <mat-autocomplete #auto2="matAutocomplete">
+                    <mat-option *ngFor="let option of filteredVaccinationStatusOptions | async" [value]="option" [innerHTML]="option"></mat-option>
+                </mat-autocomplete>
+            </mat-form-field> -->
+
+            <mat-selection-list #shoes>
+                <mat-list-option *ngFor="let shoe of typesOfShoes">
+                    {{shoe}}
+                </mat-list-option>
+            </mat-selection-list>
+
+            <p>
+                Options selected: {{shoes.selectedOptions.selected.length}}
+            </p>
+
+
+        </form>
+
+        <div>
+            <app-go-to-button destinationPath="has-destination" displayText="Next"></app-go-to-button>
+        </div>
+    </div>
+</div>
