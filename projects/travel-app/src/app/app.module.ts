@@ -34,12 +34,15 @@ import { CountrySearchComponent } from './components/country-search/country-sear
 import { TravelAloneComponent } from './components/views/travel-alone/travel-alone.component';
 import { StatusCheckComponent } from './components/views/status-check/status-check.component';
 import { TravelCompanionComponent } from './components/views/travel-companion/travel-companion.component';
-import { HasDestinationComponent } from './components/has-destination/has-destination.component';
+import { HasDestinationComponent } from './components/views/has-destination/has-destination.component';
 import { RestrictionSearchComponent } from './components/restriction-search/restriction-search.component';
 
-import { previousRoutePathReducer } from './state/travel-app.reducers';
+import { previousRoutePathReducer, navigationHistoryReducer } from './state/travel-app.reducers';
 import { CompanionDataEntryComponent } from './components/companion-data-entry/companion-data-entry.component';
 import { CompanionDataEditComponent } from './components/companion-data-edit/companion-data-edit.component';
+import { GoToButtonComponent } from './components/go-to-button/go-to-button.component';
+import { BackButtonComponent } from './components/back-button/back-button.component';
+// import { GoToViewDirective } from './directives/go-to-view.directive';
 
 // 
 export function initializeApp(appSettingsService: AppSettingsService) {
@@ -66,7 +69,9 @@ export function initializeApp(appSettingsService: AppSettingsService) {
     HasDestinationComponent,
     RestrictionSearchComponent,
     CompanionDataEntryComponent,
-    CompanionDataEditComponent
+    CompanionDataEditComponent,
+    GoToButtonComponent,
+    BackButtonComponent
   ],
   imports: [
     BrowserModule,
@@ -82,7 +87,8 @@ export function initializeApp(appSettingsService: AppSettingsService) {
       countries: countryListReducer,
       selectedTravelInfo: travelInfoReducer,
       polarQuestion: polarQuestionReducer,
-      previousRoute: previousRoutePathReducer
+      previousRoute: previousRoutePathReducer,
+      navigationHistory: navigationHistoryReducer
     }),
     EffectsModule.forRoot([
       CountryApiEffects,
