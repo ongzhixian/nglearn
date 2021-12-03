@@ -35,7 +35,7 @@ import { TravelAloneComponent } from './components/views/travel-alone/travel-alo
 import { StatusCheckComponent } from './components/views/status-check/status-check.component';
 import { TravelCompanionComponent } from './components/views/travel-companion/travel-companion.component';
 import { HasDestinationComponent } from './components/views/has-destination/has-destination.component';
-import { RestrictionSearchComponent } from './components/restriction-search/restriction-search.component';
+import { RestrictionSearchComponent } from './components/views/restriction-search/restriction-search.component';
 
 import { previousRoutePathReducer, navigationHistoryReducer } from './state/travel-app.reducers';
 import { CompanionDataEntryComponent } from './components/companion-data-entry/companion-data-entry.component';

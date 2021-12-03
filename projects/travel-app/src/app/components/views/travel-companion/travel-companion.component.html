@@ -7,18 +7,24 @@
         <div fxFlex="" class="content-header">
             <h1>Travel Companions</h1>
 
-            [{{navigationHistory$ | async}}]
+            <!-- [{{navigationHistory$ | async}}] -->
 
-            <p *ngIf="companions.length <= 0">
-                You have not added any travel companions yet.
-            </p>
-            <p *ngIf="companions.length > 0">
-                You are travelling with {{companions.length}} companion.
-            </p>
+
             <app-companion-data-entry (add)="onAdd($event)"></app-companion-data-entry>
         </div>
 
         <div fxFlex="nogrow" class="card-holder">
+
+
+            <p *ngIf="companions.length <= 0">
+                You have not added any travel companions yet.
+            </p>
+
+            <div *ngIf="companions.length > 0">
+                
+                <h4>Travelling companions ({{companions.length}})</h4>
+                <!-- You are travelling with  companion. -->
+            </div>
 
             <mat-accordion class="accordion-card">
                 <!-- <mat-option *ngFor="let option of filteredResidencyStatusOptions | async" [value]="option">{{option}}</mat-option> -->

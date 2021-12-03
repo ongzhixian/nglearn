@@ -5,7 +5,7 @@ import { AppState } from 'projects/ng-tutorial-app/src/app/state/app.state';
 import { selectNavigationHistory, selectPreviousRoute } from '../../../state/travel-app.selectors';
 import { navigateToPage } from '../../../state/travel-app.actions';
 import { ActivatedRoute } from '@angular/router';
-
+import {MatSnackBar} from '@angular/material/snack-bar';
 import { Traveller } from '../../../models/Traveller';
 
 @Component({
@@ -44,7 +44,8 @@ export class TravelCompanionComponent implements OnInit {
 
     constructor(
         private store: Store<AppState>,
-        private route: ActivatedRoute
+        private route: ActivatedRoute,
+        private snackBar: MatSnackBar
     ) { }
 
     step = 0;
@@ -75,6 +76,10 @@ export class TravelCompanionComponent implements OnInit {
         console.info("Parent received onAdd");
         // this.store.dispatch(addBook({ bookId }));
         this.companions.push(companionInfo);
+
+        this.snackBar.open("Companion added.", undefined, {
+            duration: 1200,
+        });
     }
 
     remove(index: number) {

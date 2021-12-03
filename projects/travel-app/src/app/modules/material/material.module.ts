@@ -7,7 +7,8 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatExpansionModule } from '@angular/material/expansion';
-
+import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { MatListModule } from '@angular/material/list';
 
 @NgModule({
   declarations: [],
@@ -19,7 +20,9 @@ import { MatExpansionModule } from '@angular/material/expansion';
     MatIconModule,
     MatInputModule,
     MatToolbarModule,
-    MatExpansionModule
+    MatExpansionModule,
+    MatSnackBarModule,
+    MatListModule
   ],
   exports: [
     MatAutocompleteModule,
@@ -29,7 +32,9 @@ import { MatExpansionModule } from '@angular/material/expansion';
     MatIconModule,
     MatInputModule,
     MatToolbarModule,
-    MatExpansionModule
+    MatExpansionModule,
+    MatSnackBarModule,
+    MatListModule
   ]
 })
 export class MaterialModule { }
