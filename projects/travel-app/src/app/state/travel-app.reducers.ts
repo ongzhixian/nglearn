@@ -3,7 +3,7 @@ import { dataReceived } from './travel-info.actions';
 import { displayQuestion } from './travel-app.actions';
 import { PolarQuestion } from '../models/PolarQuestion';
 
-import { navigateToPage } from './travel-app.actions';
+import { navigateToPage, saveNavigationHistory } from './travel-app.actions';
 
 // export const initialState: PolarQuestion = {
 //     html: '<span style=font-size:20pt;>Hey,</span><br/>Would you like to travel?',
@@ -27,4 +27,9 @@ export const polarQuestionReducer = createReducer(
 export const previousRoutePathReducer = createReducer(
     "",
     on(navigateToPage, (state, evt) => `/${evt.src}`)
+);
+
+export const navigationHistoryReducer = createReducer(
+    [] as string[],
+    on(saveNavigationHistory, (state, evt) => [...state, evt.dst])
 );

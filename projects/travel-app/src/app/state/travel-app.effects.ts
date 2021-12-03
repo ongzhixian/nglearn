@@ -28,6 +28,13 @@ export class TravelAppEffects {
     //     )
     // ));
 
+    // Navigation history tracking effects
+
+    navigationHistory$ = createEffect(() => this.actions$.pipe(
+        ofType(navigateToPage),
+        map(action => ({ type: EventType.SAVE_NAVIGATION_HISTORY, dst: action.dst }))
+    ));
+
     // Navigation effects
 
     displayTravelAlonePage$ = createEffect(() => this.actions$.pipe(

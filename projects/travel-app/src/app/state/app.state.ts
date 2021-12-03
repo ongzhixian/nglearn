@@ -29,4 +29,6 @@ export interface AppState {
     companions: Traveller[];
 
     previousRoute: string;
+
+    navigationHistory: string[];
 }
