@@ -1,0 +1,41 @@
+<mat-expansion-panel>
+    <mat-expansion-panel-header>
+        <mat-panel-title>
+            Add companion
+        </mat-panel-title>
+    </mat-expansion-panel-header>
+
+    <form fxLayout="column" fxLayoutAlign="left" [formGroup]="statusesForm">
+
+        <mat-form-field appearance="fill">
+            <mat-label>Name (optional)</mat-label>
+            <input type="text" matInput placeholder="Name (optional)" formControlName="nameControl">
+        </mat-form-field>
+
+        <mat-form-field appearance="fill">
+            <mat-label>Singapore Residency Status</mat-label>
+            <input type="text" placeholder="Pick one" aria-label="Singapore Residency Status" matInput
+                formControlName="residencyStatusControl" [matAutocomplete]="auto">
+            <mat-autocomplete #auto="matAutocomplete">
+                <mat-option *ngFor="let option of filteredResidencyStatusOptions | async" [value]="option">{{option}}
+                </mat-option>
+            </mat-autocomplete>
+        </mat-form-field>
+
+        <mat-form-field appearance="fill">
+            <mat-label>Vaccination Status</mat-label>
+            <input type="text" placeholder="Pick one" aria-label="Vaccination Status" matInput
+                formControlName="vaccinationStatusControl" [matAutocomplete]="auto2">
+            <mat-autocomplete #auto2="matAutocomplete">
+                <mat-option *ngFor="let option of filteredVaccinationStatusOptions | async" [value]="option"
+                    [innerHTML]="option"></mat-option>
+            </mat-autocomplete>
+        </mat-form-field>
+
+    </form>
+
+    <mat-action-row>
+        <button mat-button color="primary" (click)="onAdd()">Add</button>
+    </mat-action-row>
+
+</mat-expansion-panel>
