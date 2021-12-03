@@ -9,8 +9,11 @@
 
         <div fxFlex="" class="content-header">
             <h1>Travel Companions</h1>
-            <p>
+            <p *ngIf="companions.length <= 0">
                 You have not added any travel companions yet.
+            </p>
+            <p *ngIf="companions.length > 0">
+                You are travelling with {{companions.length}} companion.
             </p>
             <app-companion-data-entry (add)="onAdd($event)"></app-companion-data-entry>
         </div>
@@ -45,7 +48,7 @@
                     
                     <ng-template #editTemplate>
 
-                        <app-companion-data-edit (add)="onAdd($event)" [traveller]="editTraveller"></app-companion-data-edit>
+                        <app-companion-data-edit (update)="onUpdate($event)" [traveller]="editTraveller"></app-companion-data-edit>
     
                         <!-- <mat-action-row *ngIf="editIndex == i">
                             <button mat-button color="primary" (click)="cancel(i)">Cancel</button>

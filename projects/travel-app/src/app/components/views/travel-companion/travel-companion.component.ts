@@ -81,9 +81,10 @@ export class TravelCompanionComponent implements OnInit {
     }
 
     edit(index: number) {
-        console.info("Edit (index): %d", index);
         this.editIndex = index;
         this.editTraveller = this.companions[index]; 
+        console.info("Edit (index): %d", index);
+        console.info(this.editTraveller);
         // this.companions.splice(index, 1);
     }
 
@@ -96,5 +97,11 @@ export class TravelCompanionComponent implements OnInit {
         this.editIndex = index;
         
         // this.companions.splice(index, 1);
+    }
+
+    onUpdate(traveller: Traveller) {
+        // console.log("Updated!", x);
+        this.companions[this.editIndex] = traveller;  
+        this.editIndex = -1;
     }
 }

@@ -14,7 +14,7 @@ export class CompanionDataEditComponent implements OnInit {
 
     @Input() traveller: Traveller | undefined;
 
-    @Output() add = new EventEmitter<Traveller>();
+    @Output() update = new EventEmitter<Traveller>();
 
     vaccinationStatusOptions: string[] = [
         "Pfizer/BioNTech (BNT162b2 / Comirnaty / Tozinameran), at least 2 doses 17 days apart",
@@ -68,21 +68,24 @@ export class CompanionDataEditComponent implements OnInit {
             map(value => this._filterVaccinationStatusOptions(value)),
         );
 
+        this.statusesForm.controls.nameControl.setValue(this.traveller?.name);
+        this.statusesForm.controls.residencyStatusControl.setValue(this.traveller?.residencyStatus);
+        this.statusesForm.controls.vaccinationStatusControl.setValue(this.traveller?.vaccinationStatus);
+
         this.statusesForm.markAllAsTouched();
     }
 
-    onAdd(){
-        console.log("onAdd");
-        this.add.emit({
-            name: this.statusesForm.controls.nameControl.value,
-            residencyStatus: this.statusesForm.controls.residencyStatusControl.value,
-            vaccinationStatus: this.statusesForm.controls.vaccinationStatusControl.value
-        });
-        this.statusesForm.controls.nameControl.setValue('');
-        this.statusesForm.controls.residencyStatusControl.setValue('');
-        this.statusesForm.controls.vaccinationStatusControl.setValue('');
-
-    }
+    // onAdd(){
+    //     console.log("onAdd");
+    //     this.update.emit({
+    //         name: this.statusesForm.controls.nameControl.value,
+    //         residencyStatus: this.statusesForm.controls.residencyStatusControl.value,
+    //         vaccinationStatus: this.statusesForm.controls.vaccinationStatusControl.value
+    //     });
+    //     this.statusesForm.controls.nameControl.setValue('');
+    //     this.statusesForm.controls.residencyStatusControl.setValue('');
+    //     this.statusesForm.controls.vaccinationStatusControl.setValue('');
+    // }
 
     private _filterResidencyStatusOptions(value: string): string[] {
         const filterValue = value.toLowerCase();
@@ -92,5 +95,18 @@ export class CompanionDataEditComponent implements OnInit {
     private _filterVaccinationStatusOptions(value: string): string[] {
         const filterValue = value.toLowerCase();
         return this.vaccinationStatusOptions.filter(option => option.toLowerCase().includes(filterValue));
+    }
+
+
+    onSave() {
+        this.update.emit({
+            name: this.statusesForm.controls.nameControl.value,
+            residencyStatus: this.statusesForm.controls.residencyStatusControl.value,
+            vaccinationStatus: this.statusesForm.controls.vaccinationStatusControl.value
+        });
+    }
+
+    onCancel() {
+        this.update.emit(this.traveller);
     }
 }
