@@ -6,7 +6,7 @@
 
         <form fxLayout="column" fxLayoutAlign="left">
             <p>
-                Acceptable travel restrictions
+                Display countries that fit criteria here
             </p>
             <!-- <mat-form-field appearance="fill">
                 <mat-label>Singapore Residency Status</mat-label>
@@ -29,21 +29,12 @@
                 </mat-autocomplete>
             </mat-form-field> -->
 
-            <mat-selection-list #shoes>
-                <mat-list-option *ngFor="let shoe of typesOfShoes">
-                    {{shoe}}
-                </mat-list-option>
-            </mat-selection-list>
-
-            <p>
-                Options selected: {{shoes.selectedOptions.selected.length}}
-            </p>
 
 
         </form>
 
         <div>
-            <app-go-to-button destinationPath="filter-countries" displayText="List countries"></app-go-to-button>
+            <!-- <app-go-to-button destinationPath="filter-countries" displayText="List countries"></app-go-to-button> -->
         </div>
     </div>
 </div>

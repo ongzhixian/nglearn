@@ -42,6 +42,7 @@ import { CompanionDataEntryComponent } from './components/companion-data-entry/c
 import { CompanionDataEditComponent } from './components/companion-data-edit/companion-data-edit.component';
 import { GoToButtonComponent } from './components/go-to-button/go-to-button.component';
 import { BackButtonComponent } from './components/back-button/back-button.component';
+import { FilterCountriesComponent } from './components/views/filter-countries/filter-countries.component';
 // import { GoToViewDirective } from './directives/go-to-view.directive';
 
 // 
@@ -71,7 +72,8 @@ export function initializeApp(appSettingsService: AppSettingsService) {
     CompanionDataEntryComponent,
     CompanionDataEditComponent,
     GoToButtonComponent,
-    BackButtonComponent
+    BackButtonComponent,
+    FilterCountriesComponent
   ],
   imports: [
     BrowserModule,

@@ -14,6 +14,7 @@ import { StatusCheckComponent } from '../../components/views/status-check/status
 import { TravelCompanionComponent } from '../../components/views/travel-companion/travel-companion.component';
 import { HasDestinationComponent } from '../../components/views/has-destination/has-destination.component';
 import { RestrictionSearchComponent } from '../../components/views/restriction-search/restriction-search.component';
+import { FilterCountriesComponent } from '../../components/views/filter-countries/filter-countries.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/intro', pathMatch: 'full' },
@@ -25,6 +26,8 @@ const routes: Routes = [
   { path: 'travel-companion', component: TravelCompanionComponent },
   { path: 'has-destination', component: HasDestinationComponent },
   { path: 'restriction-search', component: RestrictionSearchComponent },
+  { path: 'filter-countries', component: FilterCountriesComponent },
+  
   
   { path: 'home', component: HomeComponent },
   { path: 'page1', component: DummyPage1Component },
