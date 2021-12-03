@@ -46,6 +46,7 @@ export class StatusCheckComponent implements OnInit {
         "Social visitor/tourist",
         "Long-Term Visit Pass - Graduated Student"
     ];
+    filteredResidencyStatusOptions!: Observable<string[]>;
 
     // vaccinationStatusControl: FormControl = new FormControl('', [Validators.required]);
     // residencyStatusControl: FormControl = new FormControl('', [Validators.required]);
@@ -58,7 +59,7 @@ export class StatusCheckComponent implements OnInit {
         // password: new FormControl('', [Validators.required, Validators.minLength(3)])
     });
 
-    filteredResidencyStatusOptions!: Observable<string[]>;
+
 
     previousRoutePath$: Observable<string> = this.store.select(selectPreviousRoute);
 
