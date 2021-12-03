@@ -38,6 +38,8 @@ import { HasDestinationComponent } from './components/has-destination/has-destin
 import { RestrictionSearchComponent } from './components/restriction-search/restriction-search.component';
 
 import { previousRoutePathReducer } from './state/travel-app.reducers';
+import { CompanionDataEntryComponent } from './components/companion-data-entry/companion-data-entry.component';
+import { CompanionDataEditComponent } from './components/companion-data-edit/companion-data-edit.component';
 
 // 
 export function initializeApp(appSettingsService: AppSettingsService) {
@@ -62,7 +64,9 @@ export function initializeApp(appSettingsService: AppSettingsService) {
     StatusCheckComponent,
     TravelCompanionComponent,
     HasDestinationComponent,
-    RestrictionSearchComponent
+    RestrictionSearchComponent,
+    CompanionDataEntryComponent,
+    CompanionDataEditComponent
   ],
   imports: [
     BrowserModule,
