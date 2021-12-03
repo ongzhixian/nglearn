@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
 import { Store } from '@ngrx/store';
 import { AppState } from 'projects/ng-tutorial-app/src/app/state/app.state';
-import { selectPreviousRoute } from '../../../state/travel-app.selectors';
+import { selectNavigationHistory, selectPreviousRoute } from '../../../state/travel-app.selectors';
 import { navigateToPage } from '../../../state/travel-app.actions';
 import { ActivatedRoute } from '@angular/router';
 
@@ -21,6 +21,8 @@ export class TravelCompanionComponent implements OnInit {
     panelOpenState = false;
 
     previousRoutePath$: Observable<string> = this.store.select(selectPreviousRoute);
+
+    navigationHistory$: Observable<string[]> = this.store.select(selectNavigationHistory);
 
     companions: Traveller[] = [
         {

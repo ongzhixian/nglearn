@@ -1,14 +1,14 @@
 <div class="header">
-    <button mat-button [routerLink]="previousRoutePath$ | async">
-        <mat-icon class="icon">arrow_back</mat-icon>
-        Back
-    </button>
+    <app-back-button></app-back-button>
 </div>
 <div fxLayout="row" fxLayoutAlign="center start">
     <div fxLayout="column" class="content">
 
         <div fxFlex="" class="content-header">
             <h1>Travel Companions</h1>
+
+            [{{navigationHistory$ | async}}]
+
             <p *ngIf="companions.length <= 0">
                 You have not added any travel companions yet.
             </p>
@@ -83,7 +83,7 @@
         </div>
 
         <div fxFlex="60px" class="content-footer">
-            <button mat-flat-button color="primary" (click)="goToPath('has-destination')">Next</button>
+            <app-go-to-button destinationPath="has-destination" displayText="Next"></app-go-to-button>
         </div>
     </div>
 </div>

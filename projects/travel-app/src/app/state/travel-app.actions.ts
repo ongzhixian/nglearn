@@ -5,7 +5,8 @@ import { ActivatedRouteSnapshot } from '@angular/router';
 
 
 export const enum EventType {
-    NAVIGATE_TO_PAGE            = '[Travel App] Navigate To Page',       
+    NAVIGATE_TO_PAGE            = '[Travel App] Navigate To Page',
+    NAVIGATE_TO_PREVIOUS        = '[Travel App] Navigate To Previous',
     DISPLAY_TRAVEL_ALONE_PAGE   = '[Travel App] Display Travel Alone Page',
     DISPLAY_QUESTION            = '[Travel App] Display Question',
 
@@ -25,12 +26,15 @@ export const navigateToPage = createAction(
     props<{ src: string, dst: string }>()
 );
 
+export const navigateToPrevious = createAction(
+    EventType.NAVIGATE_TO_PREVIOUS
+);
+
+
 export const saveNavigationHistory = createAction(
     EventType.SAVE_NAVIGATION_HISTORY,
     props<{ dst: string }>()
 );
-
-
 
 export const displayQuestion = createAction(
     EventType.DISPLAY_QUESTION,
