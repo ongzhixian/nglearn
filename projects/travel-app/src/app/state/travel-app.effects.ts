@@ -61,7 +61,6 @@ export class TravelAppEffects {
             
             return ({ type: EventType.SAVE_NAVIGATION_HISTORY, dst: destinationPath });
             
-            debugger;
             // if (e.length > 0) {
             //     destinationPath = e[e.length - 1];.
             // }  

@@ -1,5 +1,8 @@
 main {
     height: 100%; overflow: hidden;
+    background-image: url('../assets/images/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 footer {

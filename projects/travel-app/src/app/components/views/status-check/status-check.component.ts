@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormGroup, FormControl, Validators } from '@angular/forms';
+import { FormGroup, FormControl, Validators, ValidatorFn, AbstractControl, ValidationErrors } from '@angular/forms';
 import { Observable } from 'rxjs';
 import { map, startWith } from 'rxjs/operators';
 
@@ -53,8 +53,8 @@ export class StatusCheckComponent implements OnInit {
 
 
     statusesForm = new FormGroup({
-        'vaccinationStatusControl': new FormControl('', [Validators.required, Validators.minLength(1)]),
-        'residencyStatusControl': new FormControl('', [Validators.required, Validators.minLength(1)])
+        'vaccinationStatusControl': new FormControl('', [Validators.required, Validators.minLength(1), this.isValueInList(this.vaccinationStatusOptions)]),
+        'residencyStatusControl': new FormControl('', [Validators.required, Validators.minLength(1), this.isValueInList(this.residencyStatusOptions)])
         // username: new FormControl('', [Validators.required, Validators.minLength(3)]),
         // password: new FormControl('', [Validators.required, Validators.minLength(3)])
     });
@@ -98,6 +98,17 @@ export class StatusCheckComponent implements OnInit {
     //         return forbidden ? { forbiddenName: { value: control.value } } : null;
     //     };
     // }
+
+    isValueInList(validValues: string[]): ValidatorFn {
+        return (control: AbstractControl): ValidationErrors | null => {
+            let selectboxValue = control.value;
+            if (validValues.indexOf(selectboxValue) == -1) {
+                return { invalidValue: { value: selectboxValue } };
+            } else {
+                return null;
+            } 
+        };
+    }
     
 
     goToPath(path: string) {
