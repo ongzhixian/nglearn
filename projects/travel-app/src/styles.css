@@ -1,13 +1,17 @@
 html, body { height: 100%; overflow: hidden; }
 body { 
     margin: 0; 
-    font-family: Roboto, 
-    "Helvetica Neue", sans-serif; 
-
+    font-family: Roboto, "Helvetica Neue", sans-serif; 
+    background-image: url('./assets/images/bg.png');
+    background-color: #fafafa;
+    background-repeat: no-repeat;
+    background-size: cover;
     /* background-image: url("./assets/images/airplane 2.svg");
     background-size: 50%;
     background-repeat: no-repeat;
     background-position: bottom 50px right 100px;; */
+    position: relative;
+    z-index: 200;
 }
 
 .spacer {
