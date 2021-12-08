@@ -12,6 +12,13 @@ export class CountryService {
 
     constructor(private http: HttpClient) { 
         console.info("Create CountryService");
+
+        
+        AppSettingsService.todos$.subscribe(todos => {
+            // console.debug("[CountryService] - subscription - AppSettingsService: %s", AppSettingsService.settings.Api["CountryService"]); 
+            console.debug("[CountryService] - subscription called", todos);
+            
+        });
     }
 
     getCountries(startsWith: string): Observable<Array<Country>> {

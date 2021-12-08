@@ -126,6 +126,9 @@ In this example, it means that if I need some value from AppSettingsService duri
 it will not be able to retrieve the value (the load() event came later).
 Not sure if there is a way to defer loading of CountryService until after AppSettingsService is created.
 
+Another way to bring up the infomation as soon as possible is to use an BehaviourSubject / observable.
+CountryService subscribe to AppSettingsService.
+
 # Reference
 
 See: https://devblogs.microsoft.com/premier-developer/angular-how-to-editable-config-files/
