@@ -107,6 +107,25 @@ This is assuming `appSettings` was exposed in the originating `ts` file.
 ```
 
 
+## Notes
+
+In Angular, all services appears to create first! 
+From logs, we see:
+
+```logs
+Create AppSettingsService 
+Create CountryService 
+AppSettingsService.load() 
+AppSettingsService.load() - response:  Object { Name: "development-settings", DeploymentType: "dev", Api: {…} }
+Create AppComponent 
+Create CountrySearchComponent
+Init CountrySearchComponent
+```
+
+In this example, it means that if I need some value from AppSettingsService during the creation of the CountryService, 
+it will not be able to retrieve the value (the load() event came later).
+Not sure if there is a way to defer loading of CountryService until after AppSettingsService is created.
+
 # Reference
 
 See: https://devblogs.microsoft.com/premier-developer/angular-how-to-editable-config-files/
