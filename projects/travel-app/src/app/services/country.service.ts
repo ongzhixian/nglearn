@@ -3,17 +3,22 @@ import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { Country } from '../models/Country';
 import { Observable, of } from 'rxjs';
 import { tap, map, catchError } from 'rxjs/operators';
+import { AppSettingsService } from './app-settings.service';
 
 @Injectable({
     providedIn: 'root'
 })
 export class CountryService {
 
-    constructor(private http: HttpClient) { }
+    constructor(private http: HttpClient) { 
+        console.info("Create CountryService");
+    }
 
     getCountries(startsWith: string): Observable<Array<Country>> {
+        console.debug("[CountryService] - 2 - AppSettingsService: %s", AppSettingsService.settings.Api["CountryService"]); 
+
         return this.http
-            .get<Country[]>(`http://localhost:7200/country?startswith=${encodeURIComponent(startsWith)}`)
+            .get<Country[]>(`${AppSettingsService.settings.Api["CountryService"]}?startswith=${encodeURIComponent(startsWith)}`)
             .pipe(
                 tap(countries => console.log(`[CountryService] ${countries.length} items retrieved.`)),
                 map((countries) => countries || []),
