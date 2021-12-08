@@ -34,10 +34,16 @@ export class CountrySearchComponent implements OnInit {
     settingName: string = AppSettingsService.settings.Name;
 
     constructor(private store: Store<AppState>) {
+        console.debug("Create CountrySearchComponent");
         this.selectedCountry = null;
     }
 
     ngOnInit(): void {
+        console.debug("Init CountrySearchComponent");
+
+        console.debug("AppSettingsService: %s", AppSettingsService.settings.Name);
+        console.debug("AppSettingsService: %s", AppSettingsService.settings.Api["CountryService"]); 
+
         this.store.select(selectCountries).subscribe(
             (countries) => {
                 this.countries = countries;
