@@ -22,9 +22,13 @@ export class IntroComponent implements OnInit {
     constructor(
         private store: Store<AppState>,
         private route: ActivatedRoute
-    ) { }
+    ) { 
+        console.debug("Create IntroComponent");
+    }
 
-    ngOnInit(): void { }
+    ngOnInit(): void { 
+        console.debug("Init IntroComponent");
+    }
 
     goToPath(path: string) {
         // routerLink="/travel-alone"
