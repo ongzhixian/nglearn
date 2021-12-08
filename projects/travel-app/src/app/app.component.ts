@@ -11,7 +11,9 @@ export class AppComponent {
 
   constructor(
     private location: Location
-  ) {}
+  ) { 
+    console.debug("Create AppComponent");
+  }
 
   goBack(): void {
     this.location.back();
