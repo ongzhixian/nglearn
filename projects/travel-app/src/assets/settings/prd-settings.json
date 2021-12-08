@@ -1,4 +1,7 @@
 {
     "Name": "production-settings",
-    "DeploymentType": "prd"
+    "DeploymentType": "prd",
+    "Api": {
+        "CountryService": "http://localhost:7000/country"
+    }
 }

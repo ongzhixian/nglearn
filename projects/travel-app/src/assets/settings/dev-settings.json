@@ -1,7 +1,7 @@
 {
     "Name": "development-settings",
     "DeploymentType": "dev",
-    "api": {
-        
+    "Api": {
+        "CountryService": "http://localhost:7000/country"
     }
 }
