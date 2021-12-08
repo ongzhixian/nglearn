@@ -10,13 +10,19 @@ export class AppSettingsService {
 
   static settings: AppSettings;
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient) { 
+    console.debug("Create AppSettingsService");
+  }
 
   load() {
+    console.debug("AppSettingsService.load()");
+
     const jsonFile = `assets/settings/${environment.deploymentType}-settings.json`;
 
     return new Promise<void>((resolve, reject) => {
       this.http.get(jsonFile).toPromise().then((response: any) => {
+        console.debug("AppSettingsService.load() - response: ", response);
+
         AppSettingsService.settings = <AppSettings>response;
         resolve();
       }).catch((response: any) => {
