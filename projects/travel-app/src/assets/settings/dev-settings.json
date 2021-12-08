@@ -2,6 +2,6 @@
     "Name": "development-settings",
     "DeploymentType": "dev",
     "Api": {
-        "CountryService": "http://localhost:7000/country"
+        "CountryService": "https://dn6poc-travel-func.azurewebsites.net/api/country"
     }
 }
