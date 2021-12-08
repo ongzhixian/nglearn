@@ -52,6 +52,9 @@ IIS Required extension modules:
         </rule>
     </rules>
   </rewrite>
+  <staticContent>
+    <mimeMap fileExtension=".json" mimeType="application/json" />
+  </staticContent>
 </system.webServer>
 </configuration>
 ```
@@ -67,7 +70,23 @@ Note:
     ]
     ```
 
+
+    The `staticContent` element is needed if you are serving JSON settings files from assets folder.
+    ```
+    <staticContent>
+      <mimeMap fileExtension=".json" mimeType="application/json" />
+    </staticContent>
+    ```
+    
+
 ### AppPool
 
 It is advisable to use a separate AppPool for the Angular application.
 AppPool should use "No managed code".
+
+
+## Deployment in Azure
+
+Compress-Archive .\dist\travel-app\* .\dist\travel-app.zip
+
+`az webapp deploy --resource-group dn6poc-travel-func-rg --name dn6poc-travel-app --src-path "D:\src\github\nglearn\dist\travel-app.zip"`
