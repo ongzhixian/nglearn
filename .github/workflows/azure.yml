@@ -78,8 +78,12 @@ jobs:
     - uses: azure/login@v1
       with:
         creds: ${{ secrets.AZURE_CREDENTIALS }}
-    - name: list webapp
+    # - name: list webapp
+    #   run: |
+    #     ls -al deploy_dist
+    - name: test pwsh
+      shell: pwsh
       run: |
-        az webapp list
-        ls -al deploy_dist
-        
+        Compress-Archive ./deploy_dist/* ./travel-app.zip
+        ls -al
+      
