@@ -56,9 +56,12 @@ jobs:
     #     app-name: ${{ env.AZURE_WEBAPP_NAME }}
     #     publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
     #     package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
+    - name: ls -al
+      run: |
+        ls -al
     - name: Archive build
       if: success()
       uses: actions/upload-artifact@v1
       with:
         name: deploy_dist
-        path: dist
+        path: dist/travel-app
