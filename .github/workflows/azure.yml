@@ -27,7 +27,7 @@ env:
 
 jobs:
   build-and-deploy:
-    name: Build and Deploy
+    name: Checkout and build
     runs-on: ubuntu-latest
     environment: production
     steps:
@@ -59,18 +59,18 @@ jobs:
     # - name: ls -al
     #   run: |
     #     ls -al
-    - name: Archive build
+    - name: Store built artifacts
       if: success()
       uses: actions/upload-artifact@v1
       with:
         name: deploy_dist
         path: dist/travel-app
   deploy:
-    name: Deployment to Azure
+    name: Deploy Azure WebApp
     runs-on: ubuntu-latest
     needs: build-and-deploy
     steps:
-    - name: Download build
+    - name: Get built artifacts
       uses: actions/download-artifact@v1
       with:
         name: deploy_dist
@@ -81,7 +81,7 @@ jobs:
     # - name: list webapp
     #   run: |
     #     ls -al deploy_dist
-    - name: test pwsh
+    - name: Deploy WebApp to Azure
       shell: pwsh
       run: |
         Compress-Archive ./deploy_dist/* ./travel-app.zip
