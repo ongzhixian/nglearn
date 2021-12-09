@@ -12,7 +12,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { DummyPage1Component } from './components/dummy-page1/dummy-page1.component';
 import { ResourceNotFoundComponent } from './components/views/resource-not-found/resource-not-found.component';
-import { FirstLibModule } from 'first-lib';
+// import { FirstLibModule } from 'first-lib';
 
 import { StoreModule } from '@ngrx/store';
 import { EffectsModule } from '@ngrx/effects';
@@ -84,7 +84,7 @@ export function initializeApp(appSettingsService: AppSettingsService) {
     FormsModule,
     ReactiveFormsModule,
     AppRoutingModule,
-    FirstLibModule,
+    // FirstLibModule,
     StoreModule.forRoot({ 
       countries: countryListReducer,
       selectedTravelInfo: travelInfoReducer,
