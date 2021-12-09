@@ -46,8 +46,10 @@ jobs:
       run: npm ci
     - name: Build
       run: npm run build -- --project travel-app --configuration production
-    - name: Test
-      run: npm run test --project travel-app
+    # Skip testing for now
+    # - name: Test
+    #   run: npm run test --project travel-app
+
     # - name: 'Deploy to Azure WebApp'
     #   uses: azure/webapps-deploy@v2
     #   with:
