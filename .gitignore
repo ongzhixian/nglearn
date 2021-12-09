@@ -43,3 +43,11 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+# ZX: Ignore
+.suo
+.vs
+ako.ps1
+*.Test.ps1
+.fake
+.ionide
