@@ -86,4 +86,5 @@ jobs:
       run: |
         Compress-Archive ./deploy_dist/* ./travel-app.zip
         ls -al
+        az webapp deploy --resource-group dn6poc-travel-func-rg --name dn6poc-travel-app --src-path ./travel-app.zip
       
