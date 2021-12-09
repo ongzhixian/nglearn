@@ -56,12 +56,24 @@ jobs:
     #     app-name: ${{ env.AZURE_WEBAPP_NAME }}
     #     publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
     #     package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
-    - name: ls -al
-      run: |
-        ls -al
+    # - name: ls -al
+    #   run: |
+    #     ls -al
     - name: Archive build
       if: success()
       uses: actions/upload-artifact@v1
       with:
         name: deploy_dist
         path: dist/travel-app
+  deploy:
+    - name: Download build
+      uses: actions/download-artifact@v1
+      with:
+        name: deploy_dist
+    # Then login to Azure and deploy it
+    - uses: azure/login@v1
+      with:
+        creds: ${{ secrets.AZURE_CREDENTIALS }}
+    - name: list webapp
+      run: |
+        az webapp list
