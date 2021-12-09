@@ -77,3 +77,5 @@ jobs:
     - name: list webapp
       run: |
         az webapp list
+        ls -al
+        
